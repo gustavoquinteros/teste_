@@ -76,17 +76,23 @@ def _measure(text, style, size, width, lh):
 
 
 def balanced(text, style, s, width, lh):
-    """Menor largura que mantém o nº de linhas (linhas equilibradas, sem palavra órfã), com folga."""
+    """Entre as larguras que mantêm o nº de linhas, escolhe a quebra mais equilibrada,
+    evitando linha que comece com palavra de uma letra (ex.: "é" solto no início)."""
     m0 = _measure(text, style, s, width, lh)
-    best = m0
+    best, bcost = None, 1e9
     for w in range(int(width), int(width * 0.5), -2):
         m = _measure(text, style, s, w + 14, lh)
         if m["n"] > m0["n"]:
             break
-        if not m["tight"]:
-            best = m
+        if m["tight"]:
+            continue
+        cost = m["w"] + sum(400 for l in m["lines"][1:] if len(l.split(" ")[0]) == 1)
+        if cost < bcost - 0.5:
+            best, bcost = m, cost
             best["box_w"] = w + 14
-    best.setdefault("box_w", width)
+    if best is None:
+        best = m0
+        best["box_w"] = width
     return best
 
 

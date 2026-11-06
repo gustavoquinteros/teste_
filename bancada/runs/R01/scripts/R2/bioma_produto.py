@@ -184,31 +184,31 @@ def lay_email(F):
     return [hero, logo, hl, selo, cta, legal]
 
 
-def lay_card(F, shrink=0):
+def lay_card(F, shrink=0, hw=0, cs=26, ss=29):
     W, H, M = F["width"], F["height"], F["margin"]
     xp = 540  # foto ocupa a metade direita, sangrada
     tw = xp - 2 * M + 10
     logo = logo_el(M, M, 190)
     lg = logo["geometry"]
-    hl = text_el("headline", M, lg["y"] + lg["height"] + 50, tw, 56)
+    hl = text_el("headline", M, lg["y"] + lg["height"] + 50, tw - hw, 56)
     legal = text_el("legal", M, 0, tw - shrink, 14)
     legal["geometry"]["y"] = H - M - legal["_m"]["box_h"]
-    selo = text_el("selo", M, hl["geometry"]["y"] + hl["geometry"]["height"] + 44, tw, 29)
-    cta = text_el("cta", M, selo["geometry"]["y"] + selo["geometry"]["height"] + 12, tw, 26)
+    selo = text_el("selo", M, hl["geometry"]["y"] + hl["geometry"]["height"] + 44, tw, ss)
+    cta = text_el("cta", M, selo["geometry"]["y"] + selo["geometry"]["height"] + 12, tw, cs)
     hero = hero_el(xp, 0, W - xp, H)
     return [hero, logo, hl, selo, cta, legal]
 
 
-def lay_stories(F):
+def lay_stories(F, shrink=0, hw=0, cs=34, ss=40):
     W, H, M = F["width"], F["height"], F["margin"]
     sy = M + F["safe"][0]
     sb = H - M - F["safe"][2]
     tw = W - 2 * M
     logo = logo_el(M, sy, 250)
-    hl = text_el("headline", M, 0, tw, 76)
-    selo = text_el("selo", M, 0, tw, 40)
-    cta = text_el("cta", M, 0, tw, 34)
-    legal = text_el("legal", M, 0, tw, 18)
+    hl = text_el("headline", M, 0, tw - hw, 76)
+    selo = text_el("selo", M, 0, tw, ss)
+    cta = text_el("cta", M, 0, tw, cs)
+    legal = text_el("legal", M, 0, tw - shrink, 18)
     gaps = [40, 48, 14, 48]  # logo>hl, hl>selo, selo>cta, cta>legal
     stack = [logo, hl, selo, cta, legal]
     hs = [logo["geometry"]["height"]] + [e["_m"]["box_h"] for e in stack[1:]]
@@ -222,15 +222,15 @@ def lay_stories(F):
     return [hero, logo, hl, selo, cta, legal]
 
 
-def lay_banner(F, shrink=0):
+def lay_banner(F, shrink=0, hw=0, cs=14.5, ss=17):
     W, H, M = F["width"], F["height"], F["margin"]
     xp = 700  # foto a direita sangrada
     logo = logo_el(M + 8, 0, 130)
     tx = logo["geometry"]["x"] + 130 + 26
     tw = xp - 24 - tx
-    hl = text_el("headline", tx, 0, tw, 30)
-    selo = text_el("selo", tx, 0, tw, 17)
-    cta = text_el("cta", tx, 0, tw, 14.5)
+    hl = text_el("headline", tx, 0, tw - hw, 30)
+    selo = text_el("selo", tx, 0, tw, ss)
+    cta = text_el("cta", tx, 0, tw, cs)
     legal = text_el("legal", tx, 0, tw - shrink, 8)
     stack = [hl, selo, cta, legal]
     gaps = [8, 3, 9]
@@ -310,15 +310,36 @@ def near_pairs(F, els, pad=6):
             if 1.0 < abs(ed[a][k] - ed[b][k]) < 0.02 * W + pad]
 
 
+GRID = {  # variacoes pequenas e legitimas (largura de coluna, corpo do selo/cta) para fugir de quase-alinhamentos
+    "card_1080x1080": dict(cs=[26, 27], ss=[29, 30, 31], hw=[0, 20, 40]),
+    "banner_970x250": dict(cs=[14, 14.5, 15], ss=[16, 17, 18], hw=[0, 20, 40, 60]),
+    "stories_1080x1920": dict(cs=[34], ss=[40], hw=[0, 40, 80]),
+}
+
+
 def build(fk, F):
     fn = LAYOUTS[fk]
-    if fk in ("card_1080x1080", "banner_970x250"):
-        # encolhe a coluna do legal ate nenhuma borda ficar "quase alinhada" (com folga)
-        for sh in range(0, 160, 4):
-            els = fn(F, sh)
-            if not near_pairs(F, els):
-                return els
-    return fn(F)
+    if fk not in GRID:
+        return fn(F)
+    import itertools
+    g = GRID[fk]
+    best = None
+    for cs, ss, hw in itertools.product(g["cs"], g["ss"], g["hw"]):
+        if ss <= cs:
+            continue
+        for sh in range(0, 44, 4):  # coluna do legal encolhe no maximo 40px (legibilidade)
+            els = fn(F, sh, hw, cs, ss)
+            E = {e["id"]: (ext(e) if e["type"] == "TEXT" else bx(e)) for e in els}
+            A = {k: v["w"] * v["h"] for k, v in E.items()}
+            # preserva as relacoes de tamanho da mestra: headline >> legal, selo ~ cta
+            viol = (A["headline"] < 1.25 * A["legal"]) + (max(A["selo"], A["cta"]) > 1.15 * min(A["selo"], A["cta"]))
+            n = len(near_pairs(F, els)) + 3 * viol
+            key = (n, hw + sh)
+            if best is None or key < best[0]:
+                best = (key, (sh, hw, cs, ss))
+    sh, hw, cs, ss = best[1]
+    print(f"  {fk}: grid best near={best[0][0]} shrink={sh} hw={hw} cta={cs} selo={ss}")
+    return fn(F, sh, hw, cs, ss)
 
 
 def main():

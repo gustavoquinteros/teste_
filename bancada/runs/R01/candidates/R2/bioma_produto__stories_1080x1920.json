@@ -17,15 +17,15 @@
    "asset": "bioma_fachada",
    "geometry": {
     "x": 0,
-    "y": 1052.08,
+    "y": 1132.08,
     "width": 1080,
-    "height": 867.92,
+    "height": 787.92,
     "z": 1
    },
    "crop": [
-    0.3488,
+    0.31772,
     0,
-    0.61204,
+    0.67418,
     1.0
    ]
   },
@@ -58,8 +58,8 @@
    "geometry": {
     "x": 64,
     "y": 480.08,
-    "width": 952,
-    "height": 169,
+    "width": 912,
+    "height": 249,
     "z": 5
    },
    "style": {
@@ -79,7 +79,7 @@
    "text": "2 e 3 suítes · 93 a 150 m²",
    "geometry": {
     "x": 64,
-    "y": 697.08,
+    "y": 777.08,
     "width": 952,
     "height": 50,
     "z": 5
@@ -101,7 +101,7 @@
    "text": "Agende sua visita · 11 99943.5903",
    "geometry": {
     "x": 64,
-    "y": 761.08,
+    "y": 841.08,
     "width": 952,
     "height": 43,
     "z": 5
@@ -123,7 +123,7 @@
    "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
    "geometry": {
     "x": 64,
-    "y": 852.08,
+    "y": 932.08,
     "width": 952,
     "height": 144,
     "z": 5

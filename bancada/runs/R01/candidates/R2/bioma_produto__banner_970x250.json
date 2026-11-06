@@ -37,7 +37,7 @@
    "asset": "bioma_logo",
    "geometry": {
     "x": 24,
-    "y": 30.58,
+    "y": 31.58,
     "width": 130,
     "height": 65.56,
     "z": 6
@@ -57,7 +57,7 @@
    "text": "Chegou o primeiro residencial da Cidade Center Norte",
    "geometry": {
     "x": 180,
-    "y": 31.0,
+    "y": 32.0,
     "width": 496,
     "height": 69,
     "z": 5
@@ -79,14 +79,14 @@
    "text": "2 e 3 suítes · 93 a 150 m²",
    "geometry": {
     "x": 180,
-    "y": 108.0,
+    "y": 109.0,
     "width": 496,
-    "height": 23,
+    "height": 22,
     "z": 5
    },
    "style": {
     "font": "Barlow",
-    "size": 17,
+    "size": 16,
     "weight": 600,
     "line_height": 1.15,
     "color": "#B9CBA4",
@@ -103,12 +103,12 @@
     "x": 180,
     "y": 134.0,
     "width": 496,
-    "height": 21,
+    "height": 20,
     "z": 5
    },
    "style": {
     "font": "Barlow",
-    "size": 14.5,
+    "size": 14,
     "weight": 400,
     "line_height": 1.15,
     "color": "#F1E9D6",
@@ -123,8 +123,8 @@
    "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
    "geometry": {
     "x": 180,
-    "y": 164.0,
-    "width": 496,
+    "y": 163.0,
+    "width": 472,
     "height": 55,
     "z": 5
    },

@@ -53,10 +53,10 @@
    "priority": 0.7,
    "asset": "otium_logo",
    "geometry": {
-    "x": 820.09,
-    "y": 96.56,
-    "width": 125.91,
-    "height": 56.88,
+    "x": 827.96,
+    "y": 98.34,
+    "width": 118.04,
+    "height": 53.32,
     "z": 6
    },
    "crop": [
@@ -74,7 +74,7 @@
    "text": "Um spa para chamar de seu",
    "geometry": {
     "x": 410,
-    "y": 92.66,
+    "y": 93.33,
     "width": 379.5,
     "height": 37.82,
     "z": 5
@@ -96,14 +96,14 @@
    "text": "Lazer completo no rooftop · Visite o decorado",
    "geometry": {
     "x": 410,
-    "y": 138.03,
-    "width": 350.62,
-    "height": 27.2,
+    "y": 138.61,
+    "width": 328.96,
+    "height": 25.75,
     "z": 5
    },
    "style": {
     "font": "Host Grotesk",
-    "size": 16,
+    "size": 15,
     "weight": 400,
     "line_height": 1.15,
     "color": "#D9A27A",

@@ -78,5 +78,10 @@
   "tokens": 117281,
   "tool_uses": 18,
   "ms": 269239
+ },
+ "R2/bioma_sustentabilidade": {
+  "tokens": 132312,
+  "tool_uses": 29,
+  "ms": 322647
  }
 }

@@ -17,15 +17,15 @@
    "asset": "bioma_fachada",
    "geometry": {
     "x": 0,
-    "y": 1132.08,
+    "y": 1102.08,
     "width": 1080,
-    "height": 787.92,
+    "height": 817.92,
     "z": 1
    },
    "crop": [
-    0.31772,
+    0.33009,
     0,
-    0.67418,
+    0.64945,
     1.0
    ]
   },
@@ -58,7 +58,7 @@
    "geometry": {
     "x": 64,
     "y": 480.08,
-    "width": 912,
+    "width": 872,
     "height": 249,
     "z": 5
    },
@@ -125,12 +125,12 @@
     "x": 64,
     "y": 932.08,
     "width": 952,
-    "height": 144,
+    "height": 114,
     "z": 5
    },
    "style": {
     "font": "Inter",
-    "size": 18,
+    "size": 17,
     "weight": 400,
     "line_height": 1.3,
     "color": "#F1E9D6",

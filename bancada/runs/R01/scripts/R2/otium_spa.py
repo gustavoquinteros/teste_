@@ -207,7 +207,7 @@ PLANS = {
                                       "pad_top": 90, "overlap": 0}),
     "email_600x1200": (vertical, {"left": 36, "hs": 50, "cs": 20, "gap": 30, "gap_logo": 26, "bottom_y": 1200 - 120,
                                    "pad_top": 64, "overlap": 0}),
-    "banner_970x250": (banner, {"hero_w": 380, "pad": 30, "right": 24, "hs": 28, "cs": 16, "gap": 14}),
+    "banner_970x250": (banner, {"hero_w": 380, "pad": 30, "right": 24, "hs": 28, "cs": 15, "gap": 14}),
 }
 
 

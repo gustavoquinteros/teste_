@@ -208,7 +208,7 @@ def lay_stories(F, shrink=0, hw=0, cs=34, ss=40):
     hl = text_el("headline", M, 0, tw - hw, 76)
     selo = text_el("selo", M, 0, tw, ss)
     cta = text_el("cta", M, 0, tw, cs)
-    legal = text_el("legal", M, 0, tw - shrink, 18)
+    legal = text_el("legal", M, 0, tw - shrink, 17)
     gaps = [40, 48, 14, 48]  # logo>hl, hl>selo, selo>cta, cta>legal
     stack = [logo, hl, selo, cta, legal]
     hs = [logo["geometry"]["height"]] + [e["_m"]["box_h"] for e in stack[1:]]
@@ -333,7 +333,9 @@ def build(fk, F):
             A = {k: v["w"] * v["h"] for k, v in E.items()}
             # preserva as relacoes de tamanho da mestra: headline >> legal, selo ~ cta
             viol = (A["headline"] < 1.25 * A["legal"]) + (max(A["selo"], A["cta"]) > 1.15 * min(A["selo"], A["cta"]))
-            n = len(near_pairs(F, els)) + 3 * viol
+            hlm = next(e for e in els if e["id"] == "headline")["_m"]
+            widow = hlm["n"] > 1 and " " not in hlm["lines"][-1]  # palavra orfa na ultima linha do titulo
+            n = len(near_pairs(F, els)) + 3 * viol + 5 * widow
             key = (n, hw + sh)
             if best is None or key < best[0]:
                 best = (key, (sh, hw, cs, ss))

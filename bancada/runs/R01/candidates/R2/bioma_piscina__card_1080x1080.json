@@ -17,9 +17,9 @@
    "asset": "bioma_logo",
    "geometry": {
     "x": 60,
-    "y": 75.5,
-    "width": 200,
-    "height": 100.87,
+    "y": 84.2,
+    "width": 210,
+    "height": 105.91,
     "z": 6
    },
    "crop": [
@@ -36,15 +36,15 @@
    "priority": 1.0,
    "text": "Um novo norte para viver a vida ao ar livre",
    "geometry": {
-    "x": 324,
-    "y": 65.0,
-    "width": 523.3,
-    "height": 130,
+    "x": 330,
+    "y": 65.8,
+    "width": 613.1,
+    "height": 152,
     "z": 5
    },
    "style": {
     "font": "Cormorant Garamond",
-    "size": 58,
+    "size": 68,
     "weight": 600,
     "line_height": 1.05,
     "color": "#F1E9D6",
@@ -59,16 +59,16 @@
    "asset": "bioma_piscina",
    "geometry": {
     "x": 0,
-    "y": 235,
+    "y": 258,
     "width": 1080,
-    "height": 623,
+    "height": 601,
     "z": 1
    },
    "crop": [
     0.0,
-    0.00179,
+    0.01912,
     1.0,
-    0.98141
+    0.94675
    ]
   },
   {

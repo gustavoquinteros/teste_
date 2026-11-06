@@ -201,9 +201,9 @@ def stack_vertical(fk, P):
     ph_max = W / (AR * P.get("min_cw", 0.86))  # foto mais alta que isso cortaria a piscina
     extra = max(0, ph - ph_max)
     ph = min(ph, ph_max)
-    # distribui sobra: 40% margens externas (topo/base), 60% respiros internos
-    top_pad = m + extra * 0.22
-    gi = [x + extra * 0.56 * x / sum(g) for x in g]
+    # distribui sobra: topo/base e respiros em volta da foto; logo+headline continuam colados (grupo)
+    top_pad = m + extra * 0.25
+    gi = [g[0], g[1] + extra * 0.25, g[2] + extra * 0.25, g[3]]
     y = top_pad
     els = [logo_el(m, y, logo_w)]
     y += logo_h + gi[0]
@@ -271,8 +271,8 @@ def stories(fk, P):
     y0 = max(sy, ph + P["g_photo"])
     room = sy1 - y0
     extra = max(0, room - total)
-    y = y0 + extra * 0.35
-    gi = [x + extra * 0.3 * x / sum(g) for x in g]
+    y = y0 + extra * 0.4
+    gi = [g[0], g[1] + extra * 0.1, g[2] + extra * 0.1]
     els.append(logo_el(sx, y, logo_w))
     y += logo_h + gi[0]
     els.append(text_el("headline", sx, y + hb["top_over"], hw, st(P["h"], 1.05), hb))
@@ -317,15 +317,15 @@ def banner(fk, P):
 
 
 PARAMS = {
-    "email_600x1200": (stack_vertical, {"logo": 176, "h": 48, "c": 22, "l": 11, "llh": 1.35,
-                                         "gaps": [34, 40, 36, 20], "min_cw": 0.82}),
+    "email_600x1200": (stack_vertical, {"logo": 180, "h": 52, "c": 24, "l": 10.5, "llh": 1.4,
+                                         "gaps": [34, 44, 40, 20], "min_cw": 0.80}),
     "post_1080x1350": (stack_vertical, {"logo": 230, "h": 70, "c": 32, "l": 14, "llh": 1.3,
                                          "gaps": [44, 48, 44, 22], "min_cw": 0.86}),
-    "card_1080x1080": (card, {"logo": 200, "col_gap": 64, "h": 58, "c": 30, "l": 14,
+    "card_1080x1080": (card, {"logo": 210, "col_gap": 60, "h": 68, "c": 30, "l": 14,
                               "g_top": 44, "g_pc": 36, "g_cl": 16}),
-    "stories_1080x1920": (stories, {"cw": 0.84, "g_photo": 56, "logo": 270, "h": 80, "c": 36, "l": 18,
+    "stories_1080x1920": (stories, {"cw": 0.80, "g_photo": 64, "logo": 280, "h": 86, "c": 38, "l": 17,
                                     "gaps": [44, 48, 30]}),
-    "banner_970x250": (banner, {"photo_w": 452, "gutter": 24, "logo": 132, "col_gap": 22, "h": 34, "c": 16,
+    "banner_970x250": (banner, {"photo_w": 430, "gutter": 20, "logo": 130, "col_gap": 20, "h": 40, "c": 16,
                                 "l": 8, "llh": 1.3, "g_hc": 10, "top": 2}),
 }
 

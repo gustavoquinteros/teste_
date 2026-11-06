@@ -19,14 +19,14 @@
     "x": 0,
     "y": 570,
     "width": 1080,
-    "height": 560,
+    "height": 540,
     "z": 1
    },
    "crop": [
     0,
-    0.06,
+    0.01,
     1.0,
-    0.8822
+    0.8507
    ]
   },
   {
@@ -101,7 +101,7 @@
    "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
    "geometry": {
     "x": 60,
-    "y": 1160,
+    "y": 1150,
     "width": 960,
     "height": 130,
     "z": 5

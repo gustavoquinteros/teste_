@@ -16,17 +16,17 @@
    "priority": 0.9,
    "asset": "bioma_piscina",
    "geometry": {
-    "x": 518,
+    "x": 540,
     "y": 0,
-    "width": 452,
+    "width": 430,
     "height": 250,
     "z": 1
    },
    "crop": [
     0.0,
-    0.022,
+    0.0,
     1.0,
-    0.941
+    0.98914
    ]
   },
   {
@@ -38,8 +38,8 @@
    "geometry": {
     "x": 16,
     "y": 18,
-    "width": 132,
-    "height": 66.57,
+    "width": 130,
+    "height": 65.56,
     "z": 6
    },
    "crop": [
@@ -56,15 +56,15 @@
    "priority": 1.0,
    "text": "Um novo norte para viver a vida ao ar livre",
    "geometry": {
-    "x": 170,
-    "y": 20.6,
-    "width": 307.6,
-    "height": 78,
+    "x": 166,
+    "y": 21.0,
+    "width": 354,
+    "height": 91,
     "z": 5
    },
    "style": {
     "font": "Cormorant Garamond",
-    "size": 34,
+    "size": 40,
     "weight": 600,
     "line_height": 1.05,
     "color": "#F1E9D6",
@@ -78,8 +78,8 @@
    "priority": 0.65,
    "text": "Conheça o decorado · 11 99943.5903",
    "geometry": {
-    "x": 170,
-    "y": 105.0,
+    "x": 166,
+    "y": 118.3,
     "width": 263.7,
     "height": 22,
     "z": 5
@@ -102,7 +102,7 @@
    "geometry": {
     "x": 16,
     "y": 182.2,
-    "width": 478,
+    "width": 504,
     "height": 55,
     "z": 5
    },

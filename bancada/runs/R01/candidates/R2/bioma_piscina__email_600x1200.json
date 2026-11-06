@@ -18,8 +18,8 @@
    "geometry": {
     "x": 32,
     "y": 90.1,
-    "width": 176,
-    "height": 88.76,
+    "width": 180,
+    "height": 90.78,
     "z": 6
    },
    "crop": [
@@ -37,14 +37,14 @@
    "text": "Um novo norte para viver a vida ao ar livre",
    "geometry": {
     "x": 32,
-    "y": 255.3,
-    "width": 433.4,
-    "height": 108,
+    "y": 219.1,
+    "width": 469.4,
+    "height": 117,
     "z": 5
    },
    "style": {
     "font": "Cormorant Garamond",
-    "size": 48,
+    "size": 52,
     "weight": 600,
     "line_height": 1.05,
     "color": "#F1E9D6",
@@ -59,15 +59,15 @@
    "asset": "bioma_piscina",
    "geometry": {
     "x": 0,
-    "y": 445,
+    "y": 434,
     "width": 600,
-    "height": 430,
+    "height": 440,
     "z": 1
    },
    "crop": [
-    0.08992,
+    0.09924,
     0.0,
-    0.82016,
+    0.80152,
     1.0
    ]
   },
@@ -79,14 +79,14 @@
    "text": "Conheça o decorado · 11 99943.5903",
    "geometry": {
     "x": 32,
-    "y": 952.3,
-    "width": 361.9,
-    "height": 29,
+    "y": 972.8,
+    "width": 394.5,
+    "height": 32,
     "z": 5
    },
    "style": {
     "font": "Barlow",
-    "size": 22,
+    "size": 24,
     "weight": 600,
     "line_height": 1.15,
     "color": "#B9CBA4",
@@ -101,16 +101,16 @@
    "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
    "geometry": {
     "x": 32,
-    "y": 1020.7,
+    "y": 1021.1,
     "width": 536,
-    "height": 92,
+    "height": 91,
     "z": 5
    },
    "style": {
     "font": "Inter",
-    "size": 11,
+    "size": 10.5,
     "weight": 400,
-    "line_height": 1.35,
+    "line_height": 1.4,
     "color": "#F1E9D6",
     "align": "left"
    }

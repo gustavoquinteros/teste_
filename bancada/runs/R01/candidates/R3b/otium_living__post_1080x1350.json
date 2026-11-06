@@ -37,9 +37,9 @@
    "asset": "otium_logo",
    "geometry": {
     "x": 60,
-    "y": 820,
-    "width": 240,
-    "height": 108,
+    "y": 800,
+    "width": 280,
+    "height": 126,
     "z": 6
    },
    "crop": [
@@ -57,7 +57,7 @@
    "text": "Living integrado com vista verde",
    "geometry": {
     "x": 60,
-    "y": 984,
+    "y": 976,
     "width": 600,
     "height": 142,
     "z": 5
@@ -79,14 +79,14 @@
    "text": "Planta de 142 m\u00b2 com terra\u00e7o gourmet",
    "geometry": {
     "x": 60,
-    "y": 1146,
+    "y": 1138,
     "width": 960,
-    "height": 40,
+    "height": 44,
     "z": 5
    },
    "style": {
     "font": "Host Grotesk",
-    "size": 28,
+    "size": 31,
     "weight": 400,
     "line_height": 1.15,
     "color": "#D9A27A",

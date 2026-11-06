@@ -1,0 +1,4 @@
+{"arm":"R2","layout":"bioma_produto",
+ "checks_per_format":{"email_600x1200":1,"post_1080x1350":1,"card_1080x1080":2,"stories_1080x1920":3,"banner_970x250":2},
+ "final_eligible":{"email_600x1200":true,"post_1080x1350":true,"card_1080x1080":true,"stories_1080x1920":true,"banner_970x250":true},
+ "notes":"Tudo elegivel na 1a verificacao; o trabalho foi qualidade. A medicao PIL com folga diverge do Chromium nas quebras de linha: no stories a quebra real gerou palavra orfa ('Norte') e a largura do titulo teve de ficar no meio entre dois pontos de quebra. Quase-alinhamentos de bordas direitas (headline x legal, selo x cta) e o legal longo competindo em area com o titulo no card sao dificeis de evitar sem prejudicar o layout."}

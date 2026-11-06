@@ -103,5 +103,10 @@
   "tokens": 129894,
   "tool_uses": 32,
   "ms": 295152
+ },
+ "R2/bioma_piscina": {
+  "tokens": 149378,
+  "tool_uses": 31,
+  "ms": 424094
  }
 }

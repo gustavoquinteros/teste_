@@ -1,0 +1,166 @@
+{
+ "persona": "revisor_marca",
+ "layout": "bioma_produto",
+ "formats": {
+  "email_600x1200": {
+   "ranking": [
+    "H",
+    "C",
+    "D",
+    "G",
+    "A",
+    "B",
+    "E",
+    "F"
+   ],
+   "ship": {
+    "H": true,
+    "C": true,
+    "D": true,
+    "G": true,
+    "A": false,
+    "B": false,
+    "E": false,
+    "F": false
+   },
+   "reasons": {
+    "H": "Logo íntegro, foto completa, margens de 40px consistentes e legal no maior corpo legível (~11px).",
+    "C": "Hero amplo com torres inteiras, blocos bem encadeados; legal ~9px no limite, mas legível.",
+    "D": "Bloco de texto centrado coeso acima da foto inteira; legal ~9px legível, composição limpa.",
+    "G": "Estrutura correta e legal legível (~9px), mas quebra do título separa 'Cidade / Center Norte'.",
+    "A": "Íntegro e legível, porém vão morto de ~200px entre foto e selo exige reposicionar blocos.",
+    "B": "Tudo legível, mas buraco de ~200px entre CTA e legal deixa o rodapé desconexo.",
+    "E": "Melhor corpo de legal, mas corte da foto decepa a torre direita na borda e sobra faixa vazia.",
+    "F": "Redução direta: legal ~4px ilegível, texto minúsculo e torre cortada — inviável."
+   }
+  },
+  "post_1080x1350": {
+   "ranking": [
+    "E",
+    "A",
+    "G",
+    "H",
+    "F",
+    "C",
+    "D",
+    "B"
+   ],
+   "ship": {
+    "E": true,
+    "A": true,
+    "G": true,
+    "H": true,
+    "F": true,
+    "C": true,
+    "D": false,
+    "B": false
+   },
+   "reasons": {
+    "E": "Hierarquia clara, torres inteiras, legal ~14px legível e margens iguais em cima e embaixo.",
+    "A": "Título forte, foto íntegra, legal ~14px; margens de 60px consistentes.",
+    "G": "Grid alinhado e legal legível; título em uma linha perde um pouco de peso.",
+    "H": "Composição centrada equilibrada, torres inteiras e legal ~14px legível.",
+    "F": "Idêntica à H: centrada, íntegra, legal legível; só a ordem do sorteio a separa.",
+    "C": "Íntegro e legível, mas torres pequenas deslocadas e vãos soltos acima e abaixo do rodapé.",
+    "D": "Legal em ~20px, no mesmo corpo do CTA, vira a maior massa de texto; hierarquia a refazer e torres deslocadas.",
+    "B": "Redução direta: legal ~7px ilegível, torre cortada na borda e texto minúsculo."
+   }
+  },
+  "card_1080x1080": {
+   "ranking": [
+    "A",
+    "B",
+    "H",
+    "C",
+    "E",
+    "G",
+    "D",
+    "F"
+   ],
+   "ship": {
+    "A": true,
+    "B": true,
+    "H": true,
+    "C": false,
+    "E": false,
+    "G": false,
+    "D": false,
+    "F": false
+   },
+   "reasons": {
+    "A": "Centrado e equilibrado, logo bem dimensionado, torres inteiras com céu e legal ~14px legível.",
+    "B": "Mesma solução de A, hero um pouco maior; logo menor, ainda íntegro; legal legível.",
+    "H": "Alinhado à esquerda, foto íntegra e legal legível; título em uma linha e torres descentradas.",
+    "C": "Topo das torres rente ao painel (telhado cortado), árvores reduzidas a fio e vão vazio no rodapé.",
+    "E": "Legal ~20px domina a peça, torre encostada no painel e chão cortado na base.",
+    "G": "Melhor tipografia (split fiel ao KV), mas a torre direita é decepada na borda.",
+    "D": "Split com zoom excessivo: as duas torres cortadas nas laterais e vão grande entre CTA e legal.",
+    "F": "Redução direta: legal ~7px ilegível, uma torre só e cortada."
+   }
+  },
+  "stories_1080x1920": {
+   "ranking": [
+    "F",
+    "C",
+    "H",
+    "A",
+    "E",
+    "B",
+    "G",
+    "D"
+   ],
+   "ship": {
+    "F": true,
+    "C": true,
+    "H": true,
+    "A": true,
+    "E": true,
+    "B": true,
+    "G": false,
+    "D": false
+   },
+   "reasons": {
+    "F": "Texto grande na área segura, legal ~17px, foto sangrando na base com torres inteiras.",
+    "C": "Mesma solução de F com margem mais generosa; legal ~16px e tudo dentro da área segura.",
+    "H": "Tudo na área segura e legível, foto inteira; sobra faixa escura vazia embaixo.",
+    "A": "Centrado, legível e seguro; faixa vazia inferior e foto pequena para o formato.",
+    "E": "Praticamente igual a H; legal legível na área segura, rodapé vazio.",
+    "B": "Correto e seguro, mas a foto fica pequena e há ~400px de base vazia.",
+    "G": "Uma torre só, ampliada e cortada, com o texto sobre a fachada em transparência; prédio mutilado.",
+    "D": "Redução direta: legal ~6px fora da área segura inferior, torre cortada."
+   }
+  },
+  "banner_970x250": {
+   "ranking": [
+    "E",
+    "C",
+    "H",
+    "A",
+    "D",
+    "B",
+    "G",
+    "F"
+   ],
+   "ship": {
+    "E": true,
+    "C": true,
+    "H": true,
+    "A": true,
+    "D": true,
+    "B": false,
+    "G": false,
+    "F": false
+   },
+   "reasons": {
+    "E": "Logo | texto | foto em colunas claras, torres inteiras, legal ~8px legível e margens folgadas.",
+    "C": "Mesma estrutura de E com título maior; base das árvores cortada e legal a 22px da borda.",
+    "H": "Centrado com foto íntegra; empilhamento apertado logo/título, mas legal legível.",
+    "A": "Igual a H com foto menor; pilha de textos apertada, ainda dentro e legível.",
+    "D": "Tudo legível, mas margem esquerda de 15px e linha de assinatura colada no título.",
+    "B": "Legal (~11px) maior que selo e CTA inverte a hierarquia; logo solto à direita e 'Norte' órfão.",
+    "G": "Legal encosta na borda inferior (3px), CTA grudado no legal e vão morto sob o título.",
+    "F": "Redução direta: legal ~4px ilegível e textos minúsculos."
+   }
+  }
+ }
+}

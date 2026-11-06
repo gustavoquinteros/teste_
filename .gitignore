@@ -1,0 +1,4 @@
+bancada/engine/.page.html
+bancada/**/*.bg.png
+bancada/runs/*/checks/**/*.meas.json
+__pycache__/

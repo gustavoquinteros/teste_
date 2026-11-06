@@ -1,0 +1,115 @@
+{
+ "schema_version": "bancada-0.1",
+ "layout_id": "otium_spa",
+ "brand": "otium",
+ "canvas": {
+  "width": 1080,
+  "height": 1920,
+  "background": "#2B2A2D"
+ },
+ "elements": [
+  {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.9,
+   "asset": "otium_spa",
+   "geometry": {
+    "x": 0,
+    "y": 656.25,
+    "width": 1080,
+    "height": 607.5,
+    "z": 1
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "faixa",
+   "type": "SHAPE",
+   "role": "DECOR",
+   "priority": 0.1,
+   "geometry": {
+    "x": 0,
+    "y": 1083.75,
+    "width": 1080,
+    "height": 180,
+    "z": 2
+   },
+   "style": {
+    "color": "#2B2A2D",
+    "opacity": 0.85
+   }
+  },
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.7,
+   "asset": "otium_logo",
+   "geometry": {
+    "x": 877.5,
+    "y": 1123.125,
+    "width": 135,
+    "height": 60.75,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "headline",
+   "type": "TEXT",
+   "role": "HEADLINE",
+   "priority": 1,
+   "text": "Um spa para chamar de seu",
+   "geometry": {
+    "x": 61.875,
+    "y": 1106.25,
+    "width": 731.25,
+    "height": 56.25,
+    "z": 5
+   },
+   "style": {
+    "font": "Archivo",
+    "size": 42.75,
+    "weight": 700,
+    "line_height": 1.05,
+    "color": "#F4EDE4",
+    "align": "left"
+   }
+  },
+  {
+   "id": "cta",
+   "type": "TEXT",
+   "role": "CTA",
+   "priority": 0.6,
+   "text": "Lazer completo no rooftop · Visite o decorado",
+   "geometry": {
+    "x": 61.875,
+    "y": 1185,
+    "width": 731.25,
+    "height": 24.75,
+    "z": 5
+   },
+   "style": {
+    "font": "Host Grotesk",
+    "size": 18,
+    "weight": 400,
+    "line_height": 1.15,
+    "color": "#D9A27A",
+    "align": "left"
+   }
+  }
+ ],
+ "_arm": "A0",
+ "_ms": 11
+}

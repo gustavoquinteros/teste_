@@ -1,0 +1,109 @@
+{
+ "arm": "R1",
+ "layout": "otium_living",
+ "format": "card_1080x1080",
+ "eligible": false,
+ "fails": 1,
+ "hard": [
+  {
+   "check": "resolucao",
+   "id": "hero",
+   "status": "WARN",
+   "detail": "ampliacao 2.08x do original"
+  },
+  {
+   "check": "contraste",
+   "id": "selo",
+   "status": "FAIL",
+   "detail": "contraste 4.31:1 < 4.5:1 (PRODUCT_INFO)"
+  }
+ ],
+ "soft": {
+  "preenchimento": 1,
+  "alinhamento": 1,
+  "size_rel": 0.8333333333333334,
+  "hierarquia": 1,
+  "ordem_leitura": 0,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 0.957
+ },
+ "soft_score": 0.8333333333333334,
+ "protected_visible": 1,
+ "ms": 147,
+ "provenance": {
+  "strategy": "S2",
+  "params": {},
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 0,
+    "soft": 0.7705208333333333
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 0,
+    "soft": 0.7544494047619048
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 0,
+    "soft": 0.7869940476190476
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 0,
+    "soft": 0.8333333333333334
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 0,
+    "soft": 0.8333333333333334
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 0,
+    "soft": 0.8333333333333334
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 1,
+    "soft": 0.6841815476190476
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 1,
+    "soft": 0.6841815476190476
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 1,
+    "soft": 0.6845833333333333
+   }
+  ]
+ }
+}

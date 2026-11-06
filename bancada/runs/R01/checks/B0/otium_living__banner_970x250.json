@@ -1,0 +1,115 @@
+{
+ "arm": "B0",
+ "layout": "otium_living",
+ "format": "banner_970x250",
+ "eligible": false,
+ "fails": 3,
+ "hard": [
+  {
+   "check": "logo_tamanho_minimo",
+   "id": "logo",
+   "status": "FAIL",
+   "detail": "logo 89px < 110px"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "headline",
+   "status": "FAIL",
+   "detail": "corpo 21px < minimo 24px para HEADLINE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "selo",
+   "status": "FAIL",
+   "detail": "corpo 11px < minimo 14px para PRODUCT_INFO"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.5671875,
+  "alinhamento": 1,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 0,
+  "escala_texto": 0.8303571428571428,
+  "grupos": 1,
+  "contraste_folga": 1.419
+ },
+ "soft_score": 0.7587117346938774,
+ "protected_visible": 1,
+ "ms": 120,
+ "provenance": {
+  "strategy": "S2",
+  "params": {},
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 3,
+    "soft": 0.7372831632653061
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 4,
+    "soft": 0.7265688775510204
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 3,
+    "soft": 0.7479974489795919
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 3,
+    "soft": 0.7587117346938774
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 3,
+    "soft": 0.7587117346938774
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 3,
+    "soft": 0.7587117346938774
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 5,
+    "soft": 0.6469260204081634
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 5,
+    "soft": 0.6469260204081634
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 5,
+    "soft": 0.6482653061224489
+   }
+  ]
+ }
+}

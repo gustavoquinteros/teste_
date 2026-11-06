@@ -1,0 +1,198 @@
+{
+ "schema_version": "bancada-0.1",
+ "layout_id": "otium_produto",
+ "brand": "otium",
+ "canvas": {
+  "width": 600,
+  "height": 1200,
+  "background": "#2B2A2D"
+ },
+ "elements": [
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.7,
+   "asset": "otium_logo",
+   "geometry": {
+    "x": 217.50420886156945,
+    "y": 32,
+    "width": 164.9915822768611,
+    "height": 74.52814414883474,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.8,
+   "asset": "otium_fachada",
+   "geometry": {
+    "x": 0,
+    "y": 142.52814414883474,
+    "width": 600,
+    "height": 624,
+    "z": 1
+   },
+   "crop": [
+    0.2329,
+    0,
+    0.5342,
+    1
+   ]
+  },
+  {
+   "id": "headline",
+   "type": "TEXT",
+   "role": "HEADLINE",
+   "priority": 1,
+   "text": "Jardim das Perdizes, no seu ritmo",
+   "geometry": {
+    "x": 32,
+    "y": 980,
+    "width": 536,
+    "height": 91,
+    "z": 5
+   },
+   "style": {
+    "font": "Archivo",
+    "size": 42,
+    "weight": 700,
+    "line_height": 1.05,
+    "color": "#F4EDE4",
+    "align": "center"
+   }
+  },
+  {
+   "id": "selo",
+   "type": "TEXT",
+   "role": "PRODUCT_INFO",
+   "priority": 0.6,
+   "text": "3 suítes · 142 m² · 2 vagas",
+   "geometry": {
+    "x": 32,
+    "y": 1097,
+    "width": 536,
+    "height": 25,
+    "z": 5
+   },
+   "style": {
+    "font": "Host Grotesk",
+    "size": 20,
+    "weight": 600,
+    "line_height": 1.15,
+    "color": "#D9A27A",
+    "align": "center"
+   }
+  },
+  {
+   "id": "cta",
+   "type": "TEXT",
+   "role": "CTA",
+   "priority": 0.65,
+   "text": "Visite o stand · otiumartefacto.com.br",
+   "geometry": {
+    "x": 32,
+    "y": 1148,
+    "width": 536,
+    "height": 20,
+    "z": 5
+   },
+   "style": {
+    "font": "Poppins",
+    "size": 15,
+    "weight": 400,
+    "line_height": 1.15,
+    "color": "#F4EDE4",
+    "align": "center"
+   }
+  }
+ ],
+ "_provenance": {
+  "strategy": "S1",
+  "params": {
+   "heroFrac": 0.52,
+   "align": "center"
+  },
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 0,
+    "soft": 0.9455405389727222
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 0,
+    "soft": 0.9294691104012938
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 0,
+    "soft": 0.960942324687008
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 1,
+    "soft": 0.998442324687008
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 1,
+    "soft": 0.998442324687008
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 1,
+    "soft": 0.998442324687008
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 7,
+    "soft": 0.9263887532584366
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 3,
+    "soft": 0.9246476818298651
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 8,
+    "soft": 0.9395137532584367
+   }
+  ]
+ },
+ "_arm": "B0",
+ "_ms": 149
+}

@@ -1,0 +1,53 @@
+{
+ "arm": "A1",
+ "layout": "bioma_produto",
+ "format": "banner_970x250",
+ "eligible": false,
+ "fails": 5,
+ "hard": [
+  {
+   "check": "logo_tamanho_minimo",
+   "id": "logo",
+   "status": "FAIL",
+   "detail": "logo 69px < 130px"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "headline",
+   "status": "FAIL",
+   "detail": "corpo 14.81px < minimo 24px para HEADLINE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "selo",
+   "status": "FAIL",
+   "detail": "corpo 7.87px < minimo 14px para PRODUCT_INFO"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "cta",
+   "status": "FAIL",
+   "detail": "corpo 6.48px < minimo 14px para CTA"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "legal",
+   "status": "FAIL",
+   "detail": "corpo 3.01px < minimo 8px para LEGAL"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.8375,
+  "alinhamento": 0,
+  "size_rel": 0.9333333333333333,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 0.5045833333333334,
+  "grupos": 1,
+  "contraste_folga": 1.571
+ },
+ "soft_score": 0.7775595238095239,
+ "protected_visible": 1,
+ "ms": 13,
+ "provenance": null
+}

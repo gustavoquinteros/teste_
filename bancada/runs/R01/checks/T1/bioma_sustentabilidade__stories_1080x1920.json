@@ -1,0 +1,35 @@
+{
+ "arm": "T1",
+ "layout": "bioma_sustentabilidade",
+ "format": "stories_1080x1920",
+ "eligible": false,
+ "fails": 2,
+ "hard": [
+  {
+   "check": "texto_sobre_texto",
+   "id": "lbl_coleta/legal",
+   "status": "FAIL",
+   "detail": "textos se sobrepoem"
+  },
+  {
+   "check": "texto_sobre_logo_ou_icone",
+   "id": "legal/icon_coleta",
+   "status": "FAIL",
+   "detail": "texto encosta no logo/icone"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.5148437499999999,
+  "alinhamento": 0.25,
+  "size_rel": 0.9555555555555556,
+  "hierarquia": 1,
+  "ordem_leitura": 0,
+  "escala_texto": 0.961111111111111,
+  "grupos": 1,
+  "contraste_folga": 2.247
+ },
+ "soft_score": 0.6763541666666667,
+ "protected_visible": 1,
+ "ms": 18,
+ "provenance": null
+}

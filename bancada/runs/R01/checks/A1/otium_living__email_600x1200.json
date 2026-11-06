@@ -1,0 +1,53 @@
+{
+ "arm": "A1",
+ "layout": "otium_living",
+ "format": "email_600x1200",
+ "eligible": false,
+ "fails": 4,
+ "hard": [
+  {
+   "check": "resolucao",
+   "id": "hero",
+   "status": "WARN",
+   "detail": "ampliacao 1.77x do original"
+  },
+  {
+   "check": "logo_tamanho_minimo",
+   "id": "logo",
+   "status": "FAIL",
+   "detail": "logo 81px < 110px"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "headline",
+   "status": "FAIL",
+   "detail": "corpo 18.75px < minimo 26px para HEADLINE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "selo",
+   "status": "FAIL",
+   "detail": "corpo 9.38px < minimo 15px para PRODUCT_INFO"
+  },
+  {
+   "check": "area_protegida_visivel",
+   "id": "hero",
+   "status": "FAIL",
+   "detail": "so 58% do predio/piscina visivel (minimo 80%)"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.996875,
+  "alinhamento": 1,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 0.5304715072461479,
+  "grupos": 0,
+  "contraste_folga": 1.419
+ },
+ "soft_score": 0.7895316438923068,
+ "protected_visible": 0.5833333333333334,
+ "ms": 20,
+ "provenance": null
+}

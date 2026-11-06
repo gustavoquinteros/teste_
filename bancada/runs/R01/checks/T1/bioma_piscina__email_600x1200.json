@@ -1,0 +1,22 @@
+{
+ "arm": "T1",
+ "layout": "bioma_piscina",
+ "format": "email_600x1200",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 0.6109375,
+  "alinhamento": 0.5,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 0.9979967012797918,
+  "grupos": 1,
+  "contraste_folga": 1.571
+ },
+ "soft_score": 0.875874528754256,
+ "protected_visible": 1,
+ "ms": 17,
+ "provenance": null
+}

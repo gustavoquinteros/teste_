@@ -1,0 +1,35 @@
+{
+ "arm": "T1",
+ "layout": "bioma_piscina",
+ "format": "banner_970x250",
+ "eligible": false,
+ "fails": 2,
+ "hard": [
+  {
+   "check": "area_segura",
+   "id": "headline",
+   "status": "FAIL",
+   "detail": "texto fora da area segura/margem"
+  },
+  {
+   "check": "area_segura",
+   "id": "legal",
+   "status": "FAIL",
+   "detail": "texto fora da area segura/margem"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.58203125,
+  "alinhamento": 1,
+  "size_rel": 0.9,
+  "hierarquia": 1,
+  "ordem_leitura": 0.6666666666666666,
+  "escala_texto": 1,
+  "grupos": 0,
+  "contraste_folga": 1.571
+ },
+ "soft_score": 0.7235863095238095,
+ "protected_visible": 0.8333333333333334,
+ "ms": 15,
+ "provenance": null
+}

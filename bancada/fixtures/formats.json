@@ -1,0 +1,263 @@
+{
+ "email_600x1200": {
+  "width": 600,
+  "height": 1200,
+  "margin": 32,
+  "safe": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "min_font": {
+   "HEADLINE": 26,
+   "SUBHEADLINE": 18,
+   "PRODUCT_INFO": 15,
+   "PRODUCT_ATTRIBUTE": 14,
+   "CTA": 15,
+   "LEGAL": 9,
+   "OTHER": 12
+  },
+  "logo_min_width": {
+   "bioma": 130,
+   "otium": 110
+  },
+  "template": {
+   "top": [
+    0,
+    0.035,
+    1,
+    0.2
+   ],
+   "hero": [
+    0,
+    0.25,
+    1,
+    0.36
+   ],
+   "mid": [
+    0,
+    0.63,
+    1,
+    0.22
+   ],
+   "legal": [
+    0,
+    0.86,
+    1,
+    0.12
+   ],
+   "align": "center"
+  }
+ },
+ "post_1080x1350": {
+  "width": 1080,
+  "height": 1350,
+  "margin": 60,
+  "safe": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "min_font": {
+   "HEADLINE": 44,
+   "SUBHEADLINE": 30,
+   "PRODUCT_INFO": 26,
+   "PRODUCT_ATTRIBUTE": 24,
+   "CTA": 26,
+   "LEGAL": 14,
+   "OTHER": 20
+  },
+  "logo_min_width": {
+   "bioma": 130,
+   "otium": 110
+  },
+  "template": {
+   "top": [
+    0,
+    0.045,
+    1,
+    0.25
+   ],
+   "hero": [
+    0,
+    0.31,
+    1,
+    0.38
+   ],
+   "mid": [
+    0,
+    0.71,
+    1,
+    0.14
+   ],
+   "legal": [
+    0,
+    0.86,
+    1,
+    0.11
+   ],
+   "align": "left"
+  }
+ },
+ "card_1080x1080": {
+  "width": 1080,
+  "height": 1080,
+  "margin": 60,
+  "safe": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "min_font": {
+   "HEADLINE": 44,
+   "SUBHEADLINE": 30,
+   "PRODUCT_INFO": 26,
+   "PRODUCT_ATTRIBUTE": 24,
+   "CTA": 26,
+   "LEGAL": 14,
+   "OTHER": 20
+  },
+  "logo_min_width": {
+   "bioma": 130,
+   "otium": 110
+  },
+  "template": {
+   "top": [
+    0,
+    0.055,
+    1,
+    0.25
+   ],
+   "hero": [
+    0,
+    0.33,
+    1,
+    0.34
+   ],
+   "mid": [
+    0,
+    0.69,
+    1,
+    0.14
+   ],
+   "legal": [
+    0,
+    0.84,
+    1,
+    0.13
+   ],
+   "align": "left"
+  }
+ },
+ "stories_1080x1920": {
+  "width": 1080,
+  "height": 1920,
+  "margin": 64,
+  "safe": [
+   250,
+   0,
+   340,
+   0
+  ],
+  "min_font": {
+   "HEADLINE": 52,
+   "SUBHEADLINE": 34,
+   "PRODUCT_INFO": 30,
+   "PRODUCT_ATTRIBUTE": 28,
+   "CTA": 30,
+   "LEGAL": 16,
+   "OTHER": 22
+  },
+  "logo_min_width": {
+   "bioma": 130,
+   "otium": 110
+  },
+  "template": {
+   "top": [
+    0,
+    0.14,
+    1,
+    0.16
+   ],
+   "hero": [
+    0,
+    0.31,
+    1,
+    0.29
+   ],
+   "mid": [
+    0,
+    0.61,
+    1,
+    0.08
+   ],
+   "legal": [
+    0,
+    0.7,
+    1,
+    0.085
+   ],
+   "align": "center"
+  }
+ },
+ "banner_970x250": {
+  "width": 970,
+  "height": 250,
+  "margin": 16,
+  "safe": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "min_font": {
+   "HEADLINE": 24,
+   "SUBHEADLINE": 16,
+   "PRODUCT_INFO": 14,
+   "PRODUCT_ATTRIBUTE": 13,
+   "CTA": 14,
+   "LEGAL": 8,
+   "OTHER": 11
+  },
+  "logo_min_width": {
+   "bioma": 130,
+   "otium": 110
+  },
+  "template": {
+   "hero": [
+    0,
+    0,
+    0.28,
+    1
+   ],
+   "top": [
+    0.3,
+    0.06,
+    0.48,
+    0.56
+   ],
+   "mid": [
+    0.3,
+    0.62,
+    0.48,
+    0.16
+   ],
+   "legal": [
+    0.3,
+    0.78,
+    0.48,
+    0.2
+   ],
+   "logo": [
+    0.8,
+    0.1,
+    0.18,
+    0.8
+   ],
+   "align": "left"
+  }
+ }
+}

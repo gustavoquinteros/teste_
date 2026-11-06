@@ -1,0 +1,99 @@
+{
+ "arm": "R1",
+ "layout": "bioma_produto",
+ "format": "post_1080x1350",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 0.884375,
+  "alinhamento": 1,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 2.247
+ },
+ "soft_score": 0.9801785714285715,
+ "protected_visible": 1,
+ "ms": 166,
+ "provenance": {
+  "strategy": "S3",
+  "params": {
+   "heroFrac": 0.52,
+   "align": "center"
+  },
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 0,
+    "soft": 0.9229259711071399
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 0,
+    "soft": 0.9444196428571429
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 0,
+    "soft": 0.9510973187529734
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 1,
+    "soft": 1
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 1,
+    "soft": 1
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 1,
+    "soft": 1
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 0,
+    "soft": 0.9604910714285714
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 0,
+    "soft": 0.9401339285714286
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 0,
+    "soft": 0.9801785714285715
+   }
+  ]
+ }
+}

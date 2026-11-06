@@ -1,0 +1,115 @@
+{
+ "arm": "B0",
+ "layout": "otium_produto",
+ "format": "banner_970x250",
+ "eligible": false,
+ "fails": 3,
+ "hard": [
+  {
+   "check": "logo_tamanho_minimo",
+   "id": "logo",
+   "status": "FAIL",
+   "detail": "logo 96px < 110px"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "selo",
+   "status": "FAIL",
+   "detail": "corpo 12px < minimo 14px para PRODUCT_INFO"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "cta",
+   "status": "FAIL",
+   "detail": "corpo 11px < minimo 14px para CTA"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.80078125,
+  "alinhamento": 1,
+  "size_rel": 0.9,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 0.8809523809523809,
+  "grupos": 1,
+  "contraste_folga": 1.419
+ },
+ "soft_score": 0.9345556972789115,
+ "protected_visible": 1,
+ "ms": 133,
+ "provenance": {
+  "strategy": "S3",
+  "params": {},
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 3,
+    "soft": 0.8067431972789115
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 3,
+    "soft": 0.796028911564626
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 3,
+    "soft": 0.8183949829931974
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 3,
+    "soft": 0.828171768707483
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 3,
+    "soft": 0.828171768707483
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 3,
+    "soft": 0.8291092687074829
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 3,
+    "soft": 0.9345556972789115
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 3,
+    "soft": 0.9345556972789115
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 3,
+    "soft": 0.9334842687074829
+   }
+  ]
+ }
+}

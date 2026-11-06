@@ -1,0 +1,146 @@
+{
+ "layout_id": "otium_produto",
+ "brand": "otium",
+ "canvas": {
+  "width": 1920,
+  "height": 1080,
+  "background": "#2B2A2D"
+ },
+ "elements": [
+  {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.8,
+   "asset": "otium_fachada",
+   "geometry": {
+    "x": 0,
+    "y": 0,
+    "width": 1000,
+    "height": 1080,
+    "z": 1
+   },
+   "crop": [
+    0.1428,
+    0.0,
+    0.5144,
+    1.0
+   ]
+  },
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.7,
+   "asset": "otium_logo",
+   "geometry": {
+    "x": 1110,
+    "y": 120,
+    "width": 280,
+    "height": 126,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "headline",
+   "type": "TEXT",
+   "role": "HEADLINE",
+   "priority": 1.0,
+   "text": "Jardim das Perdizes, no seu ritmo",
+   "geometry": {
+    "x": 1110,
+    "y": 360,
+    "width": 700,
+    "height": 200,
+    "z": 5
+   },
+   "style": {
+    "font": "Archivo",
+    "size": 72,
+    "weight": 700,
+    "line_height": 1.05,
+    "color": "#F4EDE4",
+    "align": "left"
+   }
+  },
+  {
+   "id": "selo",
+   "type": "TEXT",
+   "role": "PRODUCT_INFO",
+   "priority": 0.6,
+   "text": "3 suítes · 142 m² · 2 vagas",
+   "geometry": {
+    "x": 1110,
+    "y": 610,
+    "width": 700,
+    "height": 44,
+    "z": 5
+   },
+   "style": {
+    "font": "Host Grotesk",
+    "size": 34,
+    "weight": 600,
+    "line_height": 1.15,
+    "color": "#D9A27A",
+    "align": "left"
+   }
+  },
+  {
+   "id": "cta",
+   "type": "TEXT",
+   "role": "CTA",
+   "priority": 0.65,
+   "text": "Visite o stand · otiumartefacto.com.br",
+   "geometry": {
+    "x": 1110,
+    "y": 690,
+    "width": 700,
+    "height": 40,
+    "z": 5
+   },
+   "style": {
+    "font": "Poppins",
+    "size": 26,
+    "weight": 400,
+    "line_height": 1.15,
+    "color": "#F4EDE4",
+    "align": "left"
+   }
+  }
+ ],
+ "relations": [
+  {
+   "source": "logo",
+   "target": "headline",
+   "type": "BRANDS"
+  },
+  {
+   "source": "selo",
+   "target": "headline",
+   "type": "SUPPORTS"
+  },
+  {
+   "source": "cta",
+   "target": "headline",
+   "type": "CALLS_TO_ACTION"
+  }
+ ],
+ "groups": [
+  {
+   "id": "g_info",
+   "members": [
+    "selo",
+    "cta"
+   ],
+   "mode": "ADJACENT"
+  }
+ ],
+ "text_over_image": [],
+ "schema_version": "bancada-0.1"
+}

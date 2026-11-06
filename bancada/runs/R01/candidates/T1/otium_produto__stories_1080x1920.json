@@ -1,0 +1,120 @@
+{
+ "schema_version": "bancada-0.1",
+ "layout_id": "otium_produto",
+ "brand": "otium",
+ "canvas": {
+  "width": 1080,
+  "height": 1920,
+  "background": "#2B2A2D"
+ },
+ "elements": [
+  {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.8,
+   "asset": "otium_fachada",
+   "geometry": {
+    "x": 0,
+    "y": 595.2,
+    "width": 1080,
+    "height": 556.8,
+    "z": 1
+   },
+   "crop": [
+    0,
+    0.006,
+    1,
+    0.928
+   ]
+  },
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.7,
+   "asset": "otium_logo",
+   "geometry": {
+    "x": 426.6,
+    "y": 314,
+    "width": 226.8,
+    "height": 102.44754829123328,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "headline",
+   "type": "TEXT",
+   "role": "HEADLINE",
+   "priority": 1,
+   "text": "Jardim das Perdizes, no seu ritmo",
+   "geometry": {
+    "x": 64,
+    "y": 451.44754829123326,
+    "width": 952,
+    "height": 62,
+    "z": 5
+   },
+   "style": {
+    "font": "Archivo",
+    "size": 58,
+    "weight": 700,
+    "line_height": 1.05,
+    "color": "#F4EDE4",
+    "align": "center"
+   }
+  },
+  {
+   "id": "selo",
+   "type": "TEXT",
+   "role": "PRODUCT_INFO",
+   "priority": 0.6,
+   "text": "3 suítes · 142 m² · 2 vagas",
+   "geometry": {
+    "x": 64,
+    "y": 1171.2,
+    "width": 952,
+    "height": 43,
+    "z": 5
+   },
+   "style": {
+    "font": "Host Grotesk",
+    "size": 34,
+    "weight": 600,
+    "line_height": 1.15,
+    "color": "#D9A27A",
+    "align": "center"
+   }
+  },
+  {
+   "id": "cta",
+   "type": "TEXT",
+   "role": "CTA",
+   "priority": 0.65,
+   "text": "Visite o stand · otiumartefacto.com.br",
+   "geometry": {
+    "x": 64,
+    "y": 1249.2,
+    "width": 952,
+    "height": 39,
+    "z": 5
+   },
+   "style": {
+    "font": "Poppins",
+    "size": 30,
+    "weight": 400,
+    "line_height": 1.15,
+    "color": "#F4EDE4",
+    "align": "center"
+   }
+  }
+ ],
+ "_arm": "T1",
+ "_ms": 10
+}

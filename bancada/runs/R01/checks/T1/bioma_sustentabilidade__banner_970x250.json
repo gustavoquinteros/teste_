@@ -1,0 +1,83 @@
+{
+ "arm": "T1",
+ "layout": "bioma_sustentabilidade",
+ "format": "banner_970x250",
+ "eligible": false,
+ "fails": 10,
+ "hard": [
+  {
+   "check": "area_segura",
+   "id": "headline",
+   "status": "FAIL",
+   "detail": "texto fora da area segura/margem"
+  },
+  {
+   "check": "dentro_do_canvas",
+   "id": "icon_chuva",
+   "status": "FAIL",
+   "detail": "caixa {\"x\":291,\"y\":208,\"w\":48,\"h\":48} sai do canvas"
+  },
+  {
+   "check": "area_segura",
+   "id": "lbl_chuva",
+   "status": "FAIL",
+   "detail": "texto fora da area segura/margem"
+  },
+  {
+   "check": "dentro_do_canvas",
+   "id": "icon_coleta",
+   "status": "FAIL",
+   "detail": "caixa {\"x\":291,\"y\":261,\"w\":48,\"h\":48} sai do canvas"
+  },
+  {
+   "check": "dentro_do_canvas",
+   "id": "lbl_coleta",
+   "status": "FAIL",
+   "detail": "caixa {\"x\":344,\"y\":277,\"w\":412.5999999999999,\"h\":16} sai do canvas"
+  },
+  {
+   "check": "area_segura",
+   "id": "lbl_coleta",
+   "status": "FAIL",
+   "detail": "texto fora da area segura/margem"
+  },
+  {
+   "check": "area_segura",
+   "id": "legal",
+   "status": "FAIL",
+   "detail": "texto fora da area segura/margem"
+  },
+  {
+   "check": "texto_sobre_texto",
+   "id": "lbl_chuva/legal",
+   "status": "FAIL",
+   "detail": "textos se sobrepoem"
+  },
+  {
+   "check": "texto_sobre_logo_ou_icone",
+   "id": "legal/icon_solar",
+   "status": "FAIL",
+   "detail": "texto encosta no logo/icone"
+  },
+  {
+   "check": "texto_sobre_logo_ou_icone",
+   "id": "legal/icon_chuva",
+   "status": "FAIL",
+   "detail": "texto encosta no logo/icone"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.59609375,
+  "alinhamento": 0.25,
+  "size_rel": 0.9333333333333333,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 2.247
+ },
+ "soft_score": 0.8355208333333334,
+ "protected_visible": 1,
+ "ms": 24,
+ "provenance": null
+}

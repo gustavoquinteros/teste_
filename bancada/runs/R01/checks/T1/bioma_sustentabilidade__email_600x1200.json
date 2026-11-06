@@ -1,0 +1,22 @@
+{
+ "arm": "T1",
+ "layout": "bioma_sustentabilidade",
+ "format": "email_600x1200",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 0.70078125,
+  "alinhamento": 0.25,
+  "size_rel": 0.7333333333333333,
+  "hierarquia": 1,
+  "ordem_leitura": 0,
+  "escala_texto": 0.9798377643943066,
+  "grupos": 1,
+  "contraste_folga": 2.247
+ },
+ "soft_score": 0.6791583711039486,
+ "protected_visible": 1,
+ "ms": 13,
+ "provenance": null
+}

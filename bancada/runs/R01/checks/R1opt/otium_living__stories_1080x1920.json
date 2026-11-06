@@ -1,0 +1,41 @@
+{
+ "arm": "R1opt",
+ "layout": "otium_living",
+ "format": "stories_1080x1920",
+ "eligible": true,
+ "fails": 0,
+ "hard": [
+  {
+   "check": "resolucao",
+   "id": "hero",
+   "status": "WARN",
+   "detail": "ampliacao 1.58x do original"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.5992187499999999,
+  "alinhamento": 1,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 0,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 1.419
+ },
+ "soft_score": 0.7884375,
+ "protected_visible": 1,
+ "ms": 720,
+ "provenance": {
+  "strategy": "S1",
+  "params": {
+   "heroFrac": 0.4272483006013782,
+   "gap": 1,
+   "tscale": 1.0402381188889211,
+   "align": "left",
+   "side": "auto",
+   "zoom": 1
+  },
+  "optimized_from": "S1",
+  "iters": 45
+ }
+}

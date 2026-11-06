@@ -1,0 +1,96 @@
+{
+ "arm": "R1",
+ "layout": "otium_spa",
+ "format": "post_1080x1350",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 1,
+  "alinhamento": 1,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 1.046
+ },
+ "soft_score": 1,
+ "protected_visible": 0.5833333333333334,
+ "ms": 127,
+ "provenance": {
+  "strategy": "S2",
+  "params": {},
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 0,
+    "soft": 0.9382589285714287
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 0,
+    "soft": 0.9221874999999999
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 0,
+    "soft": 0.9541964285714286
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 0,
+    "soft": 1
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 0,
+    "soft": 1
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 0,
+    "soft": 1
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 3,
+    "soft": 0.9523809523809524
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 3,
+    "soft": 0.9523809523809524
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 3,
+    "soft": 0.9523809523809524
+   }
+  ]
+ }
+}

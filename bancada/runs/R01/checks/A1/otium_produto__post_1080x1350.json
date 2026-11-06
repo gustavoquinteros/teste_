@@ -1,0 +1,47 @@
+{
+ "arm": "A1",
+ "layout": "otium_produto",
+ "format": "post_1080x1350",
+ "eligible": false,
+ "fails": 4,
+ "hard": [
+  {
+   "check": "corpo_minimo",
+   "id": "headline",
+   "status": "FAIL",
+   "detail": "corpo 40.5px < minimo 44px para HEADLINE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "selo",
+   "status": "FAIL",
+   "detail": "corpo 19.13px < minimo 26px para PRODUCT_INFO"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "cta",
+   "status": "FAIL",
+   "detail": "corpo 14.63px < minimo 26px para CTA"
+  },
+  {
+   "check": "area_protegida_visivel",
+   "id": "hero",
+   "status": "FAIL",
+   "detail": "so 71% do predio/piscina visivel (minimo 80%)"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.7179687499999999,
+  "alinhamento": 0.5,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 0.6348361573575899,
+  "grupos": 1,
+  "contraste_folga": 1.419
+ },
+ "soft_score": 0.8423426653367986,
+ "protected_visible": 0.7083333333333334,
+ "ms": 12,
+ "provenance": null
+}

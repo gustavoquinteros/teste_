@@ -1,0 +1,103 @@
+{
+ "arm": "B0",
+ "layout": "bioma_sustentabilidade",
+ "format": "email_600x1200",
+ "eligible": false,
+ "fails": 1,
+ "hard": [
+  {
+   "check": "texto_sobre_foto_sem_faixa",
+   "id": "legal",
+   "status": "FAIL",
+   "detail": "texto sobre a foto sem faixa de legibilidade"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.6375,
+  "alinhamento": 0.5,
+  "size_rel": 0.7555555555555555,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 0.9798377643943066,
+  "grupos": 0,
+  "contraste_folga": 2.247
+ },
+ "soft_score": 0.7000561885642661,
+ "protected_visible": 1,
+ "ms": 216,
+ "provenance": {
+  "strategy": "S3",
+  "params": {},
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 1,
+    "soft": 0.6928240457071232
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 1,
+    "soft": 0.6928240457071232
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 1,
+    "soft": 0.6922883314214089
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 2,
+    "soft": 0.7892308702798265
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 2,
+    "soft": 0.7892308702798265
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 2,
+    "soft": 0.8178022988512551
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 1,
+    "soft": 0.7000561885642661
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 1,
+    "soft": 0.7000561885642661
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 1,
+    "soft": 0.6992526171356946
+   }
+  ]
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "arm": "B0",
+ "layout": "bioma_produto",
+ "format": "banner_970x250",
+ "eligible": false,
+ "fails": 4,
+ "hard": [
+  {
+   "check": "logo_tamanho_minimo",
+   "id": "logo",
+   "status": "FAIL",
+   "detail": "logo 103px < 130px"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "headline",
+   "status": "FAIL",
+   "detail": "corpo 22px < minimo 24px para HEADLINE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "selo",
+   "status": "FAIL",
+   "detail": "corpo 12px < minimo 14px para PRODUCT_INFO"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "cta",
+   "status": "FAIL",
+   "detail": "corpo 11px < minimo 14px para CTA"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.8890625,
+  "alinhamento": 0,
+  "size_rel": 0.9333333333333333,
+  "hierarquia": 1,
+  "ordem_leitura": 0.5,
+  "escala_texto": 0.8898809523809523,
+  "grupos": 1,
+  "contraste_folga": 1.571
+ },
+ "soft_score": 0.7700127551020408,
+ "protected_visible": 1,
+ "ms": 163,
+ "provenance": {
+  "strategy": "S2",
+  "params": {
+   "heroFrac": 0.52,
+   "align": "center"
+  },
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 4,
+    "soft": 0.7222448979591837
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 4,
+    "soft": 0.7435841836734695
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 4,
+    "soft": 0.680235969387755
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 4,
+    "soft": 0.7268877551020408
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 4,
+    "soft": 0.7268877551020408
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 4,
+    "soft": 0.7700127551020408
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 5,
+    "soft": 0.9272534013605442
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 5,
+    "soft": 0.9272534013605442
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 5,
+    "soft": 0.9272534013605442
+   }
+  ]
+ }
+}

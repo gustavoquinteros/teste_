@@ -1,0 +1,99 @@
+{
+ "arm": "R1",
+ "layout": "otium_produto",
+ "format": "card_1080x1080",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 0.7625,
+  "alinhamento": 1,
+  "size_rel": 0.8,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 2.129
+ },
+ "soft_score": 0.9307142857142857,
+ "protected_visible": 1,
+ "ms": 131,
+ "provenance": {
+  "strategy": "S3",
+  "params": {
+   "heroFrac": 0.52,
+   "align": "center"
+  },
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 0,
+    "soft": 0.8935119047619047
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 0,
+    "soft": 0.8774404761904762
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 0,
+    "soft": 0.9042261904761905
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 1,
+    "soft": 0.9476190476190476
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 1,
+    "soft": 0.9476190476190476
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 1,
+    "soft": 0.9476190476190476
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 0,
+    "soft": 0.9216071428571428
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 0,
+    "soft": 0.8972321428571428
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 0,
+    "soft": 0.9307142857142857
+   }
+  ]
+ }
+}

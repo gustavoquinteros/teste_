@@ -1,0 +1,106 @@
+{
+ "arm": "B0",
+ "layout": "otium_living",
+ "format": "card_1080x1080",
+ "eligible": false,
+ "fails": 1,
+ "hard": [
+  {
+   "check": "corpo_minimo",
+   "id": "selo",
+   "status": "FAIL",
+   "detail": "corpo 23px < minimo 26px para PRODUCT_INFO"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.728125,
+  "alinhamento": 1,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 0,
+  "escala_texto": 0.9423076923076923,
+  "grupos": 0,
+  "contraste_folga": 1.419
+ },
+ "soft_score": 0.6594368131868132,
+ "protected_visible": 1,
+ "ms": 136,
+ "provenance": {
+  "strategy": "S1",
+  "params": {
+   "heroFrac": 0.52,
+   "align": "center"
+  },
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 1,
+    "soft": 0.642963598901099
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 1,
+    "soft": 0.6268921703296703
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 1,
+    "soft": 0.6594368131868132
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 2,
+    "soft": 0.7060439560439561
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 2,
+    "soft": 0.7060439560439561
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 2,
+    "soft": 0.7060439560439561
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 2,
+    "soft": 0.6997493131868132
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 2,
+    "soft": 0.6997493131868132
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 2,
+    "soft": 0.700151098901099
+   }
+  ]
+ }
+}

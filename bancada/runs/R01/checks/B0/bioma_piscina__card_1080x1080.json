@@ -1,0 +1,103 @@
+{
+ "arm": "B0",
+ "layout": "bioma_piscina",
+ "format": "card_1080x1080",
+ "eligible": false,
+ "fails": 1,
+ "hard": [
+  {
+   "check": "corpo_minimo",
+   "id": "cta",
+   "status": "FAIL",
+   "detail": "corpo 23px < minimo 26px para CTA"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.80625,
+  "alinhamento": 0.75,
+  "size_rel": 0.9,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 0.9615384615384616,
+  "grupos": 0,
+  "contraste_folga": 1.571
+ },
+ "soft_score": 0.7755769230769232,
+ "protected_visible": 0.875,
+ "ms": 153,
+ "provenance": {
+  "strategy": "S1",
+  "params": {},
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 1,
+    "soft": 0.7755769230769232
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 1,
+    "soft": 0.7595054945054945
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 1,
+    "soft": 0.7472733516483517
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 2,
+    "soft": 0.9516483516483517
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 2,
+    "soft": 0.9516483516483517
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 2,
+    "soft": 0.9230769230769231
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 2,
+    "soft": 0.8945054945054945
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 2,
+    "soft": 0.8945054945054945
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 2,
+    "soft": 0.8659340659340659
+   }
+  ]
+ }
+}

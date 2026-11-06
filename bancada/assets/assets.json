@@ -1,0 +1,169 @@
+{
+ "bioma_fachada": {
+  "file": "bioma_fachada.png",
+  "width": 2025,
+  "height": 996,
+  "protected": [
+   0.52,
+   0.12,
+   0.2696296296296296,
+   0.7
+  ],
+  "kind": "photo",
+  "real_size": [
+   4050,
+   1992
+  ]
+ },
+ "bioma_piscina": {
+  "file": "bioma_piscina.png",
+  "width": 1800,
+  "height": 1058,
+  "protected": [
+   0.1,
+   0.6,
+   0.8,
+   0.32
+  ],
+  "kind": "photo",
+  "real_size": [
+   7200,
+   4234
+  ]
+ },
+ "bioma_living": {
+  "file": "bioma_living.png",
+  "width": 1024,
+  "height": 464,
+  "protected": [
+   0.2,
+   0.48,
+   0.38,
+   0.42
+  ],
+  "kind": "photo",
+  "real_size": [
+   2048,
+   928
+  ]
+ },
+ "bioma_icon_solar": {
+  "file": "bioma_icon_solar.png",
+  "width": 240,
+  "height": 240,
+  "protected": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "kind": "icon",
+  "real_size": null
+ },
+ "bioma_icon_chuva": {
+  "file": "bioma_icon_chuva.png",
+  "width": 240,
+  "height": 240,
+  "protected": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "kind": "icon",
+  "real_size": null
+ },
+ "bioma_icon_coleta": {
+  "file": "bioma_icon_coleta.png",
+  "width": 240,
+  "height": 240,
+  "protected": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "kind": "icon",
+  "real_size": null
+ },
+ "otium_fachada": {
+  "file": "otium_fachada.png",
+  "width": 1800,
+  "height": 1000,
+  "protected": [
+   0.3,
+   0.12,
+   0.27,
+   0.7
+  ],
+  "kind": "photo",
+  "real_size": [
+   1800,
+   1000
+  ]
+ },
+ "otium_spa": {
+  "file": "otium_spa.png",
+  "width": 1600,
+  "height": 900,
+  "protected": [
+   0.1,
+   0.6,
+   0.8,
+   0.32
+  ],
+  "kind": "photo",
+  "real_size": [
+   1600,
+   900
+  ]
+ },
+ "otium_living": {
+  "file": "otium_living.png",
+  "width": 1200,
+  "height": 520,
+  "protected": [
+   0.2,
+   0.48,
+   0.38,
+   0.42
+  ],
+  "kind": "photo",
+  "real_size": [
+   1200,
+   520
+  ]
+ },
+ "bioma_logo": {
+  "file": "bioma_logo.png",
+  "width": 577,
+  "height": 291,
+  "protected": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "kind": "logo",
+  "real_size": [
+   577,
+   291
+  ]
+ },
+ "otium_logo": {
+  "file": "otium_logo.png",
+  "width": 673,
+  "height": 304,
+  "protected": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "kind": "logo",
+  "real_size": [
+   673,
+   304
+  ]
+ }
+}

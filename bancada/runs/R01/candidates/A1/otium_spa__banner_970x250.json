@@ -1,0 +1,115 @@
+{
+ "schema_version": "bancada-0.1",
+ "layout_id": "otium_spa",
+ "brand": "otium",
+ "canvas": {
+  "width": 970,
+  "height": 250,
+  "background": "#2B2A2D"
+ },
+ "elements": [
+  {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.9,
+   "asset": "otium_spa",
+   "geometry": {
+    "x": 0,
+    "y": 0,
+    "width": 970.0000000000001,
+    "height": 250,
+    "z": 1
+   },
+   "crop": [
+    0,
+    0.2709,
+    1,
+    0.4582
+   ]
+  },
+  {
+   "id": "faixa",
+   "type": "SHAPE",
+   "role": "DECOR",
+   "priority": 0.1,
+   "geometry": {
+    "x": 0,
+    "y": 175.92592592592592,
+    "width": 970.0000000000001,
+    "height": 74.07407407407408,
+    "z": 2
+   },
+   "style": {
+    "color": "#2B2A2D",
+    "opacity": 0.85
+   }
+  },
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.7,
+   "asset": "otium_logo",
+   "geometry": {
+    "x": 820.9722222222223,
+    "y": 192.12962962962962,
+    "width": 55.55555555555556,
+    "height": 25,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "headline",
+   "type": "TEXT",
+   "role": "HEADLINE",
+   "priority": 1,
+   "text": "Um spa para chamar de seu",
+   "geometry": {
+    "x": 55.572916666666686,
+    "y": 186.75925925925927,
+    "width": 656.7708333333334,
+    "height": 20,
+    "z": 5
+   },
+   "style": {
+    "font": "Archivo",
+    "size": 17.59,
+    "weight": 700,
+    "line_height": 1.05,
+    "color": "#F4EDE4",
+    "align": "left"
+   }
+  },
+  {
+   "id": "cta",
+   "type": "TEXT",
+   "role": "CTA",
+   "priority": 0.6,
+   "text": "Lazer completo no rooftop · Visite o decorado",
+   "geometry": {
+    "x": 55.572916666666686,
+    "y": 217.6851851851852,
+    "width": 656.7708333333334,
+    "height": 10,
+    "z": 5
+   },
+   "style": {
+    "font": "Host Grotesk",
+    "size": 7.41,
+    "weight": 400,
+    "line_height": 1.15,
+    "color": "#D9A27A",
+    "align": "left"
+   }
+  }
+ ],
+ "_arm": "A1",
+ "_ms": 12
+}

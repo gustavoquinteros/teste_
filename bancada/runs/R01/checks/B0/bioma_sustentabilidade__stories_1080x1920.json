@@ -1,0 +1,130 @@
+{
+ "arm": "B0",
+ "layout": "bioma_sustentabilidade",
+ "format": "stories_1080x1920",
+ "eligible": false,
+ "fails": 5,
+ "hard": [
+  {
+   "check": "area_segura",
+   "id": "headline",
+   "status": "FAIL",
+   "detail": "texto fora da area segura/margem"
+  },
+  {
+   "check": "logo_tamanho_minimo",
+   "id": "logo",
+   "status": "FAIL",
+   "detail": "logo 68px < 130px"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "lbl_solar",
+   "status": "FAIL",
+   "detail": "corpo 22px < minimo 28px para PRODUCT_ATTRIBUTE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "lbl_chuva",
+   "status": "FAIL",
+   "detail": "corpo 22px < minimo 28px para PRODUCT_ATTRIBUTE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "lbl_coleta",
+   "status": "FAIL",
+   "detail": "corpo 22px < minimo 28px para PRODUCT_ATTRIBUTE"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.496875,
+  "alinhamento": 0.5,
+  "size_rel": 0.8888888888888888,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 0.8714285714285713,
+  "grupos": 1,
+  "contraste_folga": 2.247
+ },
+ "soft_score": 0.8223667800453515,
+ "protected_visible": 0.9583333333333334,
+ "ms": 461,
+ "provenance": {
+  "strategy": "S1",
+  "params": {
+   "heroFrac": 0.52,
+   "align": "center"
+  },
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 5,
+    "soft": 0.7719352324263039
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 5,
+    "soft": 0.7209679705215419
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 5,
+    "soft": 0.8223667800453515
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 6,
+    "soft": 0.6554421768707482
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 6,
+    "soft": 0.6554421768707482
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 6,
+    "soft": 0.7982993197278911
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 8,
+    "soft": 0.6430683106575963
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 8,
+    "soft": 0.6430683106575963
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 8,
+    "soft": 0.6428004535147391
+   }
+  ]
+ }
+}

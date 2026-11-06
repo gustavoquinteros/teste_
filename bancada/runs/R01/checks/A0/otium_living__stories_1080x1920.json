@@ -1,0 +1,41 @@
+{
+ "arm": "A0",
+ "layout": "otium_living",
+ "format": "stories_1080x1920",
+ "eligible": false,
+ "fails": 3,
+ "hard": [
+  {
+   "check": "logo_na_area_segura",
+   "id": "logo",
+   "status": "FAIL",
+   "detail": "logo fora da area segura"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "headline",
+   "status": "FAIL",
+   "detail": "corpo 33.75px < minimo 52px para HEADLINE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "selo",
+   "status": "FAIL",
+   "detail": "corpo 16.88px < minimo 30px para PRODUCT_INFO"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.30078125,
+  "alinhamento": 1,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 0.5625833333333333,
+  "grupos": 1,
+  "contraste_folga": 1.419
+ },
+ "soft_score": 0.8176458333333334,
+ "protected_visible": 1,
+ "ms": 16,
+ "provenance": null
+}

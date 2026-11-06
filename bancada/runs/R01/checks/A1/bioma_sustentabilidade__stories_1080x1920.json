@@ -1,0 +1,71 @@
+{
+ "arm": "A1",
+ "layout": "bioma_sustentabilidade",
+ "format": "stories_1080x1920",
+ "eligible": false,
+ "fails": 8,
+ "hard": [
+  {
+   "check": "logo_na_area_segura",
+   "id": "logo",
+   "status": "FAIL",
+   "detail": "logo fora da area segura"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "headline",
+   "status": "FAIL",
+   "detail": "corpo 40.5px < minimo 52px para HEADLINE"
+  },
+  {
+   "check": "area_segura",
+   "id": "headline",
+   "status": "FAIL",
+   "detail": "texto fora da area segura/margem"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "lbl_solar",
+   "status": "FAIL",
+   "detail": "corpo 15.75px < minimo 28px para PRODUCT_ATTRIBUTE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "lbl_chuva",
+   "status": "FAIL",
+   "detail": "corpo 15.75px < minimo 28px para PRODUCT_ATTRIBUTE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "lbl_coleta",
+   "status": "FAIL",
+   "detail": "corpo 15.75px < minimo 28px para PRODUCT_ATTRIBUTE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "legal",
+   "status": "FAIL",
+   "detail": "corpo 7.88px < minimo 16px para LEGAL"
+  },
+  {
+   "check": "area_segura",
+   "id": "legal",
+   "status": "FAIL",
+   "detail": "texto fora da area segura/margem"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.54921875,
+  "alinhamento": 0.25,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 0.5485,
+  "grupos": 1,
+  "contraste_folga": 2.247
+ },
+ "soft_score": 0.7725089285714286,
+ "protected_visible": 1,
+ "ms": 14,
+ "provenance": null
+}

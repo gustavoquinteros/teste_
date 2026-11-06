@@ -1,0 +1,109 @@
+{
+ "arm": "B0",
+ "layout": "otium_spa",
+ "format": "card_1080x1080",
+ "eligible": false,
+ "fails": 2,
+ "hard": [
+  {
+   "check": "corpo_minimo",
+   "id": "cta",
+   "status": "FAIL",
+   "detail": "corpo 24px < minimo 26px para CTA"
+  },
+  {
+   "check": "area_protegida_visivel",
+   "id": "hero",
+   "status": "FAIL",
+   "detail": "so 22% do predio/piscina visivel (minimo 30%)"
+  }
+ ],
+ "soft": {
+  "preenchimento": 1,
+  "alinhamento": 1,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 0.9615384615384616,
+  "grupos": 1,
+  "contraste_folga": 1.189
+ },
+ "soft_score": 0.9945054945054945,
+ "protected_visible": 0.2222222222222222,
+ "ms": 134,
+ "provenance": {
+  "strategy": "S2",
+  "params": {},
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 2,
+    "soft": 0.9323626373626374
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 2,
+    "soft": 0.9162912087912088
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 2,
+    "soft": 0.9425412087912088
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 2,
+    "soft": 0.9945054945054945
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 2,
+    "soft": 0.9945054945054945
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 2,
+    "soft": 0.9945054945054945
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 4,
+    "soft": 0.946886446886447
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 4,
+    "soft": 0.946886446886447
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 4,
+    "soft": 0.946886446886447
+   }
+  ]
+ }
+}

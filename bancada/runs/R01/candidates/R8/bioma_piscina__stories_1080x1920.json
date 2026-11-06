@@ -1,0 +1,124 @@
+{
+ "schema_version": "bancada-0.1",
+ "layout_id": "bioma_piscina",
+ "brand": "bioma",
+ "canvas": {
+  "width": 1080,
+  "height": 1920,
+  "background": "#1E3B2C"
+ },
+ "elements": [
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.7,
+   "asset": "bioma_logo",
+   "geometry": {
+    "x": 64,
+    "y": 314,
+    "width": 189.54000000000002,
+    "height": 95.59123050259966,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "headline",
+   "type": "TEXT",
+   "role": "HEADLINE",
+   "priority": 1,
+   "text": "Um novo norte para viver a vida ao ar livre",
+   "geometry": {
+    "x": 64,
+    "y": 440.5912305025997,
+    "width": 952,
+    "height": 59,
+    "z": 5
+   },
+   "style": {
+    "font": "Cormorant Garamond",
+    "size": 52,
+    "weight": 600,
+    "line_height": 1.05,
+    "color": "#F1E9D6",
+    "align": "left"
+   }
+  },
+  {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.9,
+   "asset": "bioma_piscina",
+   "geometry": {
+    "x": 0,
+    "y": 557.5912305025997,
+    "width": 1080,
+    "height": 653,
+    "z": 1
+   },
+   "crop": [
+    0.0139,
+    0,
+    0.9721,
+    1
+   ]
+  },
+  {
+   "id": "cta",
+   "type": "TEXT",
+   "role": "CTA",
+   "priority": 0.65,
+   "text": "Conheça o decorado · 11 99943.5903",
+   "geometry": {
+    "x": 64,
+    "y": 1333,
+    "width": 952,
+    "height": 36,
+    "z": 5
+   },
+   "style": {
+    "font": "Barlow",
+    "size": 30,
+    "weight": 600,
+    "line_height": 1.15,
+    "color": "#B9CBA4",
+    "align": "left"
+   }
+  },
+  {
+   "id": "legal",
+   "type": "TEXT",
+   "role": "LEGAL",
+   "priority": 0.3,
+   "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
+   "geometry": {
+    "x": 64,
+    "y": 1411,
+    "width": 952,
+    "height": 105,
+    "z": 5
+   },
+   "style": {
+    "font": "Inter",
+    "size": 16,
+    "weight": 400,
+    "line_height": 1.3,
+    "color": "#F1E9D6",
+    "align": "left"
+   }
+  }
+ ],
+ "_plan": {
+  "strategy": "S1",
+  "heroFrac": 0.4,
+  "align": "left"
+ },
+ "_format": "stories_1080x1920"
+}

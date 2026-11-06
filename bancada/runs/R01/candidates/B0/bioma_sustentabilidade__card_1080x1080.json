@@ -1,0 +1,299 @@
+{
+ "schema_version": "bancada-0.1",
+ "layout_id": "bioma_sustentabilidade",
+ "brand": "bioma",
+ "canvas": {
+  "width": 1080,
+  "height": 1080,
+  "background": "#1E3B2C"
+ },
+ "elements": [
+  {
+   "id": "headline",
+   "type": "TEXT",
+   "role": "HEADLINE",
+   "priority": 1,
+   "text": "Viver bem também é cuidar do amanhã",
+   "geometry": {
+    "x": 60,
+    "y": 60,
+    "width": 960,
+    "height": 61,
+    "z": 5
+   },
+   "style": {
+    "font": "Cormorant Garamond",
+    "size": 54,
+    "weight": 600,
+    "line_height": 1.05,
+    "color": "#F1E9D6",
+    "align": "left"
+   }
+  },
+  {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.5,
+   "asset": "bioma_fachada",
+   "geometry": {
+    "x": 0,
+    "y": 153,
+    "width": 1080,
+    "height": 351,
+    "z": 1
+   },
+   "crop": [
+    0,
+    0.1696,
+    1,
+    0.6608
+   ]
+  },
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.6,
+   "asset": "bioma_logo",
+   "geometry": {
+    "x": 60,
+    "y": 541.440094154246,
+    "width": 86.09344200000002,
+    "height": 43.41974284575391,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "icon_solar",
+   "type": "IMAGE",
+   "role": "PRODUCT_ATTRIBUTE",
+   "priority": 0.55,
+   "asset": "bioma_icon_solar",
+   "geometry": {
+    "x": 60,
+    "y": 595.859837,
+    "width": 43.04672100000001,
+    "height": 43.04672100000001,
+    "z": 4
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "icon_chuva",
+   "type": "IMAGE",
+   "role": "PRODUCT_ATTRIBUTE",
+   "priority": 0.55,
+   "asset": "bioma_icon_chuva",
+   "geometry": {
+    "x": 60,
+    "y": 649.9065579999999,
+    "width": 43.04672100000001,
+    "height": 43.04672100000001,
+    "z": 4
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "icon_coleta",
+   "type": "IMAGE",
+   "role": "PRODUCT_ATTRIBUTE",
+   "priority": 0.55,
+   "asset": "bioma_icon_coleta",
+   "geometry": {
+    "x": 60,
+    "y": 703.953279,
+    "width": 43.04672100000001,
+    "height": 43.04672100000001,
+    "z": 4
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "lbl_solar",
+   "type": "TEXT",
+   "role": "PRODUCT_ATTRIBUTE",
+   "priority": 0.55,
+   "text": "Previsão para aquecimento solar (2)",
+   "geometry": {
+    "x": 60,
+    "y": 758,
+    "width": 960,
+    "height": 24,
+    "z": 5
+   },
+   "style": {
+    "font": "Barlow",
+    "size": 20,
+    "weight": 600,
+    "line_height": 1.15,
+    "color": "#F1E9D6",
+    "align": "left"
+   }
+  },
+  {
+   "id": "lbl_chuva",
+   "type": "TEXT",
+   "role": "PRODUCT_ATTRIBUTE",
+   "priority": 0.55,
+   "text": "Reaproveitamento de água das chuvas (3)",
+   "geometry": {
+    "x": 60,
+    "y": 793,
+    "width": 960,
+    "height": 24,
+    "z": 5
+   },
+   "style": {
+    "font": "Barlow",
+    "size": 20,
+    "weight": 600,
+    "line_height": 1.15,
+    "color": "#F1E9D6",
+    "align": "left"
+   }
+  },
+  {
+   "id": "lbl_coleta",
+   "type": "TEXT",
+   "role": "PRODUCT_ATTRIBUTE",
+   "priority": 0.55,
+   "text": "Paisagismo com árvores nativas (4)",
+   "geometry": {
+    "x": 60,
+    "y": 828,
+    "width": 960,
+    "height": 24,
+    "z": 5
+   },
+   "style": {
+    "font": "Barlow",
+    "size": 20,
+    "weight": 600,
+    "line_height": 1.15,
+    "color": "#F1E9D6",
+    "align": "left"
+   }
+  },
+  {
+   "id": "legal",
+   "type": "TEXT",
+   "role": "LEGAL",
+   "priority": 0.3,
+   "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
+   "geometry": {
+    "x": 60,
+    "y": 863,
+    "width": 960,
+    "height": 157,
+    "z": 5
+   },
+   "style": {
+    "font": "Inter",
+    "size": 20,
+    "weight": 400,
+    "line_height": 1.3,
+    "color": "#F1E9D6",
+    "align": "left"
+   }
+  }
+ ],
+ "_provenance": {
+  "strategy": "S1",
+  "params": {},
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 5,
+    "soft": 0.8540376984126984
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 5,
+    "soft": 0.8540376984126984
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 5,
+    "soft": 0.8486805555555555
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 6,
+    "soft": 0.8534391534391536
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 6,
+    "soft": 0.8534391534391536
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 6,
+    "soft": 0.8534391534391536
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 5,
+    "soft": 0.7002777777777778
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 5,
+    "soft": 0.7002777777777778
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 5,
+    "soft": 0.6994742063492063
+   }
+  ]
+ },
+ "_arm": "B0",
+ "_ms": 262
+}

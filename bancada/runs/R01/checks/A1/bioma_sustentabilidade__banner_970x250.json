@@ -1,0 +1,65 @@
+{
+ "arm": "A1",
+ "layout": "bioma_sustentabilidade",
+ "format": "banner_970x250",
+ "eligible": false,
+ "fails": 7,
+ "hard": [
+  {
+   "check": "logo_tamanho_minimo",
+   "id": "logo",
+   "status": "FAIL",
+   "detail": "logo 56px < 130px"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "headline",
+   "status": "FAIL",
+   "detail": "corpo 16.67px < minimo 24px para HEADLINE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "lbl_solar",
+   "status": "FAIL",
+   "detail": "corpo 6.48px < minimo 13px para PRODUCT_ATTRIBUTE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "lbl_chuva",
+   "status": "FAIL",
+   "detail": "corpo 6.48px < minimo 13px para PRODUCT_ATTRIBUTE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "lbl_coleta",
+   "status": "FAIL",
+   "detail": "corpo 6.48px < minimo 13px para PRODUCT_ATTRIBUTE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "legal",
+   "status": "FAIL",
+   "detail": "corpo 3.24px < minimo 8px para LEGAL"
+  },
+  {
+   "check": "area_protegida_visivel",
+   "id": "hero",
+   "status": "FAIL",
+   "detail": "so 29% do predio/piscina visivel (minimo 56%)"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.6234375,
+  "alinhamento": 0.5,
+  "size_rel": 0.7333333333333333,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 0.5154834876591426,
+  "grupos": 1,
+  "contraste_folga": 2.247
+ },
+ "soft_score": 0.7709916887132108,
+ "protected_visible": 0.2916666666666667,
+ "ms": 17,
+ "provenance": null
+}

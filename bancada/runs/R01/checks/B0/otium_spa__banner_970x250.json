@@ -1,0 +1,112 @@
+{
+ "arm": "B0",
+ "layout": "otium_spa",
+ "format": "banner_970x250",
+ "eligible": false,
+ "fails": 2,
+ "hard": [
+  {
+   "check": "logo_tamanho_minimo",
+   "id": "logo",
+   "status": "FAIL",
+   "detail": "logo 82px < 110px"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "cta",
+   "status": "FAIL",
+   "detail": "corpo 11px < minimo 14px para CTA"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.5734374999999999,
+  "alinhamento": 1,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 0.6666666666666666,
+  "escala_texto": 0.8928571428571428,
+  "grupos": 1,
+  "contraste_folga": 1.419
+ },
+ "soft_score": 0.8639498299319729,
+ "protected_visible": 1,
+ "ms": 131,
+ "provenance": {
+  "strategy": "S2",
+  "params": {
+   "heroFrac": 0.52,
+   "align": "center"
+  },
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 2,
+    "soft": 0.8422534013605443
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 2,
+    "soft": 0.8315391156462584
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 2,
+    "soft": 0.853235544217687
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 2,
+    "soft": 0.8636819727891157
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 2,
+    "soft": 0.8636819727891157
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 2,
+    "soft": 0.8639498299319729
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 3,
+    "soft": 0.9846938775510203
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 3,
+    "soft": 0.9846938775510203
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 3,
+    "soft": 0.9846938775510203
+   }
+  ]
+ }
+}

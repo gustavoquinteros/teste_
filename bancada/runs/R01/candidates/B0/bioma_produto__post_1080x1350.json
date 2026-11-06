@@ -1,0 +1,217 @@
+{
+ "schema_version": "bancada-0.1",
+ "layout_id": "bioma_produto",
+ "brand": "bioma",
+ "canvas": {
+  "width": 1080,
+  "height": 1350,
+  "background": "#1E3B2C"
+ },
+ "elements": [
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.7,
+   "asset": "bioma_logo",
+   "geometry": {
+    "x": 60,
+    "y": 125.96635346093402,
+    "width": 251.55764746872634,
+    "height": 126.86876154835245,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "headline",
+   "type": "TEXT",
+   "role": "HEADLINE",
+   "priority": 1,
+   "text": "Chegou o primeiro residencial da Cidade Center Norte",
+   "geometry": {
+    "x": 60,
+    "y": 282.8351150092865,
+    "width": 960,
+    "height": 118,
+    "z": 5
+   },
+   "style": {
+    "font": "Cormorant Garamond",
+    "size": 54,
+    "weight": 600,
+    "line_height": 1.05,
+    "color": "#F1E9D6",
+    "align": "left"
+   }
+  },
+  {
+   "id": "selo",
+   "type": "TEXT",
+   "role": "PRODUCT_INFO",
+   "priority": 0.6,
+   "text": "2 e 3 suítes · 93 a 150 m²",
+   "geometry": {
+    "x": 60,
+    "y": 430.8351150092865,
+    "width": 960,
+    "height": 35,
+    "z": 5
+   },
+   "style": {
+    "font": "Barlow",
+    "size": 29,
+    "weight": 600,
+    "line_height": 1.15,
+    "color": "#B9CBA4",
+    "align": "left"
+   }
+  },
+  {
+   "id": "cta",
+   "type": "TEXT",
+   "role": "CTA",
+   "priority": 0.65,
+   "text": "Agende sua visita · 11 99943.5903",
+   "geometry": {
+    "x": 60,
+    "y": 495.8351150092865,
+    "width": 960,
+    "height": 28,
+    "z": 5
+   },
+   "style": {
+    "font": "Barlow",
+    "size": 23,
+    "weight": 400,
+    "line_height": 1.15,
+    "color": "#F1E9D6",
+    "align": "left"
+   }
+  },
+  {
+   "id": "legal",
+   "type": "TEXT",
+   "role": "LEGAL",
+   "priority": 0.3,
+   "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
+   "geometry": {
+    "x": 60,
+    "y": 553.8351150092865,
+    "width": 960,
+    "height": 157,
+    "z": 5
+   },
+   "style": {
+    "font": "Inter",
+    "size": 20,
+    "weight": 400,
+    "line_height": 1.3,
+    "color": "#F1E9D6",
+    "align": "left"
+   }
+  },
+  {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.8,
+   "asset": "bioma_fachada",
+   "geometry": {
+    "x": 0,
+    "y": 742.5000000000001,
+    "width": 1080,
+    "height": 607.5,
+    "z": 1
+   },
+   "crop": [
+    0.0628,
+    0,
+    0.8744,
+    1
+   ]
+  }
+ ],
+ "_provenance": {
+  "strategy": "S3",
+  "params": {},
+  "tried": [
+   {
+    "strategy": "S1",
+    "params": {},
+    "fails": 1,
+    "soft": 0.8390785256410256
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 1,
+    "soft": 0.8390785256410256
+   },
+   {
+    "strategy": "S1",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 1,
+    "soft": 0.8106410256410256
+   },
+   {
+    "strategy": "S2",
+    "params": {},
+    "fails": 2,
+    "soft": 0.9577838827838827
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 2,
+    "soft": 0.9577838827838827
+   },
+   {
+    "strategy": "S2",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 2,
+    "soft": 0.9292124542124541
+   },
+   {
+    "strategy": "S3",
+    "params": {},
+    "fails": 1,
+    "soft": 0.9281856684981685
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.38
+    },
+    "fails": 1,
+    "soft": 0.910507097069597
+   },
+   {
+    "strategy": "S3",
+    "params": {
+     "heroFrac": 0.52,
+     "align": "center"
+    },
+    "fails": 2,
+    "soft": 0.908319597069597
+   }
+  ]
+ },
+ "_arm": "B0",
+ "_ms": 144
+}

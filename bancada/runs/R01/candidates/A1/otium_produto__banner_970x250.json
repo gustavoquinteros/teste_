@@ -1,0 +1,120 @@
+{
+ "schema_version": "bancada-0.1",
+ "layout_id": "otium_produto",
+ "brand": "otium",
+ "canvas": {
+  "width": 970,
+  "height": 250,
+  "background": "#2B2A2D"
+ },
+ "elements": [
+  {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.8,
+   "asset": "otium_fachada",
+   "geometry": {
+    "x": 0,
+    "y": 0,
+    "width": 505.20833333333337,
+    "height": 250,
+    "z": 1
+   },
+   "crop": [
+    0,
+    0.0546,
+    1,
+    0.8907
+   ]
+  },
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.7,
+   "asset": "otium_logo",
+   "geometry": {
+    "x": 599.1030092592594,
+    "y": 27.77777777777778,
+    "width": 64.81481481481481,
+    "height": 29.166666666666668,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "headline",
+   "type": "TEXT",
+   "role": "HEADLINE",
+   "priority": 1,
+   "text": "Jardim das Perdizes, no seu ritmo",
+   "geometry": {
+    "x": 560.78125,
+    "y": 96.98148148148148,
+    "width": 353.64583333333337,
+    "height": 19,
+    "z": 5
+   },
+   "style": {
+    "font": "Archivo",
+    "size": 16.67,
+    "weight": 700,
+    "line_height": 1.05,
+    "color": "#F4EDE4",
+    "align": "left"
+   }
+  },
+  {
+   "id": "selo",
+   "type": "TEXT",
+   "role": "PRODUCT_INFO",
+   "priority": 0.6,
+   "text": "3 suítes · 142 m² · 2 vagas",
+   "geometry": {
+    "x": 560.78125,
+    "y": 140.7962962962963,
+    "width": 353.64583333333337,
+    "height": 11,
+    "z": 5
+   },
+   "style": {
+    "font": "Host Grotesk",
+    "size": 7.87,
+    "weight": 600,
+    "line_height": 1.15,
+    "color": "#D9A27A",
+    "align": "left"
+   }
+  },
+  {
+   "id": "cta",
+   "type": "TEXT",
+   "role": "CTA",
+   "priority": 0.65,
+   "text": "Visite o stand · otiumartefacto.com.br",
+   "geometry": {
+    "x": 560.78125,
+    "y": 160.35185185185185,
+    "width": 353.64583333333337,
+    "height": 8,
+    "z": 5
+   },
+   "style": {
+    "font": "Poppins",
+    "size": 6.02,
+    "weight": 400,
+    "line_height": 1.15,
+    "color": "#F4EDE4",
+    "align": "left"
+   }
+  }
+ ],
+ "_arm": "A1",
+ "_ms": 11
+}

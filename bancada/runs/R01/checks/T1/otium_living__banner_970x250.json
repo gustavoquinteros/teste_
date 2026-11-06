@@ -1,0 +1,22 @@
+{
+ "arm": "T1",
+ "layout": "otium_living",
+ "format": "banner_970x250",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 0.459375,
+  "alinhamento": 1,
+  "size_rel": 0.8333333333333334,
+  "hierarquia": 1,
+  "ordem_leitura": 0,
+  "escala_texto": 1,
+  "grupos": 0,
+  "contraste_folga": 1.419
+ },
+ "soft_score": 0.5977976190476191,
+ "protected_visible": 1,
+ "ms": 8,
+ "provenance": null
+}

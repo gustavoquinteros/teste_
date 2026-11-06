@@ -1,0 +1,47 @@
+{
+ "arm": "R1opt",
+ "layout": "otium_living",
+ "format": "card_1080x1080",
+ "eligible": false,
+ "fails": 1,
+ "hard": [
+  {
+   "check": "resolucao",
+   "id": "hero",
+   "status": "WARN",
+   "detail": "ampliacao 2.08x do original"
+  },
+  {
+   "check": "contraste",
+   "id": "selo",
+   "status": "FAIL",
+   "detail": "contraste 4.31:1 < 4.5:1 (PRODUCT_INFO)"
+  }
+ ],
+ "soft": {
+  "preenchimento": 1,
+  "alinhamento": 1,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 0,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 0.957
+ },
+ "soft_score": 0.8571428571428571,
+ "protected_visible": 1,
+ "ms": 763,
+ "provenance": {
+  "strategy": "S2",
+  "params": {
+   "heroFrac": 0.45,
+   "gap": 1,
+   "tscale": 1.079531257310664,
+   "align": "left",
+   "side": "auto",
+   "zoom": 1
+  },
+  "optimized_from": "S2",
+  "iters": 45
+ }
+}

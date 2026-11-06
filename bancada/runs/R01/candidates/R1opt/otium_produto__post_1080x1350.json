@@ -1,0 +1,133 @@
+{
+ "schema_version": "bancada-0.1",
+ "layout_id": "otium_produto",
+ "brand": "otium",
+ "canvas": {
+  "width": 1080,
+  "height": 1350,
+  "background": "#2B2A2D"
+ },
+ "elements": [
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.7,
+   "asset": "otium_logo",
+   "geometry": {
+    "x": 60,
+    "y": 124.4011658581412,
+    "width": 264.44611182806295,
+    "height": 119.45262703674761,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "headline",
+   "type": "TEXT",
+   "role": "HEADLINE",
+   "priority": 1,
+   "text": "Jardim das Perdizes, no seu ritmo",
+   "geometry": {
+    "x": 60,
+    "y": 273.85379289488884,
+    "width": 960,
+    "height": 145,
+    "z": 5
+   },
+   "style": {
+    "font": "Archivo",
+    "size": 68,
+    "weight": 700,
+    "line_height": 1.05,
+    "color": "#F4EDE4",
+    "align": "left"
+   }
+  },
+  {
+   "id": "selo",
+   "type": "TEXT",
+   "role": "PRODUCT_INFO",
+   "priority": 0.6,
+   "text": "3 suítes · 142 m² · 2 vagas",
+   "geometry": {
+    "x": 60,
+    "y": 448.85379289488884,
+    "width": 960,
+    "height": 40,
+    "z": 5
+   },
+   "style": {
+    "font": "Host Grotesk",
+    "size": 32,
+    "weight": 600,
+    "line_height": 1.15,
+    "color": "#D9A27A",
+    "align": "left"
+   }
+  },
+  {
+   "id": "cta",
+   "type": "TEXT",
+   "role": "CTA",
+   "priority": 0.65,
+   "text": "Visite o stand · otiumartefacto.com.br",
+   "geometry": {
+    "x": 60,
+    "y": 518.8537928948888,
+    "width": 960,
+    "height": 33,
+    "z": 5
+   },
+   "style": {
+    "font": "Poppins",
+    "size": 26,
+    "weight": 400,
+    "line_height": 1.15,
+    "color": "#F4EDE4",
+    "align": "left"
+   }
+  },
+  {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.8,
+   "asset": "otium_fachada",
+   "geometry": {
+    "x": 0,
+    "y": 553.4701149088656,
+    "width": 1080,
+    "height": 796.5298850911344,
+    "z": 1
+   },
+   "crop": [
+    0.0584,
+    0,
+    0.7533,
+    1
+   ]
+  }
+ ],
+ "_provenance": {
+  "strategy": "S3",
+  "params": {
+   "heroFrac": 0.590022137104544,
+   "gap": 1,
+   "tscale": 1.1263228236820189,
+   "align": "left",
+   "side": "auto",
+   "zoom": 1
+  },
+  "optimized_from": "S3",
+  "iters": 45
+ },
+ "_arm": "R1opt",
+ "_ms": 812
+}

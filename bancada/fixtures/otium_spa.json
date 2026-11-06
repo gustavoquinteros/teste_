@@ -1,0 +1,131 @@
+{
+ "layout_id": "otium_spa",
+ "brand": "otium",
+ "canvas": {
+  "width": 1920,
+  "height": 1080,
+  "background": "#2B2A2D"
+ },
+ "elements": [
+  {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.9,
+   "asset": "otium_spa",
+   "geometry": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 1080,
+    "z": 1
+   },
+   "crop": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "id": "faixa",
+   "type": "SHAPE",
+   "role": "DECOR",
+   "priority": 0.1,
+   "geometry": {
+    "x": 0,
+    "y": 760,
+    "width": 1920,
+    "height": 320,
+    "z": 2
+   },
+   "style": {
+    "color": "#2B2A2D",
+    "opacity": 0.85
+   }
+  },
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.7,
+   "asset": "otium_logo",
+   "geometry": {
+    "x": 1560,
+    "y": 830,
+    "width": 240,
+    "height": 108,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "headline",
+   "type": "TEXT",
+   "role": "HEADLINE",
+   "priority": 1.0,
+   "text": "Um spa para chamar de seu",
+   "geometry": {
+    "x": 110,
+    "y": 800,
+    "width": 1300,
+    "height": 100,
+    "z": 5
+   },
+   "style": {
+    "font": "Archivo",
+    "size": 76,
+    "weight": 700,
+    "line_height": 1.05,
+    "color": "#F4EDE4",
+    "align": "left"
+   }
+  },
+  {
+   "id": "cta",
+   "type": "TEXT",
+   "role": "CTA",
+   "priority": 0.6,
+   "text": "Lazer completo no rooftop · Visite o decorado",
+   "geometry": {
+    "x": 110,
+    "y": 940,
+    "width": 1300,
+    "height": 44,
+    "z": 5
+   },
+   "style": {
+    "font": "Host Grotesk",
+    "size": 32,
+    "weight": 400,
+    "line_height": 1.15,
+    "color": "#D9A27A",
+    "align": "left"
+   }
+  }
+ ],
+ "relations": [
+  {
+   "source": "logo",
+   "target": "headline",
+   "type": "BRANDS"
+  },
+  {
+   "source": "cta",
+   "target": "headline",
+   "type": "CALLS_TO_ACTION"
+  }
+ ],
+ "groups": [],
+ "text_over_image": [
+  "headline",
+  "cta",
+  "logo"
+ ],
+ "schema_version": "bancada-0.1"
+}

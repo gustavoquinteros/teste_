@@ -1,0 +1,22 @@
+{
+ "arm": "T1",
+ "layout": "otium_produto",
+ "format": "card_1080x1080",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 0.584375,
+  "alinhamento": 1,
+  "size_rel": 0.8,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 2.129
+ },
+ "soft_score": 0.9001785714285714,
+ "protected_visible": 0.8333333333333334,
+ "ms": 9,
+ "provenance": null
+}

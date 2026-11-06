@@ -1,0 +1,22 @@
+{
+ "arm": "T1",
+ "layout": "otium_spa",
+ "format": "stories_1080x1920",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 0.45625,
+  "alinhamento": 1,
+  "size_rel": 0.8333333333333334,
+  "hierarquia": 1,
+  "ordem_leitura": 0.6666666666666666,
+  "escala_texto": 0.9473684210526316,
+  "grupos": 1,
+  "contraste_folga": 2.129
+ },
+ "soft_score": 0.8278383458646618,
+ "protected_visible": 1,
+ "ms": 10,
+ "provenance": null
+}

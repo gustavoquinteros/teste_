@@ -1,0 +1,34 @@
+{
+ "arm": "R1opt",
+ "layout": "otium_spa",
+ "format": "card_1080x1080",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 1,
+  "alinhamento": 1,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 1.046
+ },
+ "soft_score": 1,
+ "protected_visible": 0.6666666666666666,
+ "ms": 786,
+ "provenance": {
+  "strategy": "S2",
+  "params": {
+   "heroFrac": 0.45,
+   "gap": 1,
+   "tscale": 1.119769376199585,
+   "align": "left",
+   "side": "auto",
+   "zoom": 1
+  },
+  "optimized_from": "S2",
+  "iters": 45
+ }
+}

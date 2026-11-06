@@ -1,0 +1,47 @@
+{
+ "arm": "R1opt",
+ "layout": "otium_spa",
+ "format": "stories_1080x1920",
+ "eligible": false,
+ "fails": 1,
+ "hard": [
+  {
+   "check": "resolucao",
+   "id": "hero",
+   "status": "WARN",
+   "detail": "ampliacao 2.13x do original"
+  },
+  {
+   "check": "area_segura",
+   "id": "headline",
+   "status": "FAIL",
+   "detail": "texto fora da area segura/margem"
+  }
+ ],
+ "soft": {
+  "preenchimento": 1,
+  "alinhamento": 1,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 1.55
+ },
+ "soft_score": 1,
+ "protected_visible": 0.4166666666666667,
+ "ms": 830,
+ "provenance": {
+  "strategy": "S2",
+  "params": {
+   "heroFrac": 0.45,
+   "gap": 1,
+   "tscale": 1,
+   "align": "left",
+   "side": "auto",
+   "zoom": 1
+  },
+  "optimized_from": "S2",
+  "iters": 45
+ }
+}

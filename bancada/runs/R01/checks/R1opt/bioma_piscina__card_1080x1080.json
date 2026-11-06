@@ -1,0 +1,34 @@
+{
+ "arm": "R1opt",
+ "layout": "bioma_piscina",
+ "format": "card_1080x1080",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 1,
+  "alinhamento": 1,
+  "size_rel": 0.9,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 1.541
+ },
+ "soft_score": 0.9857142857142858,
+ "protected_visible": 0.75,
+ "ms": 865,
+ "provenance": {
+  "strategy": "S2",
+  "params": {
+   "heroFrac": 0.45,
+   "gap": 1,
+   "tscale": 1,
+   "align": "left",
+   "side": "auto",
+   "zoom": 1
+  },
+  "optimized_from": "S2",
+  "iters": 45
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "arm": "A1",
+ "layout": "otium_produto",
+ "format": "stories_1080x1920",
+ "eligible": false,
+ "fails": 5,
+ "hard": [
+  {
+   "check": "resolucao",
+   "id": "hero",
+   "status": "WARN",
+   "detail": "ampliacao 1.92x do original"
+  },
+  {
+   "check": "logo_na_area_segura",
+   "id": "logo",
+   "status": "FAIL",
+   "detail": "logo fora da area segura"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "headline",
+   "status": "FAIL",
+   "detail": "corpo 40.5px < minimo 52px para HEADLINE"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "selo",
+   "status": "FAIL",
+   "detail": "corpo 19.13px < minimo 30px para PRODUCT_INFO"
+  },
+  {
+   "check": "corpo_minimo",
+   "id": "cta",
+   "status": "FAIL",
+   "detail": "corpo 14.63px < minimo 30px para CTA"
+  },
+  {
+   "check": "area_protegida_visivel",
+   "id": "hero",
+   "status": "FAIL",
+   "detail": "so 54% do predio/piscina visivel (minimo 80%)"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.6914062499999999,
+  "alinhamento": 0.5,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 0.5376045751633987,
+  "grupos": 1,
+  "contraste_folga": 1.419
+ },
+ "soft_score": 0.8238988678804855,
+ "protected_visible": 0.5416666666666666,
+ "ms": 10,
+ "provenance": null
+}

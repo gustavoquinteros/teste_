@@ -1,0 +1,21 @@
+{
+ "arm": "R8",
+ "layout": "otium_spa",
+ "format": "email_600x1200",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 0.896875,
+  "alinhamento": 1,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 1.419
+ },
+ "soft_score": 0.9823214285714286,
+ "protected_visible": 0.5833333333333334,
+ "provenance": null
+}

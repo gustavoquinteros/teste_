@@ -1,0 +1,21 @@
+{
+ "arm": "R3",
+ "layout": "bioma_sustentabilidade",
+ "format": "banner_970x250",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 0.728125,
+  "alinhamento": 0.75,
+  "size_rel": 0.9333333333333333,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 2.247
+ },
+ "soft_score": 0.9152976190476191,
+ "protected_visible": 1,
+ "provenance": null
+}

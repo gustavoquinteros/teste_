@@ -1,0 +1,28 @@
+{
+ "arm": "R8",
+ "layout": "otium_produto",
+ "format": "stories_1080x1920",
+ "eligible": false,
+ "fails": 1,
+ "hard": [
+  {
+   "check": "area_segura",
+   "id": "headline",
+   "status": "FAIL",
+   "detail": "texto fora da area segura/margem"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.48671875000000003,
+  "alinhamento": 1,
+  "size_rel": 0.8,
+  "hierarquia": 1,
+  "ordem_leitura": 0.8333333333333333,
+  "escala_texto": 0.9098583877995643,
+  "grupos": 1,
+  "contraste_folga": 2.129
+ },
+ "soft_score": 0.8467506030189854,
+ "protected_visible": 1,
+ "provenance": null
+}

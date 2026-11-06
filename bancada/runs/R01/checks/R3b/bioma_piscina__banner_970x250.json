@@ -1,0 +1,21 @@
+{
+ "arm": "R3b",
+ "layout": "bioma_piscina",
+ "format": "banner_970x250",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 0.7171875,
+  "alinhamento": 0.75,
+  "size_rel": 0.9,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 1.571
+ },
+ "soft_score": 0.9086607142857144,
+ "protected_visible": 1,
+ "provenance": null
+}

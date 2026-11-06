@@ -1,0 +1,28 @@
+{
+ "arm": "R8",
+ "layout": "otium_living",
+ "format": "post_1080x1350",
+ "eligible": true,
+ "fails": 0,
+ "hard": [
+  {
+   "check": "resolucao",
+   "id": "hero",
+   "status": "WARN",
+   "detail": "ampliacao 1.51x do original"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.7632812499999999,
+  "alinhamento": 1,
+  "size_rel": 0.8333333333333334,
+  "hierarquia": 1,
+  "ordem_leitura": 0,
+  "escala_texto": 0.9372755155999588,
+  "grupos": 1,
+  "contraste_folga": 1.419
+ },
+ "soft_score": 0.7837923355618989,
+ "protected_visible": 1,
+ "provenance": null
+}

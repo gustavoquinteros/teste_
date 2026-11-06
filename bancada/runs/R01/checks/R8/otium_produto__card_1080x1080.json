@@ -1,0 +1,21 @@
+{
+ "arm": "R8",
+ "layout": "otium_produto",
+ "format": "card_1080x1080",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 0.6765625,
+  "alinhamento": 1,
+  "size_rel": 0.8,
+  "hierarquia": 1,
+  "ordem_leitura": 0.8333333333333333,
+  "escala_texto": 0.9691358024691358,
+  "grupos": 1,
+  "contraste_folga": 2.129
+ },
+ "soft_score": 0.8877634479717813,
+ "protected_visible": 1,
+ "provenance": null
+}

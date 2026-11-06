@@ -108,5 +108,15 @@
   "tokens": 149378,
   "tool_uses": 31,
   "ms": 424094
+ },
+ "R2/bioma_produto": {
+  "tokens": 155434,
+  "tool_uses": 37,
+  "ms": 469754
+ },
+ "R3/bioma_produto": {
+  "tokens": 162115,
+  "tool_uses": 45,
+  "ms": 899326
  }
 }

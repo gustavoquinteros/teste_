@@ -1,0 +1,28 @@
+{
+ "arm": "R8",
+ "layout": "bioma_sustentabilidade",
+ "format": "stories_1080x1920",
+ "eligible": false,
+ "fails": 1,
+ "hard": [
+  {
+   "check": "area_protegida_visivel",
+   "id": "hero",
+   "status": "FAIL",
+   "detail": "so 50% do predio/piscina visivel (minimo 56%)"
+  }
+ ],
+ "soft": {
+  "preenchimento": 1,
+  "alinhamento": 0.5,
+  "size_rel": 0.8888888888888888,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 0.9444444444444444,
+  "grupos": 1,
+  "contraste_folga": 1.568
+ },
+ "soft_score": 0.9190476190476191,
+ "protected_visible": 0.5,
+ "provenance": null
+}

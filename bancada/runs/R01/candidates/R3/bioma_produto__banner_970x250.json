@@ -53,10 +53,10 @@
    "priority": 0.7,
    "asset": "bioma_logo",
    "geometry": {
-    "x": 28,
+    "x": 24,
     "y": 28,
-    "width": 140,
-    "height": 70.6,
+    "width": 136,
+    "height": 68.6,
     "z": 6
    },
    "crop": [
@@ -73,15 +73,15 @@
    "priority": 1.0,
    "text": "Chegou o primeiro residencial da Cidade Center Norte",
    "geometry": {
-    "x": 196,
-    "y": 26,
-    "width": 432,
-    "height": 74,
+    "x": 184,
+    "y": 22,
+    "width": 446,
+    "height": 76,
     "z": 5
    },
    "style": {
     "font": "Cormorant Garamond",
-    "size": 32,
+    "size": 33,
     "weight": 600,
     "line_height": 1.05,
     "color": "#F1E9D6",
@@ -95,15 +95,15 @@
    "priority": 0.6,
    "text": "2 e 3 suítes · 93 a 150 m²",
    "geometry": {
-    "x": 196,
-    "y": 110,
-    "width": 426,
-    "height": 24,
+    "x": 184,
+    "y": 104,
+    "width": 440,
+    "height": 25,
     "z": 5
    },
    "style": {
     "font": "Barlow",
-    "size": 17,
+    "size": 18,
     "weight": 600,
     "line_height": 1.15,
     "color": "#B9CBA4",
@@ -117,15 +117,15 @@
    "priority": 0.65,
    "text": "Agende sua visita · 11 99943.5903",
    "geometry": {
-    "x": 196,
-    "y": 137,
-    "width": 426,
-    "height": 22,
+    "x": 184,
+    "y": 130,
+    "width": 440,
+    "height": 23,
     "z": 5
    },
    "style": {
     "font": "Barlow",
-    "size": 15,
+    "size": 16.5,
     "weight": 400,
     "line_height": 1.15,
     "color": "#F1E9D6",
@@ -139,10 +139,10 @@
    "priority": 0.3,
    "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
    "geometry": {
-    "x": 28,
-    "y": 190,
-    "width": 606,
-    "height": 43,
+    "x": 184,
+    "y": 166,
+    "width": 380,
+    "height": 64,
     "z": 5
    },
    "style": {

@@ -1,0 +1,622 @@
+{
+ "resumo": {
+  "A0": {
+   "name": "letterbox (piso)",
+   "n": 30,
+   "elegiveis": 0,
+   "falhas_media": 4.3,
+   "nota_suave": 0.784,
+   "juri_n": 0,
+   "juri_nota": null,
+   "juri_enviaria": null,
+   "aceitavel": 0,
+   "aceitavel_n": 0,
+   "elegiveis_bioma": "0/15",
+   "enviaria_bioma": null,
+   "elegiveis_otium": "0/15",
+   "enviaria_otium": null,
+   "por_formato": {
+    "email_600x1200": {
+     "elegiveis": 0,
+     "enviaria": null
+    },
+    "post_1080x1350": {
+     "elegiveis": 0,
+     "enviaria": null
+    },
+    "card_1080x1080": {
+     "elegiveis": 0,
+     "enviaria": null
+    },
+    "stories_1080x1920": {
+     "elegiveis": 0,
+     "enviaria": null
+    },
+    "banner_970x250": {
+     "elegiveis": 0,
+     "enviaria": null
+    }
+   },
+   "custo_tokens_por_peca": 0,
+   "tempo_s_por_peca": 0.012
+  },
+  "A1": {
+   "name": "resize proporcional",
+   "n": 30,
+   "elegiveis": 0,
+   "falhas_media": 5.03,
+   "nota_suave": 0.825,
+   "juri_n": 0,
+   "juri_nota": null,
+   "juri_enviaria": null,
+   "aceitavel": 0,
+   "aceitavel_n": 0,
+   "elegiveis_bioma": "0/15",
+   "enviaria_bioma": null,
+   "elegiveis_otium": "0/15",
+   "enviaria_otium": null,
+   "por_formato": {
+    "email_600x1200": {
+     "elegiveis": 0,
+     "enviaria": null
+    },
+    "post_1080x1350": {
+     "elegiveis": 0,
+     "enviaria": null
+    },
+    "card_1080x1080": {
+     "elegiveis": 0,
+     "enviaria": null
+    },
+    "stories_1080x1920": {
+     "elegiveis": 0,
+     "enviaria": null
+    },
+    "banner_970x250": {
+     "elegiveis": 0,
+     "enviaria": null
+    }
+   },
+   "custo_tokens_por_peca": 0,
+   "tempo_s_por_peca": 0.014
+  },
+  "B0": {
+   "name": "reflow cego (sem semântica)",
+   "n": 30,
+   "elegiveis": 7,
+   "falhas_media": 1.67,
+   "nota_suave": 0.839,
+   "juri_n": 0,
+   "juri_nota": null,
+   "juri_enviaria": null,
+   "aceitavel": 0,
+   "aceitavel_n": 0,
+   "elegiveis_bioma": "3/15",
+   "enviaria_bioma": null,
+   "elegiveis_otium": "4/15",
+   "enviaria_otium": null,
+   "por_formato": {
+    "email_600x1200": {
+     "elegiveis": 5,
+     "enviaria": null
+    },
+    "post_1080x1350": {
+     "elegiveis": 1,
+     "enviaria": null
+    },
+    "card_1080x1080": {
+     "elegiveis": 0,
+     "enviaria": null
+    },
+    "stories_1080x1920": {
+     "elegiveis": 1,
+     "enviaria": null
+    },
+    "banner_970x250": {
+     "elegiveis": 0,
+     "enviaria": null
+    }
+   },
+   "custo_tokens_por_peca": 0,
+   "tempo_s_por_peca": 0.17
+  },
+  "T1": {
+   "name": "template por formato",
+   "n": 30,
+   "elegiveis": 25,
+   "falhas_media": 0.6,
+   "nota_suave": 0.827,
+   "juri_n": 0,
+   "juri_nota": null,
+   "juri_enviaria": null,
+   "aceitavel": 0,
+   "aceitavel_n": 0,
+   "elegiveis_bioma": "10/15",
+   "enviaria_bioma": null,
+   "elegiveis_otium": "15/15",
+   "enviaria_otium": null,
+   "por_formato": {
+    "email_600x1200": {
+     "elegiveis": 6,
+     "enviaria": null
+    },
+    "post_1080x1350": {
+     "elegiveis": 6,
+     "enviaria": null
+    },
+    "card_1080x1080": {
+     "elegiveis": 5,
+     "enviaria": null
+    },
+    "stories_1080x1920": {
+     "elegiveis": 5,
+     "enviaria": null
+    },
+    "banner_970x250": {
+     "elegiveis": 3,
+     "enviaria": null
+    }
+   },
+   "custo_tokens_por_peca": 0,
+   "tempo_s_por_peca": 0.012
+  },
+  "R1": {
+   "name": "R1 motor semântico",
+   "n": 30,
+   "elegiveis": 20,
+   "falhas_media": 0.37,
+   "nota_suave": 0.92,
+   "juri_n": 0,
+   "juri_nota": null,
+   "juri_enviaria": null,
+   "aceitavel": 0,
+   "aceitavel_n": 0,
+   "elegiveis_bioma": "11/15",
+   "enviaria_bioma": null,
+   "elegiveis_otium": "9/15",
+   "enviaria_otium": null,
+   "por_formato": {
+    "email_600x1200": {
+     "elegiveis": 5,
+     "enviaria": null
+    },
+    "post_1080x1350": {
+     "elegiveis": 4,
+     "enviaria": null
+    },
+    "card_1080x1080": {
+     "elegiveis": 3,
+     "enviaria": null
+    },
+    "stories_1080x1920": {
+     "elegiveis": 3,
+     "enviaria": null
+    },
+    "banner_970x250": {
+     "elegiveis": 5,
+     "enviaria": null
+    }
+   },
+   "custo_tokens_por_peca": 0,
+   "tempo_s_por_peca": 0.165
+  },
+  "R1opt": {
+   "name": "R1 + otimização",
+   "n": 30,
+   "elegiveis": 22,
+   "falhas_media": 0.27,
+   "nota_suave": 0.932,
+   "juri_n": 0,
+   "juri_nota": null,
+   "juri_enviaria": null,
+   "aceitavel": 0,
+   "aceitavel_n": 0,
+   "elegiveis_bioma": "11/15",
+   "enviaria_bioma": null,
+   "elegiveis_otium": "11/15",
+   "enviaria_otium": null,
+   "por_formato": {
+    "email_600x1200": {
+     "elegiveis": 5,
+     "enviaria": null
+    },
+    "post_1080x1350": {
+     "elegiveis": 4,
+     "enviaria": null
+    },
+    "card_1080x1080": {
+     "elegiveis": 4,
+     "enviaria": null
+    },
+    "stories_1080x1920": {
+     "elegiveis": 4,
+     "enviaria": null
+    },
+    "banner_970x250": {
+     "elegiveis": 5,
+     "enviaria": null
+    }
+   },
+   "custo_tokens_por_peca": 0,
+   "tempo_s_por_peca": 0.922
+  },
+  "R8": {
+   "name": "R8 IA escolhe, código posiciona",
+   "n": 30,
+   "elegiveis": 25,
+   "falhas_media": 0.17,
+   "nota_suave": 0.893,
+   "juri_n": 0,
+   "juri_nota": null,
+   "juri_enviaria": null,
+   "aceitavel": 0,
+   "aceitavel_n": 0,
+   "elegiveis_bioma": "13/15",
+   "enviaria_bioma": null,
+   "elegiveis_otium": "12/15",
+   "enviaria_otium": null,
+   "por_formato": {
+    "email_600x1200": {
+     "elegiveis": 6,
+     "enviaria": null
+    },
+    "post_1080x1350": {
+     "elegiveis": 4,
+     "enviaria": null
+    },
+    "card_1080x1080": {
+     "elegiveis": 6,
+     "enviaria": null
+    },
+    "stories_1080x1920": {
+     "elegiveis": 3,
+     "enviaria": null
+    },
+    "banner_970x250": {
+     "elegiveis": 6,
+     "enviaria": null
+    }
+   },
+   "custo_tokens_por_peca": 20530,
+   "tempo_s_por_peca": 29.0
+  },
+  "R3": {
+   "name": "R3 IA posiciona direto",
+   "n": 30,
+   "elegiveis": 30,
+   "falhas_media": 0,
+   "nota_suave": 0.943,
+   "juri_n": 0,
+   "juri_nota": null,
+   "juri_enviaria": null,
+   "aceitavel": 0,
+   "aceitavel_n": 0,
+   "elegiveis_bioma": "15/15",
+   "enviaria_bioma": null,
+   "elegiveis_otium": "15/15",
+   "enviaria_otium": null,
+   "por_formato": {
+    "email_600x1200": {
+     "elegiveis": 6,
+     "enviaria": null
+    },
+    "post_1080x1350": {
+     "elegiveis": 6,
+     "enviaria": null
+    },
+    "card_1080x1080": {
+     "elegiveis": 6,
+     "enviaria": null
+    },
+    "stories_1080x1920": {
+     "elegiveis": 6,
+     "enviaria": null
+    },
+    "banner_970x250": {
+     "elegiveis": 6,
+     "enviaria": null
+    }
+   },
+   "custo_tokens_por_peca": 23798,
+   "tempo_s_por_peca": 65.9
+  },
+  "R2": {
+   "name": "R2 IA escreve script por job",
+   "n": 30,
+   "elegiveis": 30,
+   "falhas_media": 0,
+   "nota_suave": 0.95,
+   "juri_n": 0,
+   "juri_nota": null,
+   "juri_enviaria": null,
+   "aceitavel": 0,
+   "aceitavel_n": 0,
+   "elegiveis_bioma": "15/15",
+   "enviaria_bioma": null,
+   "elegiveis_otium": "15/15",
+   "enviaria_otium": null,
+   "por_formato": {
+    "email_600x1200": {
+     "elegiveis": 6,
+     "enviaria": null
+    },
+    "post_1080x1350": {
+     "elegiveis": 6,
+     "enviaria": null
+    },
+    "card_1080x1080": {
+     "elegiveis": 6,
+     "enviaria": null
+    },
+    "stories_1080x1920": {
+     "elegiveis": 6,
+     "enviaria": null
+    },
+    "banner_970x250": {
+     "elegiveis": 6,
+     "enviaria": null
+    }
+   },
+   "custo_tokens_por_peca": 27689,
+   "tempo_s_por_peca": 69.6
+  },
+  "R8b": {
+   "name": "R8 réplica",
+   "n": 15,
+   "elegiveis": 14,
+   "falhas_media": 0.07,
+   "nota_suave": 0.875,
+   "juri_n": 0,
+   "juri_nota": null,
+   "juri_enviaria": null,
+   "aceitavel": 0,
+   "aceitavel_n": 0,
+   "elegiveis_bioma": "10/10",
+   "enviaria_bioma": null,
+   "elegiveis_otium": "4/5",
+   "enviaria_otium": null,
+   "por_formato": {
+    "email_600x1200": {
+     "elegiveis": 3,
+     "enviaria": null
+    },
+    "post_1080x1350": {
+     "elegiveis": 3,
+     "enviaria": null
+    },
+    "card_1080x1080": {
+     "elegiveis": 3,
+     "enviaria": null
+    },
+    "stories_1080x1920": {
+     "elegiveis": 2,
+     "enviaria": null
+    },
+    "banner_970x250": {
+     "elegiveis": 3,
+     "enviaria": null
+    }
+   },
+   "custo_tokens_por_peca": 21034,
+   "tempo_s_por_peca": 26.1
+  },
+  "R3b": {
+   "name": "R3 réplica",
+   "n": 15,
+   "elegiveis": 15,
+   "falhas_media": 0,
+   "nota_suave": 0.951,
+   "juri_n": 0,
+   "juri_nota": null,
+   "juri_enviaria": null,
+   "aceitavel": 0,
+   "aceitavel_n": 0,
+   "elegiveis_bioma": "10/10",
+   "enviaria_bioma": null,
+   "elegiveis_otium": "5/5",
+   "enviaria_otium": null,
+   "por_formato": {
+    "email_600x1200": {
+     "elegiveis": 3,
+     "enviaria": null
+    },
+    "post_1080x1350": {
+     "elegiveis": 3,
+     "enviaria": null
+    },
+    "card_1080x1080": {
+     "elegiveis": 3,
+     "enviaria": null
+    },
+    "stories_1080x1920": {
+     "elegiveis": 3,
+     "enviaria": null
+    },
+    "banner_970x250": {
+     "elegiveis": 3,
+     "enviaria": null
+    }
+   },
+   "custo_tokens_por_peca": 23693,
+   "tempo_s_por_peca": 51.6
+  }
+ },
+ "par_a_par": {
+  "A0>A1": null,
+  "A0>B0": null,
+  "A0>T1": null,
+  "A0>R1": null,
+  "A0>R1opt": null,
+  "A0>R8": null,
+  "A0>R3": null,
+  "A0>R2": null,
+  "A1>A0": null,
+  "A1>B0": null,
+  "A1>T1": null,
+  "A1>R1": null,
+  "A1>R1opt": null,
+  "A1>R8": null,
+  "A1>R3": null,
+  "A1>R2": null,
+  "B0>A0": null,
+  "B0>A1": null,
+  "B0>T1": null,
+  "B0>R1": null,
+  "B0>R1opt": null,
+  "B0>R8": null,
+  "B0>R3": null,
+  "B0>R2": null,
+  "T1>A0": null,
+  "T1>A1": null,
+  "T1>B0": null,
+  "T1>R1": null,
+  "T1>R1opt": null,
+  "T1>R8": null,
+  "T1>R3": null,
+  "T1>R2": null,
+  "R1>A0": null,
+  "R1>A1": null,
+  "R1>B0": null,
+  "R1>T1": null,
+  "R1>R1opt": null,
+  "R1>R8": null,
+  "R1>R3": null,
+  "R1>R2": null,
+  "R1opt>A0": null,
+  "R1opt>A1": null,
+  "R1opt>B0": null,
+  "R1opt>T1": null,
+  "R1opt>R1": null,
+  "R1opt>R8": null,
+  "R1opt>R3": null,
+  "R1opt>R2": null,
+  "R8>A0": null,
+  "R8>A1": null,
+  "R8>B0": null,
+  "R8>T1": null,
+  "R8>R1": null,
+  "R8>R1opt": null,
+  "R8>R3": null,
+  "R8>R2": null,
+  "R3>A0": null,
+  "R3>A1": null,
+  "R3>B0": null,
+  "R3>T1": null,
+  "R3>R1": null,
+  "R3>R1opt": null,
+  "R3>R8": null,
+  "R3>R2": null,
+  "R2>A0": null,
+  "R2>A1": null,
+  "R2>B0": null,
+  "R2>T1": null,
+  "R2>R1": null,
+  "R2>R1opt": null,
+  "R2>R8": null,
+  "R2>R3": null
+ },
+ "confrontos": {
+  "R1 x B0": {
+   "vitorias": 0,
+   "empates": 0,
+   "derrotas": 0
+  },
+  "R8 x R1": {
+   "vitorias": 0,
+   "empates": 0,
+   "derrotas": 0
+  },
+  "R8 x R3": {
+   "vitorias": 0,
+   "empates": 0,
+   "derrotas": 0
+  },
+  "R8 x T1": {
+   "vitorias": 0,
+   "empates": 0,
+   "derrotas": 0
+  },
+  "R1opt x R1": {
+   "vitorias": 0,
+   "empates": 0,
+   "derrotas": 0
+  },
+  "R3 x R2": {
+   "vitorias": 0,
+   "empates": 0,
+   "derrotas": 0
+  },
+  "R8 x R2": {
+   "vitorias": 0,
+   "empates": 0,
+   "derrotas": 0
+  },
+  "T1 x R1": {
+   "vitorias": 0,
+   "empates": 0,
+   "derrotas": 0
+  }
+ },
+ "variancia": {
+  "R8 x R8b": {
+   "adaptacoes": 15,
+   "mesma_elegibilidade": "15/15",
+   "dif_media_nota_suave": 0.022,
+   "mesma_estrategia": "12/15"
+  },
+  "R3 x R3b": {
+   "adaptacoes": 15,
+   "mesma_elegibilidade": "15/15",
+   "dif_media_nota_suave": 0.036
+  }
+ },
+ "falhas_mais_comuns": {
+  "A0": {
+   "corpo_minimo": 95,
+   "logo_tamanho_minimo": 12,
+   "area_segura": 11,
+   "logo_na_area_segura": 6
+  },
+  "A1": {
+   "corpo_minimo": 95,
+   "area_protegida_visivel": 23,
+   "area_segura": 13,
+   "logo_tamanho_minimo": 12
+  },
+  "B0": {
+   "corpo_minimo": 32,
+   "logo_tamanho_minimo": 8,
+   "area_protegida_visivel": 7,
+   "area_segura": 2
+  },
+  "T1": {
+   "area_segura": 8,
+   "texto_sobre_logo_ou_icone": 4,
+   "dentro_do_canvas": 3,
+   "texto_sobre_texto": 3
+  },
+  "R1": {
+   "area_protegida_visivel": 4,
+   "area_segura": 4,
+   "contraste": 3
+  },
+  "R1opt": {
+   "area_protegida_visivel": 4,
+   "contraste": 3,
+   "area_segura": 1
+  },
+  "R8": {
+   "area_segura": 3,
+   "area_protegida_visivel": 2
+  },
+  "R3": {},
+  "R2": {},
+  "R8b": {
+   "area_segura": 1
+  },
+  "R3b": {}
+ },
+ "erros_de_render": [],
+ "n_julgamentos": 0,
+ "jurados": []
+}

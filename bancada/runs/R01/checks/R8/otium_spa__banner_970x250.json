@@ -1,0 +1,21 @@
+{
+ "arm": "R8",
+ "layout": "otium_spa",
+ "format": "banner_970x250",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 0.615625,
+  "alinhamento": 1,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 0.6666666666666666,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 1.419
+ },
+ "soft_score": 0.8864880952380952,
+ "protected_visible": 1,
+ "provenance": null
+}

@@ -1,0 +1,21 @@
+{
+ "arm": "R3b",
+ "layout": "bioma_piscina",
+ "format": "post_1080x1350",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 0.7671875,
+  "alinhamento": 1,
+  "size_rel": 0.9,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 2.247
+ },
+ "soft_score": 0.9458035714285715,
+ "protected_visible": 0.8333333333333334,
+ "provenance": null
+}

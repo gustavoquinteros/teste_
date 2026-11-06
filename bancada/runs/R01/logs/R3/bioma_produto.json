@@ -1,0 +1,4 @@
+{"arm":"R3","layout":"bioma_produto",
+ "checks_per_format":{"email_600x1200":1,"post_1080x1350":1,"card_1080x1080":2,"stories_1080x1920":2,"banner_970x250":2},
+ "final_eligible":{"email_600x1200":true,"post_1080x1350":true,"card_1080x1080":true,"stories_1080x1920":true,"banner_970x250":true},
+ "notes":"Medir texto com PIL reproduziu bem o Chrome (<0,5px), então nenhuma falha dura. O difícil foi a nota de alinhamento: bordas/centros de textos alinhados à esquerda quase coincidindo (card e banner) exigiram ajustar larguras de caixa e corpos; no card o headline não supera 1,2x a área do legal sem estourar a coluna."}

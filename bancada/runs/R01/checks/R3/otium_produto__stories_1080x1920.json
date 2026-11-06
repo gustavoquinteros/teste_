@@ -1,0 +1,21 @@
+{
+ "arm": "R3",
+ "layout": "otium_produto",
+ "format": "stories_1080x1920",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 0.8140624999999999,
+  "alinhamento": 1,
+  "size_rel": 0.8,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 2.129
+ },
+ "soft_score": 0.9395535714285714,
+ "protected_visible": 1,
+ "provenance": null
+}

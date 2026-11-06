@@ -1,0 +1,21 @@
+{
+ "arm": "R8b",
+ "layout": "bioma_produto",
+ "format": "stories_1080x1920",
+ "eligible": true,
+ "fails": 0,
+ "hard": [],
+ "soft": {
+  "preenchimento": 0.46953124999999996,
+  "alinhamento": 1,
+  "size_rel": 0.9333333333333333,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 0.953125,
+  "grupos": 1,
+  "contraste_folga": 2.247
+ },
+ "soft_score": 0.8928422619047619,
+ "protected_visible": 1,
+ "provenance": null
+}

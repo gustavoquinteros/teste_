@@ -86,6 +86,29 @@ Confrontos pareados (mesma adaptação): R2 × R8 **29–1**; R3 × R8 27–3; R
 - Começar por R3 (IA posiciona direto, sem escrever código): 24/30 aceitáveis, mais barato que R2 e sem script descartável;
   usar R2 nos casos difíceis (banner, legal longo) onde ele foi melhor.
 
+## Atualização 06/11 — o caso real (Praça CCN Comercial) reprovou
+
+O R2 foi aplicado num job real (17 peças de performance, 5 formatos) e **todas foram reprovadas**, mesmo com o verificador
+aprovando 17/17. A IA inventou uma composição nova (foto no topo, bloco verde chapado), em vez de seguir as variações já
+aprovadas da campanha (página 28 do KV, "VARIAÇÕES DO LAYOUT"): perdeu a foto sangrada, o degradê duotone, a tarja branca,
+o produto pareado com o logo, o título em caixa alta centralizado, os 4 ícones e o crédito da perspectiva.
+
+**Por que a bancada errou a previsão:**
+1. As peças-mestras sintéticas eram simples e não tinham um **sistema de campanha** com variações aprovadas para seguir.
+2. O júri era de IA e julgou "boa peça", não "fiel ao sistema da campanha".
+3. O verificador mede conformidade (margem, corpo, contraste), não fidelidade ao sistema — por isso aprovou peças erradas.
+4. A bancada não tinha a etapa que fez o **Open Life** dar certo: ficha de entrada, receita por página/formato aprovada
+   pelo Gustavo antes do código, componentes do sistema de marca, prévia revisada lado a lado e 6 rodadas.
+
+**Correção da recomendação:**
+- Quando a campanha já tem peças aprovadas (o caso normal do desdobramento), o layout é **contrato, não sugestão**: a IA
+  extrai das peças aprovadas uma **receita por formato** (posições em % do canvas, componentes, caixa e alinhamento do título,
+  cobertura da foto), o Gustavo aprova a receita e só então o código posiciona (padrão Open Life / P31–P33).
+- A liberdade do R2/R3 fica para **peça nova** sem referência.
+- O verificador ganha uma camada de **fidelidade à referência** (cobertura da foto, posição de logo e produto, caixa/alinhamento
+  do título, contagem de ícones, tarja, crédito) além da conformidade.
+- Entrada mínima obrigatória: INDD/IDML reais, fontes reais e as variações aprovadas — não só JPG.
+
 ## Limites desta rodada (o que NÃO está provado)
 
 - **Peças sintéticas**, não os IDML reais (Bioma v12 / OTIUM). Fotos são ilustrações simples; nada de PSD/InDesign real.

@@ -19,13 +19,13 @@
     "x": 0,
     "y": 0,
     "width": 1080,
-    "height": 661,
+    "height": 660,
     "z": 1
    },
    "crop": [
     0,
     0,
-    0.907716,
+    0.909091,
     1.0
    ]
   },
@@ -37,7 +37,7 @@
    "asset": "otium_logo",
    "geometry": {
     "x": 60,
-    "y": 701,
+    "y": 700,
     "width": 230,
     "height": 103.89,
     "z": 6
@@ -57,7 +57,7 @@
    "text": "Jardim das Perdizes, no seu ritmo",
    "geometry": {
     "x": 60,
-    "y": 843,
+    "y": 842,
     "width": 960,
     "height": 62,
     "z": 5
@@ -79,14 +79,14 @@
    "text": "3 suítes · 142 m² · 2 vagas",
    "geometry": {
     "x": 60,
-    "y": 929,
+    "y": 928,
     "width": 960,
-    "height": 42,
+    "height": 43,
     "z": 5
    },
    "style": {
     "font": "Host Grotesk",
-    "size": 30,
+    "size": 31,
     "weight": 600,
     "line_height": 1.15,
     "color": "#D9A27A",

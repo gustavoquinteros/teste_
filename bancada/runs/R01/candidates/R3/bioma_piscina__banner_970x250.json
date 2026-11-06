@@ -57,9 +57,9 @@
    "text": "Um novo norte para viver a vida ao ar livre",
    "geometry": {
     "x": 190,
-    "y": 22,
+    "y": 18,
     "width": 300,
-    "height": 70,
+    "height": 72,
     "z": 5
    },
    "style": {
@@ -79,7 +79,7 @@
    "text": "Conheça o decorado · 11 99943.5903",
    "geometry": {
     "x": 190,
-    "y": 98,
+    "y": 96,
     "width": 300,
     "height": 22,
     "z": 5
@@ -100,10 +100,10 @@
    "priority": 0.3,
    "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
    "geometry": {
-    "x": 24,
-    "y": 164,
-    "width": 470,
-    "height": 58,
+    "x": 190,
+    "y": 138,
+    "width": 300,
+    "height": 90,
     "z": 5
    },
    "style": {

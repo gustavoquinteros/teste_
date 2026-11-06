@@ -43,5 +43,10 @@
   "tokens": 108208,
   "tool_uses": 26,
   "ms": 171188
+ },
+ "R8/otium_spa": {
+  "tokens": 117407,
+  "tool_uses": 30,
+  "ms": 204274
  }
 }

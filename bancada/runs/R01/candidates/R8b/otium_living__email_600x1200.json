@@ -62,13 +62,13 @@
     "x": 0,
     "y": 155,
     "width": 600,
-    "height": 540,
+    "height": 720,
     "z": 1
    },
    "crop": [
-    0.1493,
+    0.2094,
     0,
-    0.4815,
+    0.3611,
     1
    ]
   },
@@ -95,7 +95,7 @@
  ],
  "_plan": {
   "strategy": "S1",
-  "heroFrac": 0.45,
+  "heroFrac": 0.6,
   "align": "left"
  },
  "_format": "email_600x1200"

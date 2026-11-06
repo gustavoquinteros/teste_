@@ -158,7 +158,7 @@ def L_card(F, extra=0):
     y = hh + 44 + lg["geometry"]["height"] + 34
     t, mm = text_block("headline", m, y, col, 54, force_lines=1); els.append(t); ms["headline"] = mm
     y = mm["bottom"] + 28
-    t, mm = text_block("selo", m, y, col, 30); els.append(t); ms["selo"] = mm
+    t, mm = text_block("selo", m, y, col, 31); els.append(t); ms["selo"] = mm
     y = mm["bottom"] + 14
     t, mm = text_block("cta", m, y, col, 26); els.append(t); ms["cta"] = mm
     return els, ms, vis

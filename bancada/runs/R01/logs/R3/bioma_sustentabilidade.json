@@ -1,0 +1,4 @@
+{"arm":"R3","layout":"bioma_sustentabilidade",
+ "checks_per_format":{"email_600x1200":2,"post_1080x1350":2,"card_1080x1080":2,"stories_1080x1920":2,"banner_970x250":2},
+ "final_eligible":{"email_600x1200":true,"post_1080x1350":true,"card_1080x1080":true,"stories_1080x1920":true,"banner_970x250":true},
+ "notes":"Todos elegíveis já na 1ª verificação (medição PIL bateu com o navegador ±1px); a 2ª serviu para alinhar bordas quase coincidentes (logo x legal). Difícil: encaixar o legal longo (560 caracteres) e os 3 atributos no banner 970x250 e no card sem apertar o fôlego; o par lbl_solar/lbl_coleta tem larguras quase iguais e a métrica de alinhamento penaliza isso sem solução limpa."}

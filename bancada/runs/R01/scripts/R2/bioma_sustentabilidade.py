@@ -75,10 +75,27 @@ def _measure(text, style, size, width, lh):
     return {"lines": lines, "n": len(lines), "w": max(ws), "h": h, "over": over, "L": L, "tight": tight}
 
 
+def balanced(text, style, s, width, lh):
+    """Menor largura que mantém o nº de linhas (linhas equilibradas, sem palavra órfã), com folga."""
+    m0 = _measure(text, style, s, width, lh)
+    best = m0
+    for w in range(int(width), int(width * 0.5), -2):
+        m = _measure(text, style, s, w + 14, lh)
+        if m["n"] > m0["n"]:
+            break
+        if not m["tight"]:
+            best = m
+            best["box_w"] = w + 14
+    best.setdefault("box_w", width)
+    return best
+
+
 def fit_size(text, style, width, max_lines, smax, smin, lh=None):
     for s in range(smax, smin - 1, -1):
         m = _measure(text, style, s, width, lh or style["line_height"])
         if m["n"] <= max_lines and not m["tight"]:
+            if m["n"] > 1:
+                m = balanced(text, style, s, width, lh or style["line_height"])
             return s, m
     s = smin
     return s, _measure(text, style, s, width, lh or style["line_height"])
@@ -218,7 +235,7 @@ def headline_row(x0, cw, lg_w, gap, smax, smin, lines=2):
     H = max(hv, lh_)
 
     def build(y):
-        return [T("headline", x0, y + (H - hv) / 2, hw, hs, hm),
+        return [T("headline", x0, y + (H - hv) / 2, hm.get("box_w", hw), hs, hm),
                 logo(x0 + cw - lg_w, y + (H - lh_) / 2, lg_w)]
     return H, build
 
@@ -243,7 +260,7 @@ def email():
     icon, lsz, rg = 68, 20, 18
     lg_w = 150
     blocks = [
-        (vis_h(hm), lambda y: [T("headline", M, y, cw, hs, hm)]),
+        (vis_h(hm), lambda y: [T("headline", M, y, hm.get("box_w", cw), hs, hm)]),
         (3 * icon + 2 * rg, lambda y: attrs_rows(M, y, cw, icon, lsz, 18, rg)[0]),
         (lg_w / LOGO_AR, lambda y: [logo(M, y, lg_w)]),
     ]

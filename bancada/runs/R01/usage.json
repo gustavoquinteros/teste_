@@ -53,5 +53,25 @@
   "tokens": 119672,
   "tool_uses": 23,
   "ms": 221508
+ },
+ "R8b/otium_living": {
+  "tokens": 107243,
+  "tool_uses": 28,
+  "ms": 147597
+ },
+ "R2/otium_living": {
+  "tokens": 126627,
+  "tool_uses": 26,
+  "ms": 253870
+ },
+ "R2/otium_produto": {
+  "tokens": 130157,
+  "tool_uses": 26,
+  "ms": 254118
+ },
+ "R3/bioma_piscina": {
+  "tokens": 112048,
+  "tool_uses": 27,
+  "ms": 254844
  }
 }

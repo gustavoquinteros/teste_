@@ -184,14 +184,14 @@ def lay_email(F):
     return [hero, logo, hl, selo, cta, legal]
 
 
-def lay_card(F):
+def lay_card(F, shrink=0):
     W, H, M = F["width"], F["height"], F["margin"]
     xp = 540  # foto ocupa a metade direita, sangrada
     tw = xp - 2 * M + 10
     logo = logo_el(M, M, 190)
     lg = logo["geometry"]
     hl = text_el("headline", M, lg["y"] + lg["height"] + 50, tw, 56)
-    legal = text_el("legal", M, 0, tw, 14)
+    legal = text_el("legal", M, 0, tw - shrink, 14)
     legal["geometry"]["y"] = H - M - legal["_m"]["box_h"]
     selo = text_el("selo", M, hl["geometry"]["y"] + hl["geometry"]["height"] + 44, tw, 29)
     cta = text_el("cta", M, selo["geometry"]["y"] + selo["geometry"]["height"] + 12, tw, 26)
@@ -201,29 +201,28 @@ def lay_card(F):
 
 def lay_stories(F):
     W, H, M = F["width"], F["height"], F["margin"]
-    sx, sy = M + F["safe"][3], M + F["safe"][0]
+    sy = M + F["safe"][0]
     sb = H - M - F["safe"][2]
     tw = W - 2 * M
-    logo = logo_el(M, 0, 220)
-    hl = text_el("headline", M, 0, tw, 66)
-    selo = text_el("selo", M, 0, tw, 36)
-    cta = text_el("cta", M, 0, tw, 31)
-    legal = text_el("legal", M, 0, tw, 16)
-    gaps = [36, 44, 12, 44]  # logo>hl, hl>selo, selo>cta, cta>legal
+    logo = logo_el(M, sy, 250)
+    hl = text_el("headline", M, 0, tw, 76)
+    selo = text_el("selo", M, 0, tw, 40)
+    cta = text_el("cta", M, 0, tw, 34)
+    legal = text_el("legal", M, 0, tw, 18)
+    gaps = [40, 48, 14, 48]  # logo>hl, hl>selo, selo>cta, cta>legal
     stack = [logo, hl, selo, cta, legal]
     hs = [logo["geometry"]["height"]] + [e["_m"]["box_h"] for e in stack[1:]]
-    total = sum(hs) + sum(gaps)
-    y = sb - total
+    y = sy
     for i, e in enumerate(stack):
         e["geometry"]["y"] = round(y, 2)
         y += hs[i] + (gaps[i] if i < len(gaps) else 0)
-    y1 = logo["geometry"]["y"] - 56
-    hero = hero_el(0, 0, W, y1)
-    assert logo["geometry"]["y"] >= sy, "stack nao cabe na area segura"
+    assert y <= sb, "stack nao cabe na area segura"
+    y0 = y + 56  # foto sangrada ate a borda de baixo (zona de UI sem texto)
+    hero = hero_el(0, y0, W, H - y0)
     return [hero, logo, hl, selo, cta, legal]
 
 
-def lay_banner(F):
+def lay_banner(F, shrink=0):
     W, H, M = F["width"], F["height"], F["margin"]
     xp = 700  # foto a direita sangrada
     logo = logo_el(M + 8, 0, 130)
@@ -231,8 +230,8 @@ def lay_banner(F):
     tw = xp - 24 - tx
     hl = text_el("headline", tx, 0, tw, 30)
     selo = text_el("selo", tx, 0, tw, 17)
-    cta = text_el("cta", tx, 0, tw, 15)
-    legal = text_el("legal", tx, 0, tw, 8)
+    cta = text_el("cta", tx, 0, tw, 14.5)
+    legal = text_el("legal", tx, 0, tw - shrink, 8)
     stack = [hl, selo, cta, legal]
     gaps = [8, 3, 9]
     hs = [e["_m"]["box_h"] for e in stack]
@@ -297,9 +296,29 @@ def report(fk, F, els):
             if any(r["x"] <= x <= r["x"] + r["w"] and r["y"] <= y <= r["y"] + r["h"] for r in E.values()): cov += 1
     fill = min(1, cov / N / N / 0.8)
     areas = {k: v["w"] * v["h"] for k, v in E.items()}
-    print(f"{fk}: probs={probs} vis={vis:.2f} near={near} fill={fill:.2f} "
+    print(f"{fk}: nearpad={near_pairs(F, els)} probs={probs} vis={vis:.2f} near={near} fill={fill:.2f} "
           f"sizes={[ (e['id'], e['style']['size'], e['_m']['n']) for e in tx]} "
           f"areas={ {k: int(v) for k, v in areas.items()} }")
+
+
+def near_pairs(F, els, pad=6):
+    W = F["width"]
+    E = {e["id"]: (ext(e) if e["type"] == "TEXT" else bx(e)) for e in els}
+    t = ["logo", "headline", "selo", "cta", "legal"]
+    ed = {i: [E[i]["x"], E[i]["x"] + E[i]["w"] / 2, E[i]["x"] + E[i]["w"]] for i in t}
+    return [(a, b, k) for x, a in enumerate(t) for b in t[x + 1:] for k in range(3)
+            if 1.0 < abs(ed[a][k] - ed[b][k]) < 0.02 * W + pad]
+
+
+def build(fk, F):
+    fn = LAYOUTS[fk]
+    if fk in ("card_1080x1080", "banner_970x250"):
+        # encolhe a coluna do legal ate nenhuma borda ficar "quase alinhada" (com folga)
+        for sh in range(0, 160, 4):
+            els = fn(F, sh)
+            if not near_pairs(F, els):
+                return els
+    return fn(F)
 
 
 def main():
@@ -307,7 +326,7 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     for fk in only:
         F = FMTS[fk]
-        els = LAYOUTS[fk](F)
+        els = build(fk, F)
         report(fk, F, els)
         clean = []
         for e in els:

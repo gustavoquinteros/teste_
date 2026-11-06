@@ -16,16 +16,16 @@
    "priority": 0.8,
    "asset": "bioma_fachada",
    "geometry": {
-    "x": 540,
+    "x": 560,
     "y": 0,
-    "width": 540,
+    "width": 520,
     "height": 1080,
     "z": 1
    },
    "crop": [
-    0.53185,
+    0.53641,
     0,
-    0.24593,
+    0.23682,
     1.0
    ]
   },
@@ -58,13 +58,13 @@
    "geometry": {
     "x": 60,
     "y": 205.82,
-    "width": 430,
-    "height": 243,
+    "width": 450,
+    "height": 171,
     "z": 5
    },
    "style": {
     "font": "Cormorant Garamond",
-    "size": 56,
+    "size": 52,
     "weight": 600,
     "line_height": 1.05,
     "color": "#F1E9D6",
@@ -79,8 +79,8 @@
    "text": "2 e 3 suítes · 93 a 150 m²",
    "geometry": {
     "x": 60,
-    "y": 492.82,
-    "width": 430,
+    "y": 420.82,
+    "width": 450,
     "height": 38,
     "z": 5
    },
@@ -101,8 +101,8 @@
    "text": "Agende sua visita · 11 99943.5903",
    "geometry": {
     "x": 60,
-    "y": 542.82,
-    "width": 430,
+    "y": 470.82,
+    "width": 450,
     "height": 34,
     "z": 5
    },
@@ -124,7 +124,7 @@
    "geometry": {
     "x": 60,
     "y": 835,
-    "width": 430,
+    "width": 450,
     "height": 185,
     "z": 5
    },

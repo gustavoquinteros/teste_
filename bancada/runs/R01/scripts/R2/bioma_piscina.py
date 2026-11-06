@@ -319,12 +319,12 @@ def banner(fk, P):
 
 PARAMS = {
     "email_600x1200": (stack_vertical, {"logo": 180, "h": 55, "c": 24, "l": 10, "llh": 1.4,
-                                         "gaps": [34, 44, 40, 20], "min_cw": 0.80}),
+                                         "gaps": [34, 44, 40, 20], "min_cw": 0.86}),
     "post_1080x1350": (stack_vertical, {"logo": 230, "h": 70, "c": 32, "l": 14, "llh": 1.3,
                                          "gaps": [44, 48, 44, 22], "min_cw": 0.86}),
     "card_1080x1080": (card, {"logo": 210, "col_gap": 60, "h": 68, "c": 30, "l": 14,
                               "g_top": 44, "g_pc": 36, "g_cl": 16}),
-    "stories_1080x1920": (stories, {"cw": 0.80, "g_photo": 64, "logo": 280, "h": 86, "c": 38, "l": 17,
+    "stories_1080x1920": (stories, {"cw": 0.88, "g_photo": 64, "logo": 280, "h": 86, "c": 38, "l": 17,
                                     "gaps": [44, 48, 30]}),
     "banner_970x250": (banner, {"photo_w": 430, "gutter": 20, "logo": 130, "col_gap": 20, "h": 41, "c": 16, "legal_w": 470,
                                 "l": 8, "llh": 1.3, "g_hc": 10, "top": 2}),

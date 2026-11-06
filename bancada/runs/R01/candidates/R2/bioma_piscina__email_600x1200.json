@@ -17,7 +17,7 @@
    "asset": "bioma_logo",
    "geometry": {
     "x": 32,
-    "y": 89.4,
+    "y": 97.1,
     "width": 180,
     "height": 90.78,
     "z": 6
@@ -37,7 +37,7 @@
    "text": "Um novo norte para viver a vida ao ar livre",
    "geometry": {
     "x": 32,
-    "y": 218.8,
+    "y": 226.5,
     "width": 496.3,
     "height": 124,
     "z": 5
@@ -59,15 +59,15 @@
    "asset": "bioma_piscina",
    "geometry": {
     "x": 0,
-    "y": 440,
+    "y": 455,
     "width": 600,
-    "height": 440,
+    "height": 410,
     "z": 1
    },
    "crop": [
-    0.09924,
+    0.06992,
     0.0,
-    0.80152,
+    0.86016,
     1.0
    ]
   },
@@ -79,7 +79,7 @@
    "text": "Conheça o decorado · 11 99943.5903",
    "geometry": {
     "x": 32,
-    "y": 978.1,
+    "y": 970.8,
     "width": 394.5,
     "height": 32,
     "z": 5
@@ -101,7 +101,7 @@
    "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
    "geometry": {
     "x": 32,
-    "y": 1026.4,
+    "y": 1019.1,
     "width": 536,
     "height": 87,
     "z": 5

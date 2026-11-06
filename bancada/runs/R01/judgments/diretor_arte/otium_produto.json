@@ -11,7 +11,7 @@
 "C":"Mesmo problema de A: texto sobre a foto, que perde a base do prédio, e logo abaixo da headline.",
 "D":"Recorte em coluna mutila a segunda torre e o texto ficou minúsculo, ilegível para e-mail."}},
 "post_1080x1350":{"ranking":["F","B","A","E","H","C","D","G"],
-"ship":{"A":true,"B":true,"C":false,"D":false,"E":false,"F":true,"G":false},
+"ship":{"A":true,"B":true,"C":false,"D":false,"E":false,"F":true,"G":false,"H":false},
 "reasons":{
 "F":"Fachada inteira em cima, bloco alinhado à esquerda com headline dominante e logo proporcional; o KV desdobrado.",
 "B":"Mesma estrutura de F, mas o logo grande demais compete com a headline.",

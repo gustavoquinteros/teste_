@@ -1,0 +1,62 @@
+{"persona":"diretor_arte","layout":"bioma_piscina","formats":{
+"email_600x1200":{
+ "ranking":["G","D","B","E","C","A","F","H"],
+ "ship":{"A":false,"B":false,"C":false,"D":false,"E":false,"F":false,"G":true,"H":false},
+ "reasons":{
+  "G":"Único que mantém prédio e piscina inteiros (trapézio legível, só uma lasca nos cantos), alinhamento à esquerda e quebra do KV; ritmo topo/foto/CTA+legal correto.",
+  "D":"Melhor hierarquia (CTA colado à headline como no KV), mas a piscina vira uma faixa: as laterais do trapézio foram cortadas.",
+  "B":"Mostra quase toda a piscina, mas centraliza tudo (o KV é alinhado à esquerda) e deixa um vazio morto entre o CTA e o legal.",
+  "E":"Logo e headline bem dimensionados, mas a piscina perde as bordas e sobra um buraco escuro de ~250px antes do CTA.",
+  "C":"Mesmo problema do E com tipo menor: piscina cortada nas laterais e um bloco vazio enorme no rodapé.",
+  "A":"Piscina mutilada nas laterais, quebra 'viver a / vida' desajeitada e um vazio grande entre a foto e o CTA.",
+  "F":"Separa a logo da headline (quebra o grupo de marca do KV), centraliza e corta a piscina: virou outra ideia.",
+  "H":"Copia o split do KV em 600px: prédio cortado na borda, headline minúscula e legal ilegível."}},
+"post_1080x1350":{
+ "ranking":["H","B","F","D","A","E","C","G"],
+ "ship":{"A":false,"B":true,"C":false,"D":false,"E":false,"F":false,"G":false,"H":true},
+ "reasons":{
+  "H":"Fiel ao KV: logo, headline em 2 linhas com a quebra original, CTA logo abaixo; prédio e piscina inteiros; legal legível. Aprovado.",
+  "B":"Mesma estrutura forte, headline com a quebra do KV, foto inteira (cantos da piscina no limite); só um ajuste fino no respiro do rodapé.",
+  "F":"Headline em uma linha bem resolvida, mas os cantos inferiores da piscina são cortados e há um vão morto entre a foto e o CTA.",
+  "D":"Foto inteira, mas a headline deixa 'livre' sozinha na segunda linha, com vazios mortos acima e abaixo da foto e o CTA solto.",
+  "A":"Logo isolada no topo e headline jogada para baixo da foto, com 'livre' sozinha na linha: quebra o grupo logo+headline.",
+  "E":"Mantém o split do KV, mas a piscina vira faixa e o legal fica com ~7px, ilegível no feed.",
+  "C":"Faixa opaca sobre a fachada (prédio apagado sob o texto), 'livre' sozinha na linha e piscina reduzida a uma faixa.",
+  "G":"Idêntico ao C: fachada escondida pela faixa, piscina sem bordas e headline com 'livre' sozinha."}},
+"card_1080x1080":{
+ "ranking":["A","F","D","B","G","H","C","E"],
+ "ship":{"A":true,"B":false,"C":false,"D":false,"E":false,"F":false,"G":false,"H":false},
+ "reasons":{
+  "A":"Logo e headline lado a lado com boa força, prédio e piscina inteiros, CTA e legal legíveis no rodapé: o KV desdobrado sem perder a ideia.",
+  "F":"Melhor hierarquia tipográfica (headline grande + CTA colado), mas o topo do prédio é decepado pelo bloco de texto.",
+  "D":"Prédio com o topo cortado no limite da foto, e um vazio grande entre a foto e o CTA.",
+  "B":"Respeita o split do KV e mostra o prédio inteiro, mas a piscina vira faixa e o legal (~8px) fica ilegível.",
+  "G":"Prédio decapitado no topo e base da piscina comida pelo bloco de texto; tipo bom, foto mutilada.",
+  "H":"Fachada praticamente eliminada (só duas fileiras de janelas visíveis) e um vazio morto sob a headline.",
+  "C":"Faixa escura cobre a fachada, piscina reduzida a uma faixa, legal espremido no overlay.",
+  "E":"Idêntico ao C: fachada sob o overlay e piscina sem bordas."}},
+"stories_1080x1920":{
+ "ranking":["G","A","C","H","B","E","F","D"],
+ "ship":{"A":true,"B":false,"C":false,"D":false,"E":false,"F":false,"G":true,"H":false},
+ "reasons":{
+  "G":"Prédio e piscina inteiros, marca dentro da área segura, CTA com corpo de stories e legal legível; headline poderia crescer (ajuste fino).",
+  "A":"Igual ao G com CTA menor: foto íntegra, áreas seguras ok; ainda aprovável com ajuste fino de corpo.",
+  "C":"Tipografia mais forte do grupo, mas o topo do prédio fica sob a UI do stories e os cantos da piscina são cortados.",
+  "H":"Foto quase inteira, mas os cantos da piscina foram cortados e a composição centralizada foge do KV alinhado à esquerda.",
+  "B":"Boa hierarquia de texto, mas o topo do prédio é decepado pelo bloco da logo.",
+  "E":"Centralizado e com o topo do prédio cortado na borda da foto; vazio morto entre o CTA e o legal.",
+  "F":"Piscina reduzida a uma faixa (laterais perdidas) e a ordem invertida tira a marca do topo.",
+  "D":"Split do KV esticado: prédio gigante colado na borda, piscina em faixa e legal minúsculo dentro da zona da UI."}},
+"banner_970x250":{
+ "ranking":["C","H","D","G","B","A","F","E"],
+ "ship":{"A":false,"B":false,"C":true,"D":false,"E":false,"F":false,"G":false,"H":false},
+ "reasons":{
+  "C":"A tradução do KV: painel à esquerda com logo+headline em 2 linhas, CTA e legal legíveis; prédio e piscina inteiros à direita.",
+  "H":"Prédio inteiro, mas texto centralizado e espremido (headline colada na tagline) e o canto esquerdo da piscina cortado.",
+  "D":"Igual ao H com headline menor: bloco de texto sem respiro e piscina cortada na borda.",
+  "G":"Prédio inteiro, mas a tagline encosta na headline e a piscina perde as duas laterais.",
+  "B":"Bloco tipográfico forte, mas o prédio é decepado no topo e a piscina vira faixa.",
+  "A":"Piscina em faixa, logo exilada no canto direito longe da headline, legal encostando na borda inferior.",
+  "F":"Legal maior que o CTA (hierarquia invertida), logo espremida à direita, piscina em faixa.",
+  "E":"Split do KV sem adaptação: prédio cortado no topo, textos minúsculos e legal ilegível."}}
+}}

@@ -184,13 +184,13 @@ def lay_email(F):
     return [hero, logo, hl, selo, cta, legal]
 
 
-def lay_card(F, shrink=0, hw=0, cs=26, ss=29):
+def lay_card(F, shrink=0, hw=0, cs=26, ss=29, hs=52):
     W, H, M = F["width"], F["height"], F["margin"]
-    xp = 540  # foto ocupa a metade direita, sangrada
+    xp = 560  # foto ocupa a metade direita, sangrada (520px: ~88% do predio visivel)
     tw = xp - 2 * M + 10
     logo = logo_el(M, M, 190)
     lg = logo["geometry"]
-    hl = text_el("headline", M, lg["y"] + lg["height"] + 50, tw - hw, 56)
+    hl = text_el("headline", M, lg["y"] + lg["height"] + 50, tw - hw, hs)
     legal = text_el("legal", M, 0, tw - shrink, 14)
     legal["geometry"]["y"] = H - M - legal["_m"]["box_h"]
     selo = text_el("selo", M, hl["geometry"]["y"] + hl["geometry"]["height"] + 44, tw, ss)
@@ -311,7 +311,7 @@ def near_pairs(F, els, pad=6):
 
 
 GRID = {  # variacoes pequenas e legitimas (largura de coluna, corpo do selo/cta) para fugir de quase-alinhamentos
-    "card_1080x1080": dict(cs=[26, 27], ss=[29, 30, 31], hw=[0, 20, 40]),
+    "card_1080x1080": dict(cs=[26, 27], ss=[29, 30, 31], hw=[0, 20, 40], hs=[48, 50, 52, 54, 56]),
     "banner_970x250": dict(cs=[14, 14.5, 15], ss=[16, 17, 18], hw=[0, 20, 40, 60]),
     "stories_1080x1920": dict(cs=[34], ss=[40], hw=[0, 40, 80]),
 }
@@ -324,11 +324,12 @@ def build(fk, F):
     import itertools
     g = GRID[fk]
     best = None
-    for cs, ss, hw in itertools.product(g["cs"], g["ss"], g["hw"]):
+    for cs, ss, hw, hs in itertools.product(g["cs"], g["ss"], g["hw"], g.get("hs", [None])):
         if ss <= cs:
             continue
+        kw = {"hs": hs} if hs else {}
         for sh in range(0, 44, 4):  # coluna do legal encolhe no maximo 40px (legibilidade)
-            els = fn(F, sh, hw, cs, ss)
+            els = fn(F, sh, hw, cs, ss, **kw)
             E = {e["id"]: (ext(e) if e["type"] == "TEXT" else bx(e)) for e in els}
             A = {k: v["w"] * v["h"] for k, v in E.items()}
             # preserva as relacoes de tamanho da mestra: headline >> legal, selo ~ cta
@@ -336,12 +337,12 @@ def build(fk, F):
             hlm = next(e for e in els if e["id"] == "headline")["_m"]
             widow = hlm["n"] > 1 and " " not in hlm["lines"][-1]  # palavra orfa na ultima linha do titulo
             n = len(near_pairs(F, els)) + 3 * viol + 5 * widow
-            key = (n, hw + sh)
+            key = (n, hw + sh, -(hs or 0))
             if best is None or key < best[0]:
-                best = (key, (sh, hw, cs, ss))
-    sh, hw, cs, ss = best[1]
-    print(f"  {fk}: grid best near={best[0][0]} shrink={sh} hw={hw} cta={cs} selo={ss}")
-    return fn(F, sh, hw, cs, ss)
+                best = (key, (sh, hw, cs, ss, kw))
+    sh, hw, cs, ss, kw = best[1]
+    print(f"  {fk}: grid best pen={best[0][0]} shrink={sh} hw={hw} cta={cs} selo={ss} {kw}")
+    return fn(F, sh, hw, cs, ss, **kw)
 
 
 def main():

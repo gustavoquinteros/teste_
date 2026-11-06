@@ -17,7 +17,7 @@
    "geometry": {
     "x": 0,
     "y": 0,
-    "width": 500,
+    "width": 540,
     "height": 1080,
     "z": 0
    },
@@ -33,16 +33,16 @@
    "priority": 0.8,
    "asset": "bioma_fachada",
    "geometry": {
-    "x": 500,
+    "x": 540,
     "y": 0,
-    "width": 580,
+    "width": 540,
     "height": 1080,
     "z": 1
    },
    "crop": [
-    0.5229,
+    0.515,
     0.0,
-    0.2641,
+    0.2459,
     1.0
    ]
   },
@@ -75,13 +75,13 @@
    "geometry": {
     "x": 60,
     "y": 250,
-    "width": 426,
-    "height": 159,
+    "width": 446,
+    "height": 172,
     "z": 5
    },
    "style": {
     "font": "Cormorant Garamond",
-    "size": 48,
+    "size": 52,
     "weight": 600,
     "line_height": 1.05,
     "color": "#F1E9D6",
@@ -97,7 +97,7 @@
    "geometry": {
     "x": 60,
     "y": 540,
-    "width": 426,
+    "width": 440,
     "height": 37,
     "z": 5
    },
@@ -119,7 +119,7 @@
    "geometry": {
     "x": 60,
     "y": 592,
-    "width": 426,
+    "width": 440,
     "height": 35,
     "z": 5
    },
@@ -140,9 +140,9 @@
    "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
    "geometry": {
     "x": 60,
-    "y": 836,
-    "width": 426,
-    "height": 185,
+    "y": 800,
+    "width": 376,
+    "height": 222,
     "z": 5
    },
    "style": {

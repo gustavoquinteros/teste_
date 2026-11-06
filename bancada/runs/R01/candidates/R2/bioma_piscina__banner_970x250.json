@@ -57,14 +57,14 @@
    "text": "Um novo norte para viver a vida ao ar livre",
    "geometry": {
     "x": 166,
-    "y": 21.0,
+    "y": 21.5,
     "width": 354,
-    "height": 91,
+    "height": 93,
     "z": 5
    },
    "style": {
     "font": "Cormorant Garamond",
-    "size": 40,
+    "size": 41,
     "weight": 600,
     "line_height": 1.05,
     "color": "#F1E9D6",
@@ -79,7 +79,7 @@
    "text": "Conheça o decorado · 11 99943.5903",
    "geometry": {
     "x": 166,
-    "y": 118.3,
+    "y": 121.4,
     "width": 263.7,
     "height": 22,
     "z": 5
@@ -102,7 +102,7 @@
    "geometry": {
     "x": 16,
     "y": 182.2,
-    "width": 504,
+    "width": 470,
     "height": 55,
     "z": 5
    },

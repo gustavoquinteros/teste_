@@ -300,7 +300,8 @@ def banner(fk, P):
     cs = style_of("cta", P["c"])
     cw_, cb = robust_width(S["cta"]["text"], cs, right - hx)
     ls = style_of("legal", P["l"], P.get("llh", 1.3))
-    lb = block(S["legal"]["text"], ls, right - m - 4)
+    lwid = P.get("legal_w", right - m)
+    lb = block(S["legal"]["text"], ls, lwid - 4)
     hv = hb["ext_bottom"] + hb["top_over"]
     cv = cb["ext_bottom"] + cb["top_over"]
     lv = lb["ext_bottom"] + lb["top_over"]
@@ -310,14 +311,14 @@ def banner(fk, P):
     cy = top + hv + P["g_hc"]
     els.append(text_el("cta", hx, cy + cb["top_over"], cw_, st(P["c"]), cb))
     ly = H - m - lv
-    els.append(text_el("legal", m, ly + lb["top_over"], right - m, st(P["l"], P.get("llh", 1.3)), lb))
+    els.append(text_el("legal", m, ly + lb["top_over"], lwid, st(P["l"], P.get("llh", 1.3)), lb))
     if cy + cv + 6 > ly:
         print("  !! banner: cta encosta no legal", cy + cv, ly, file=sys.stderr)
     return els
 
 
 PARAMS = {
-    "email_600x1200": (stack_vertical, {"logo": 180, "h": 52, "c": 24, "l": 10.5, "llh": 1.4,
+    "email_600x1200": (stack_vertical, {"logo": 180, "h": 55, "c": 24, "l": 10, "llh": 1.4,
                                          "gaps": [34, 44, 40, 20], "min_cw": 0.80}),
     "post_1080x1350": (stack_vertical, {"logo": 230, "h": 70, "c": 32, "l": 14, "llh": 1.3,
                                          "gaps": [44, 48, 44, 22], "min_cw": 0.86}),
@@ -325,7 +326,7 @@ PARAMS = {
                               "g_top": 44, "g_pc": 36, "g_cl": 16}),
     "stories_1080x1920": (stories, {"cw": 0.80, "g_photo": 64, "logo": 280, "h": 86, "c": 38, "l": 17,
                                     "gaps": [44, 48, 30]}),
-    "banner_970x250": (banner, {"photo_w": 430, "gutter": 20, "logo": 130, "col_gap": 20, "h": 40, "c": 16,
+    "banner_970x250": (banner, {"photo_w": 430, "gutter": 20, "logo": 130, "col_gap": 20, "h": 41, "c": 16, "legal_w": 470,
                                 "l": 8, "llh": 1.3, "g_hc": 10, "top": 2}),
 }
 

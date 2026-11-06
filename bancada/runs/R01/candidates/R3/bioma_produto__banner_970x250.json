@@ -75,13 +75,13 @@
    "geometry": {
     "x": 196,
     "y": 26,
-    "width": 426,
-    "height": 70,
+    "width": 432,
+    "height": 74,
     "z": 5
    },
    "style": {
     "font": "Cormorant Garamond",
-    "size": 30,
+    "size": 32,
     "weight": 600,
     "line_height": 1.05,
     "color": "#F1E9D6",
@@ -96,14 +96,14 @@
    "text": "2 e 3 suítes · 93 a 150 m²",
    "geometry": {
     "x": 196,
-    "y": 108,
+    "y": 110,
     "width": 426,
-    "height": 23,
+    "height": 24,
     "z": 5
    },
    "style": {
     "font": "Barlow",
-    "size": 16,
+    "size": 17,
     "weight": 600,
     "line_height": 1.15,
     "color": "#B9CBA4",
@@ -118,7 +118,7 @@
    "text": "Agende sua visita · 11 99943.5903",
    "geometry": {
     "x": 196,
-    "y": 134,
+    "y": 137,
     "width": 426,
     "height": 22,
     "z": 5
@@ -141,7 +141,7 @@
    "geometry": {
     "x": 28,
     "y": 190,
-    "width": 586,
+    "width": 606,
     "height": 43,
     "z": 5
    },

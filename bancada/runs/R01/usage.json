@@ -83,5 +83,15 @@
   "tokens": 132312,
   "tool_uses": 29,
   "ms": 322647
+ },
+ "R3b/otium_living": {
+  "tokens": 108136,
+  "tool_uses": 18,
+  "ms": 222945
+ },
+ "R2/otium_spa": {
+  "tokens": 136771,
+  "tool_uses": 25,
+  "ms": 362338
  }
 }

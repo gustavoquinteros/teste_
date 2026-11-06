@@ -9,15 +9,55 @@
  },
  "elements": [
   {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.8,
+   "asset": "otium_living",
+   "geometry": {
+    "x": 0,
+    "y": 0,
+    "width": 291,
+    "height": 250,
+    "z": 1
+   },
+   "crop": [
+    0.1378,
+    0,
+    0.5044,
+    1
+   ]
+  },
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.7,
+   "asset": "otium_logo",
+   "geometry": {
+    "x": 844,
+    "y": 100.15601783060922,
+    "width": 110,
+    "height": 49.687964338781576,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
    "id": "headline",
    "type": "TEXT",
    "role": "HEADLINE",
    "priority": 1,
    "text": "Living integrado com vista verde",
    "geometry": {
-    "x": 16,
+    "x": 307,
     "y": 32,
-    "width": 938,
+    "width": 521,
     "height": 27,
     "z": 5
    },
@@ -31,35 +71,15 @@
    }
   },
   {
-   "id": "logo",
-   "type": "IMAGE",
-   "role": "LOGO",
-   "priority": 0.7,
-   "asset": "otium_logo",
-   "geometry": {
-    "x": 16,
-    "y": 65,
-    "width": 110,
-    "height": 49.687964338781576,
-    "z": 6
-   },
-   "crop": [
-    0,
-    0,
-    1,
-    1
-   ]
-  },
-  {
    "id": "selo",
    "type": "TEXT",
    "role": "PRODUCT_INFO",
    "priority": 0.55,
    "text": "Planta de 142 m² com terraço gourmet",
    "geometry": {
-    "x": 16,
-    "y": 120.68796433878157,
-    "width": 938,
+    "x": 307,
+    "y": 61,
+    "width": 521,
     "height": 18,
     "z": 5
    },
@@ -71,31 +91,11 @@
     "color": "#D9A27A",
     "align": "left"
    }
-  },
-  {
-   "id": "hero",
-   "type": "IMAGE",
-   "role": "HERO",
-   "priority": 0.8,
-   "asset": "otium_living",
-   "geometry": {
-    "x": 0,
-    "y": 127.68796433878157,
-    "width": 970,
-    "height": 122.31203566121843,
-    "z": 1
-   },
-   "crop": [
-    0,
-    0.5445,
-    1,
-    0.291
-   ]
   }
  ],
  "_plan": {
-  "strategy": "S3",
-  "heroFrac": 0.4,
+  "strategy": "S1",
+  "heroFrac": 0.45,
   "side": "left",
   "align": "left"
  },

@@ -9,43 +9,6 @@
  },
  "elements": [
   {
-   "id": "hero",
-   "type": "IMAGE",
-   "role": "HERO",
-   "priority": 0.9,
-   "asset": "bioma_piscina",
-   "geometry": {
-    "x": 0,
-    "y": 0,
-    "width": 1080,
-    "height": 1920,
-    "z": 1
-   },
-   "crop": [
-    0.3347,
-    0,
-    0.3306,
-    1
-   ]
-  },
-  {
-   "id": "faixa_auto",
-   "type": "SHAPE",
-   "role": "DECOR",
-   "priority": 0.1,
-   "geometry": {
-    "x": 0,
-    "y": 0,
-    "width": 1080,
-    "height": 904.1265164644714,
-    "z": 2
-   },
-   "style": {
-    "color": "#1E3B2C",
-    "opacity": 0.86
-   }
-  },
-  {
    "id": "logo",
    "type": "IMAGE",
    "role": "LOGO",
@@ -54,8 +17,8 @@
    "geometry": {
     "x": 64,
     "y": 314,
-    "width": 260,
-    "height": 131.1265164644714,
+    "width": 204.70320000000004,
+    "height": 103.23852894280765,
     "z": 6
    },
    "crop": [
@@ -73,19 +36,39 @@
    "text": "Um novo norte para viver a vida ao ar livre",
    "geometry": {
     "x": 64,
-    "y": 487.12651646447136,
+    "y": 445.23852894280765,
     "width": 952,
-    "height": 154,
+    "height": 63,
     "z": 5
    },
    "style": {
     "font": "Cormorant Garamond",
-    "size": 70,
+    "size": 55,
     "weight": 600,
     "line_height": 1.05,
     "color": "#F1E9D6",
     "align": "left"
    }
+  },
+  {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.9,
+   "asset": "bioma_piscina",
+   "geometry": {
+    "x": 0,
+    "y": 566.2385289428076,
+    "width": 1080,
+    "height": 694,
+    "z": 1
+   },
+   "crop": [
+    0.0427,
+    0,
+    0.9147,
+    1
+   ]
   },
   {
    "id": "cta",
@@ -95,14 +78,14 @@
    "text": "Conheça o decorado · 11 99943.5903",
    "geometry": {
     "x": 64,
-    "y": 683.1265164644714,
+    "y": 1326,
     "width": 952,
-    "height": 36,
+    "height": 43,
     "z": 5
    },
    "style": {
     "font": "Barlow",
-    "size": 30,
+    "size": 36,
     "weight": 600,
     "line_height": 1.15,
     "color": "#B9CBA4",
@@ -117,7 +100,7 @@
    "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
    "geometry": {
     "x": 64,
-    "y": 761.1265164644714,
+    "y": 1411,
     "width": 952,
     "height": 105,
     "z": 5
@@ -133,8 +116,9 @@
   }
  ],
  "_plan": {
-  "strategy": "S2",
-  "side": "top",
+  "strategy": "S1",
+  "heroFrac": 0.5,
+  "tscale": 1.2,
   "align": "left"
  },
  "_format": "stories_1080x1920"

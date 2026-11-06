@@ -1,0 +1,4 @@
+{"arm":"R8","layout":"otium_produto",
+ "checks_per_format":{"email_600x1200":2,"post_1080x1350":3,"card_1080x1080":1,"stories_1080x1920":3,"banner_970x250":1},
+ "final_eligible":{"email_600x1200":true,"post_1080x1350":false,"card_1080x1080":true,"stories_1080x1920":false,"banner_970x250":true},
+ "notes":"Em S1 o motor encosta o headline na margem superior e, quando quebra em 2 linhas a 72px, o glifo vaza ~2px da margem/área segura (post e stories); tscale não reduziu o corpo o bastante para evitar a quebra. S2 no stories cobriu o prédio com a banda (58% visível). No post a 3ª verificação foi um re-check redundante por descuido meu."}

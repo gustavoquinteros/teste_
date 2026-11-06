@@ -15,16 +15,16 @@
    "priority": 0.9,
    "asset": "bioma_piscina",
    "geometry": {
-    "x": 698,
+    "x": 614,
     "y": 0,
-    "width": 272,
+    "width": 356,
     "height": 250,
     "z": 1
    },
    "crop": [
-    0.1802,
+    0.0815,
     0,
-    0.6395,
+    0.837,
     1
    ]
   },
@@ -57,7 +57,7 @@
    "geometry": {
     "x": 16,
     "y": 99.39999999999999,
-    "width": 666,
+    "width": 582,
     "height": 28,
     "z": 5
    },
@@ -79,7 +79,7 @@
    "geometry": {
     "x": 16,
     "y": 129.39999999999998,
-    "width": 666,
+    "width": 582,
     "height": 18,
     "z": 5
    },
@@ -101,7 +101,7 @@
    "geometry": {
     "x": 16,
     "y": 149.39999999999998,
-    "width": 666,
+    "width": 582,
     "height": 43,
     "z": 5
    },
@@ -117,7 +117,7 @@
  ],
  "_plan": {
   "strategy": "S1",
-  "heroFrac": 0.42,
+  "heroFrac": 0.55,
   "side": "right",
   "align": "left"
  },

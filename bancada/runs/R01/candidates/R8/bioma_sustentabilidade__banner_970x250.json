@@ -9,15 +9,55 @@
  },
  "elements": [
   {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.5,
+   "asset": "bioma_fachada",
+   "geometry": {
+    "x": 0,
+    "y": 0,
+    "width": 194,
+    "height": 250,
+    "z": 1
+   },
+   "crop": [
+    0.464,
+    0,
+    0.3817,
+    1
+   ]
+  },
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.6,
+   "asset": "bioma_logo",
+   "geometry": {
+    "x": 824,
+    "y": 92.21837088388216,
+    "width": 130,
+    "height": 65.5632582322357,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
    "id": "headline",
    "type": "TEXT",
    "role": "HEADLINE",
    "priority": 1,
    "text": "Viver bem também é cuidar do amanhã",
    "geometry": {
-    "x": 16,
+    "x": 210,
     "y": 32,
-    "width": 938,
+    "width": 598,
     "height": 28,
     "z": 5
    },
@@ -31,76 +71,16 @@
    }
   },
   {
-   "id": "logo",
-   "type": "IMAGE",
-   "role": "LOGO",
-   "priority": 0.6,
-   "asset": "bioma_logo",
-   "geometry": {
-    "x": 16,
-    "y": 61,
-    "width": 129.6762886597938,
-    "height": 65.39999999999999,
-    "z": 6
-   },
-   "crop": [
-    0,
-    0,
-    1,
-    1
-   ]
-  },
-  {
    "id": "icon_solar",
    "type": "IMAGE",
    "role": "PRODUCT_ATTRIBUTE",
    "priority": 0.55,
    "asset": "bioma_icon_solar",
    "geometry": {
-    "x": 16,
-    "y": 127.39999999999999,
-    "width": 10.431031289357085,
-    "height": 10.431031289357085,
-    "z": 4
-   },
-   "crop": [
-    0,
-    0,
-    1,
-    1
-   ]
-  },
-  {
-   "id": "icon_chuva",
-   "type": "IMAGE",
-   "role": "PRODUCT_ATTRIBUTE",
-   "priority": 0.55,
-   "asset": "bioma_icon_chuva",
-   "geometry": {
-    "x": 16,
-    "y": 138.83103128935707,
-    "width": 10.431031289357085,
-    "height": 10.431031289357085,
-    "z": 4
-   },
-   "crop": [
-    0,
-    0,
-    1,
-    1
-   ]
-  },
-  {
-   "id": "icon_coleta",
-   "type": "IMAGE",
-   "role": "PRODUCT_ATTRIBUTE",
-   "priority": 0.55,
-   "asset": "bioma_icon_coleta",
-   "geometry": {
-    "x": 16,
-    "y": 150.26206257871416,
-    "width": 10.431031289357085,
-    "height": 10.431031289357085,
+    "x": 210,
+    "y": 61,
+    "width": 24.62214450449026,
+    "height": 24.62214450449026,
     "z": 4
    },
    "crop": [
@@ -117,9 +97,9 @@
    "priority": 0.55,
    "text": "Previsão para aquecimento solar (2)",
    "geometry": {
-    "x": 16,
-    "y": 161.69309386807126,
-    "width": 938,
+    "x": 235.62214450449025,
+    "y": 65.31107225224514,
+    "width": 572.3778554955097,
     "height": 16,
     "z": 5
    },
@@ -131,6 +111,26 @@
     "color": "#F1E9D6",
     "align": "left"
    }
+  },
+  {
+   "id": "icon_chuva",
+   "type": "IMAGE",
+   "role": "PRODUCT_ATTRIBUTE",
+   "priority": 0.55,
+   "asset": "bioma_icon_chuva",
+   "geometry": {
+    "x": 210,
+    "y": 86.62214450449027,
+    "width": 24.62214450449026,
+    "height": 24.62214450449026,
+    "z": 4
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
   },
   {
    "id": "lbl_chuva",
@@ -139,9 +139,9 @@
    "priority": 0.55,
    "text": "Reaproveitamento de água das chuvas (3)",
    "geometry": {
-    "x": 16,
-    "y": 178.69309386807126,
-    "width": 938,
+    "x": 235.62214450449025,
+    "y": 90.93321675673539,
+    "width": 572.3778554955097,
     "height": 16,
     "z": 5
    },
@@ -155,15 +155,35 @@
    }
   },
   {
+   "id": "icon_coleta",
+   "type": "IMAGE",
+   "role": "PRODUCT_ATTRIBUTE",
+   "priority": 0.55,
+   "asset": "bioma_icon_coleta",
+   "geometry": {
+    "x": 210,
+    "y": 112.24428900898053,
+    "width": 24.62214450449026,
+    "height": 24.62214450449026,
+    "z": 4
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
    "id": "lbl_coleta",
    "type": "TEXT",
    "role": "PRODUCT_ATTRIBUTE",
    "priority": 0.55,
    "text": "Paisagismo com árvores nativas (4)",
    "geometry": {
-    "x": 16,
-    "y": 195.69309386807126,
-    "width": 938,
+    "x": 235.62214450449025,
+    "y": 116.55536126122566,
+    "width": 572.3778554955097,
     "height": 16,
     "z": 5
    },
@@ -183,10 +203,10 @@
    "priority": 0.3,
    "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
    "geometry": {
-    "x": 16,
-    "y": 212.69309386807126,
-    "width": 938,
-    "height": 33,
+    "x": 210,
+    "y": 137.86643351347078,
+    "width": 598,
+    "height": 43,
     "z": 5
    },
    "style": {
@@ -200,8 +220,10 @@
   }
  ],
  "_plan": {
-  "strategy": "S3",
-  "heroFrac": 0.35,
+  "strategy": "S1",
+  "heroFrac": 0.3,
+  "gap": 0.5,
+  "tscale": 0.6,
   "side": "left"
  },
  "_format": "banner_970x250"

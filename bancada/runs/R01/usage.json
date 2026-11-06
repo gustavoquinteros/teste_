@@ -1,1 +1,12 @@
-{}
+{
+ "R8/bioma_piscina": {
+  "tokens": 93633,
+  "tool_uses": 20,
+  "ms": 93986
+ },
+ "R8b/bioma_piscina": {
+  "tokens": 101663,
+  "tool_uses": 22,
+  "ms": 101327
+ }
+}

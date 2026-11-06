@@ -16,7 +16,7 @@
    "text": "Living integrado com vista verde",
    "geometry": {
     "x": 60,
-    "y": 120,
+    "y": 60,
     "width": 960,
     "height": 49,
     "z": 5
@@ -31,26 +31,6 @@
    }
   },
   {
-   "id": "logo",
-   "type": "IMAGE",
-   "role": "LOGO",
-   "priority": 0.7,
-   "asset": "otium_logo",
-   "geometry": {
-    "x": 60,
-    "y": 193,
-    "width": 195,
-    "height": 88.08320950965825,
-    "z": 6
-   },
-   "crop": [
-    0,
-    0,
-    1,
-    1
-   ]
-  },
-  {
    "id": "selo",
    "type": "TEXT",
    "role": "PRODUCT_INFO",
@@ -58,7 +38,7 @@
    "text": "Planta de 142 m² com terraço gourmet",
    "geometry": {
     "x": 60,
-    "y": 305.0832095096582,
+    "y": 133,
     "width": 960,
     "height": 32,
     "z": 5
@@ -80,21 +60,41 @@
    "asset": "otium_living",
    "geometry": {
     "x": 0,
-    "y": 298.68320950965824,
+    "y": 197,
     "width": 1080,
-    "height": 781.3167904903418,
+    "height": 594,
     "z": 1
    },
    "crop": [
-    0.0905,
     0,
-    0.599,
+    0,
+    0.7879,
+    1
+   ]
+  },
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.7,
+   "asset": "otium_logo",
+   "geometry": {
+    "x": 60,
+    "y": 931.9167904903418,
+    "width": 195,
+    "height": 88.08320950965825,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
     1
    ]
   }
  ],
  "_plan": {
-  "strategy": "S3",
+  "strategy": "S1",
   "heroFrac": 0.55,
   "align": "left"
  },

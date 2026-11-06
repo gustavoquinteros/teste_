@@ -9,6 +9,43 @@
  },
  "elements": [
   {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.5,
+   "asset": "bioma_fachada",
+   "geometry": {
+    "x": 0,
+    "y": 0,
+    "width": 1080,
+    "height": 1350,
+    "z": 1
+   },
+   "crop": [
+    0.4581,
+    0,
+    0.3935,
+    1
+   ]
+  },
+  {
+   "id": "faixa_auto",
+   "type": "SHAPE",
+   "role": "DECOR",
+   "priority": 0.1,
+   "geometry": {
+    "x": 0,
+    "y": 558.6358137988464,
+    "width": 1080,
+    "height": 791.3641862011536,
+    "z": 2
+   },
+   "style": {
+    "color": "#1E3B2C",
+    "opacity": 0.86
+   }
+  },
+  {
    "id": "headline",
    "type": "TEXT",
    "role": "HEADLINE",
@@ -16,7 +53,7 @@
    "text": "Viver bem também é cuidar do amanhã",
    "geometry": {
     "x": 60,
-    "y": 60,
+    "y": 594.6358137988464,
     "width": 960,
     "height": 68,
     "z": 5
@@ -31,26 +68,6 @@
    }
   },
   {
-   "id": "hero",
-   "type": "IMAGE",
-   "role": "HERO",
-   "priority": 0.5,
-   "asset": "bioma_fachada",
-   "geometry": {
-    "x": 0,
-    "y": 169,
-    "width": 1080,
-    "height": 567,
-    "z": 1
-   },
-   "crop": [
-    0.0631,
-    0,
-    0.9369,
-    1
-   ]
-  },
-  {
    "id": "logo",
    "type": "IMAGE",
    "role": "LOGO",
@@ -58,9 +75,9 @@
    "asset": "bioma_logo",
    "geometry": {
     "x": 60,
-    "y": 793.2750091770656,
-    "width": 163.00935555973467,
-    "height": 82.2109574833324,
+    "y": 692.6358137988464,
+    "width": 201.24611797498108,
+    "height": 101.49500923868196,
     "z": 6
    },
    "crop": [
@@ -78,10 +95,10 @@
    "asset": "bioma_icon_solar",
    "geometry": {
     "x": 60,
-    "y": 899.485966660398,
-    "width": 81.50467777986734,
-    "height": 81.50467777986734,
-    "z": 4
+    "y": 824.1308230375283,
+    "width": 100.62305898749054,
+    "height": 100.62305898749054,
+    "z": 5
    },
    "crop": [
     0,
@@ -97,9 +114,9 @@
    "priority": 0.55,
    "text": "Previsão para aquecimento solar (2)",
    "geometry": {
-    "x": 165.50467777986734,
-    "y": 925.7383055503317,
-    "width": 854.4953222201327,
+    "x": 190.62305898749054,
+    "y": 859.9423525312736,
+    "width": 829.3769410125094,
     "height": 29,
     "z": 5
    },
@@ -120,10 +137,10 @@
    "asset": "bioma_icon_chuva",
    "geometry": {
     "x": 60,
-    "y": 1004.9906444402653,
-    "width": 81.50467777986734,
-    "height": 81.50467777986734,
-    "z": 4
+    "y": 954.7538820250188,
+    "width": 100.62305898749054,
+    "height": 100.62305898749054,
+    "z": 5
    },
    "crop": [
     0,
@@ -139,9 +156,9 @@
    "priority": 0.55,
    "text": "Reaproveitamento de água das chuvas (3)",
    "geometry": {
-    "x": 165.50467777986734,
-    "y": 1031.242983330199,
-    "width": 854.4953222201327,
+    "x": 190.62305898749054,
+    "y": 990.5654115187641,
+    "width": 829.3769410125094,
     "height": 29,
     "z": 5
    },
@@ -162,10 +179,10 @@
    "asset": "bioma_icon_coleta",
    "geometry": {
     "x": 60,
-    "y": 1110.4953222201327,
-    "width": 81.50467777986734,
-    "height": 81.50467777986734,
-    "z": 4
+    "y": 1085.3769410125094,
+    "width": 100.62305898749054,
+    "height": 100.62305898749054,
+    "z": 5
    },
    "crop": [
     0,
@@ -181,9 +198,9 @@
    "priority": 0.55,
    "text": "Paisagismo com árvores nativas (4)",
    "geometry": {
-    "x": 165.50467777986734,
-    "y": 1136.7476611100665,
-    "width": 854.4953222201327,
+    "x": 190.62305898749054,
+    "y": 1121.1884705062548,
+    "width": 829.3769410125094,
     "height": 29,
     "z": 5
    },
@@ -220,8 +237,8 @@
   }
  ],
  "_plan": {
-  "strategy": "S1",
-  "heroFrac": 0.42,
+  "strategy": "S2",
+  "side": "bottom",
   "align": "left"
  },
  "_format": "post_1080x1350"

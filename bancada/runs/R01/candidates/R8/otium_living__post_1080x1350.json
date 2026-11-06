@@ -18,12 +18,12 @@
     "x": 60,
     "y": 60,
     "width": 960,
-    "height": 54,
+    "height": 48,
     "z": 5
    },
    "style": {
     "font": "Archivo",
-    "size": 50,
+    "size": 44,
     "weight": 700,
     "line_height": 1.05,
     "color": "#F4EDE4",
@@ -38,7 +38,7 @@
    "text": "Planta de 142 m² com terraço gourmet",
    "geometry": {
     "x": 60,
-    "y": 144,
+    "y": 138,
     "width": 960,
     "height": 32,
     "z": 5
@@ -60,15 +60,15 @@
    "asset": "otium_living",
    "geometry": {
     "x": 0,
-    "y": 217,
+    "y": 211,
     "width": 1080,
-    "height": 675,
+    "height": 783,
     "z": 1
    },
    "crop": [
-    0.0433,
+    0.0911,
     0,
-    0.6933,
+    0.5977,
     1
    ]
   },
@@ -80,9 +80,9 @@
    "asset": "otium_logo",
    "geometry": {
     "x": 60,
-    "y": 1191.5199779300242,
-    "width": 218.0166278062295,
-    "height": 98.48002206997589,
+    "y": 1203.3375805784212,
+    "width": 191.85463246948197,
+    "height": 86.66241942157879,
     "z": 6
    },
    "crop": [
@@ -95,7 +95,8 @@
  ],
  "_plan": {
   "strategy": "S1",
-  "heroFrac": 0.5,
+  "heroFrac": 0.58,
+  "tscale": 0.88,
   "align": "left"
  },
  "_format": "post_1080x1350"

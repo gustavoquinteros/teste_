@@ -17,8 +17,8 @@
    "geometry": {
     "x": 60,
     "y": 60,
-    "width": 207.95918535533156,
-    "height": 104.88062900936131,
+    "width": 203.76169444966834,
+    "height": 102.76369685416549,
     "z": 6
    },
    "crop": [
@@ -36,7 +36,7 @@
    "text": "Chegou o primeiro residencial da Cidade Center Norte",
    "geometry": {
     "x": 60,
-    "y": 183.88062900936131,
+    "y": 188.7636968541655,
     "width": 960,
     "height": 51,
     "z": 5
@@ -58,15 +58,15 @@
    "asset": "bioma_fachada",
    "geometry": {
     "x": 0,
-    "y": 279.8806290093613,
+    "y": 284.76369685416546,
     "width": 1080,
-    "height": 675,
+    "height": 756,
     "z": 1
    },
    "crop": [
-    0.213,
+    0.2974,
     0,
-    0.787,
+    0.7026,
     1
    ]
   },
@@ -78,14 +78,14 @@
    "text": "2 e 3 suítes · 93 a 150 m²",
    "geometry": {
     "x": 60,
-    "y": 1038,
+    "y": 1085.7636968541656,
     "width": 960,
-    "height": 48,
+    "height": 35,
     "z": 5
    },
    "style": {
     "font": "Barlow",
-    "size": 40,
+    "size": 29,
     "weight": 600,
     "line_height": 1.15,
     "color": "#B9CBA4",
@@ -100,14 +100,14 @@
    "text": "Agende sua visita · 11 99943.5903",
    "geometry": {
     "x": 60,
-    "y": 1119,
+    "y": 1153.7636968541656,
     "width": 960,
-    "height": 39,
+    "height": 31,
     "z": 5
    },
    "style": {
     "font": "Barlow",
-    "size": 33,
+    "size": 26,
     "weight": 400,
     "line_height": 1.15,
     "color": "#F1E9D6",
@@ -122,14 +122,14 @@
    "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
    "geometry": {
     "x": 60,
-    "y": 1191,
+    "y": 1217.7636968541656,
     "width": 960,
-    "height": 99,
+    "height": 74,
     "z": 5
    },
    "style": {
     "font": "Inter",
-    "size": 15,
+    "size": 14,
     "weight": 400,
     "line_height": 1.3,
     "color": "#F1E9D6",
@@ -139,9 +139,9 @@
  ],
  "_plan": {
   "strategy": "S1",
-  "heroFrac": 0.5,
+  "heroFrac": 0.56,
   "gap": 1.1,
-  "tscale": 1.4,
+  "tscale": 1,
   "align": "left",
   "zoom": 1
  },

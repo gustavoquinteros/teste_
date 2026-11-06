@@ -9,28 +9,6 @@
  },
  "elements": [
   {
-   "id": "headline",
-   "type": "TEXT",
-   "role": "HEADLINE",
-   "priority": 1,
-   "text": "Viver bem também é cuidar do amanhã",
-   "geometry": {
-    "x": 64,
-    "y": 314,
-    "width": 952,
-    "height": 158,
-    "z": 5
-   },
-   "style": {
-    "font": "Cormorant Garamond",
-    "size": 72,
-    "weight": 600,
-    "line_height": 1.05,
-    "color": "#F1E9D6",
-    "align": "center"
-   }
-  },
-  {
    "id": "hero",
    "type": "IMAGE",
    "role": "HERO",
@@ -38,17 +16,56 @@
    "asset": "bioma_fachada",
    "geometry": {
     "x": 0,
-    "y": 530,
+    "y": 0,
     "width": 1080,
-    "height": 326,
+    "height": 1920,
     "z": 1
    },
    "crop": [
+    0.5165,
     0,
-    0.1631,
-    1,
-    0.6137
+    0.2767,
+    1
    ]
+  },
+  {
+   "id": "faixa_auto",
+   "type": "SHAPE",
+   "role": "DECOR",
+   "priority": 0.1,
+   "geometry": {
+    "x": 0,
+    "y": 747.3577123050261,
+    "width": 1080,
+    "height": 1172.642287694974,
+    "z": 2
+   },
+   "style": {
+    "color": "#1E3B2C",
+    "opacity": 0.86
+   }
+  },
+  {
+   "id": "headline",
+   "type": "TEXT",
+   "role": "HEADLINE",
+   "priority": 1,
+   "text": "Viver bem também é cuidar do amanhã",
+   "geometry": {
+    "x": 64,
+    "y": 785.3577123050261,
+    "width": 952,
+    "height": 66,
+    "z": 5
+   },
+   "style": {
+    "font": "Cormorant Garamond",
+    "size": 58,
+    "weight": 600,
+    "line_height": 1.05,
+    "color": "#F1E9D6",
+    "align": "left"
+   }
   },
   {
    "id": "logo",
@@ -57,10 +74,10 @@
    "priority": 0.6,
    "asset": "bioma_logo",
    "geometry": {
-    "x": 452.52,
-    "y": 936.3219410745234,
-    "width": 174.96000000000004,
-    "height": 88.23805892547662,
+    "x": 64,
+    "y": 885.3577123050261,
+    "width": 194.4,
+    "height": 98.04228769497401,
     "z": 6
    },
    "crop": [
@@ -78,10 +95,10 @@
    "asset": "bioma_icon_solar",
    "geometry": {
     "x": 64,
-    "y": 1055.56,
-    "width": 87.48000000000002,
-    "height": 87.48000000000002,
-    "z": 4
+    "y": 1017.4000000000001,
+    "width": 97.2,
+    "height": 97.2,
+    "z": 5
    },
    "crop": [
     0,
@@ -97,9 +114,9 @@
    "priority": 0.55,
    "text": "Previsão para aquecimento solar (2)",
    "geometry": {
-    "x": 182.48000000000002,
-    "y": 1082.3,
-    "width": 833.52,
+    "x": 195.2,
+    "y": 1049,
+    "width": 820.8,
     "height": 34,
     "z": 5
    },
@@ -120,10 +137,10 @@
    "asset": "bioma_icon_chuva",
    "geometry": {
     "x": 64,
-    "y": 1174.04,
-    "width": 87.48000000000002,
-    "height": 87.48000000000002,
-    "z": 4
+    "y": 1148.6000000000001,
+    "width": 97.2,
+    "height": 97.2,
+    "z": 5
    },
    "crop": [
     0,
@@ -139,9 +156,9 @@
    "priority": 0.55,
    "text": "Reaproveitamento de água das chuvas (3)",
    "geometry": {
-    "x": 182.48000000000002,
-    "y": 1200.78,
-    "width": 833.52,
+    "x": 195.2,
+    "y": 1180.2,
+    "width": 820.8,
     "height": 34,
     "z": 5
    },
@@ -162,10 +179,10 @@
    "asset": "bioma_icon_coleta",
    "geometry": {
     "x": 64,
-    "y": 1292.52,
-    "width": 87.48000000000002,
-    "height": 87.48000000000002,
-    "z": 4
+    "y": 1279.8000000000002,
+    "width": 97.2,
+    "height": 97.2,
+    "z": 5
    },
    "crop": [
     0,
@@ -181,9 +198,9 @@
    "priority": 0.55,
    "text": "Paisagismo com árvores nativas (4)",
    "geometry": {
-    "x": 182.48000000000002,
-    "y": 1319.26,
-    "width": 833.52,
+    "x": 195.2,
+    "y": 1311.4,
+    "width": 820.8,
     "height": 34,
     "z": 5
    },
@@ -215,14 +232,14 @@
     "weight": 400,
     "line_height": 1.3,
     "color": "#F1E9D6",
-    "align": "center"
+    "align": "left"
    }
   }
  ],
  "_plan": {
-  "strategy": "S1",
-  "heroFrac": 0.45,
-  "align": "center"
+  "strategy": "S2",
+  "side": "bottom",
+  "align": "left"
  },
  "_format": "stories_1080x1920"
 }

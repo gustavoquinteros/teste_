@@ -184,13 +184,13 @@ def L_stories(F, extra=0):
 def L_banner(F, extra=0):
     W, H, m = F["width"], F["height"], F["margin"]
     els, ms = [], {}
-    hw = 300
+    hw = 340
     h, vis = hero(0, 0, hw, H); els.append(h)
-    x = hw + 32
+    x = hw + 30
     col = W - m - x
     lg = logo(x, 18 + extra // 2, 140); els.append(lg)
     y = 18 + extra // 2 + lg["geometry"]["height"] + 14
-    t, mm = text_block("headline", x, y, col, 38, force_lines=1); els.append(t); ms["headline"] = mm
+    t, mm = text_block("headline", x, y, col, 35, force_lines=1); els.append(t); ms["headline"] = mm
     y = mm["bottom"] + 16
     t, mm = text_block("selo", x, y, col, 19); els.append(t); ms["selo"] = mm
     y = mm["bottom"] + 9

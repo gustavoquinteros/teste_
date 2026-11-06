@@ -38,7 +38,7 @@
    "text": "Planta de 142 m² com terraço gourmet",
    "geometry": {
     "x": 64,
-    "y": 421,
+    "y": 412,
     "width": 952,
     "height": 37,
     "z": 5
@@ -60,15 +60,15 @@
    "asset": "otium_living",
    "geometry": {
     "x": 0,
-    "y": 527,
+    "y": 507,
     "width": 1080,
-    "height": 763,
+    "height": 832,
     "z": 1
    },
    "crop": [
-    0.0833,
+    0.1087,
     0,
-    0.6134,
+    0.5625,
     1
    ]
   },
@@ -95,9 +95,8 @@
  ],
  "_plan": {
   "strategy": "S1",
-  "heroFrac": 0.55,
+  "heroFrac": 0.6,
   "tscale": 0.85,
-  "gap": 1.2,
   "align": "left"
  },
  "_format": "stories_1080x1920"

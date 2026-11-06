@@ -1,0 +1,4 @@
+{"arm":"R3","layout":"bioma_piscina",
+ "checks_per_format":{"email_600x1200":2,"post_1080x1350":1,"card_1080x1080":1,"stories_1080x1920":2,"banner_970x250":3},
+ "final_eligible":{"email_600x1200":true,"post_1080x1350":true,"card_1080x1080":true,"stories_1080x1920":true,"banner_970x250":true},
+ "notes":"A área protegida da piscina é muito larga (aspecto ~4:1, crop ≥0,8 da largura), então nos verticais a foto vira faixa horizontal de largura total e os textos vão para áreas verdes sólidas, sem texto sobre foto. Stories: a área segura inferior soma a margem (legal teve de subir). Banner: alinhar logo/textos em 970x250 com legal longo — tentar legal na coluna do título piorou o alinhamento, voltei à versão 1."}

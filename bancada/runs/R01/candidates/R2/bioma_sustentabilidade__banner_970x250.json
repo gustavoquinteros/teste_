@@ -18,14 +18,14 @@
    "geometry": {
     "x": 0,
     "y": 0,
-    "width": 290,
+    "width": 236,
     "height": 250,
     "z": 1
    },
    "crop": [
-    0.36954,
+    0.42266,
     0.0,
-    0.57055,
+    0.46431,
     1.0
    ]
   },
@@ -36,10 +36,10 @@
    "priority": 0.6,
    "asset": "bioma_logo",
    "geometry": {
-    "x": 814,
-    "y": 66.91,
-    "width": 136,
-    "height": 68.59,
+    "x": 820,
+    "y": 59.47,
+    "width": 132,
+    "height": 66.57,
     "z": 6
    },
    "crop": [
@@ -56,15 +56,15 @@
    "priority": 1.0,
    "text": "Viver bem também é cuidar do amanhã",
    "geometry": {
-    "x": 316,
-    "y": 24.75,
-    "width": 470,
-    "height": 41,
+    "x": 258,
+    "y": 39.03,
+    "width": 540,
+    "height": 45,
     "z": 5
    },
    "style": {
     "font": "Cormorant Garamond",
-    "size": 30,
+    "size": 34,
     "weight": 600,
     "line_height": 1.05,
     "color": "#F1E9D6",
@@ -78,10 +78,10 @@
    "priority": 0.55,
    "asset": "bioma_icon_solar",
    "geometry": {
-    "x": 316.0,
-    "y": 73.0,
-    "width": 38,
-    "height": 38,
+    "x": 258,
+    "y": 117.64,
+    "width": 32,
+    "height": 32,
     "z": 4
    },
    "crop": [
@@ -98,10 +98,10 @@
    "priority": 0.55,
    "text": "Previsão para aquecimento solar (2)",
    "geometry": {
-    "x": 362.0,
-    "y": 69.58,
-    "width": 101.33,
-    "height": 52,
+    "x": 297,
+    "y": 118.69,
+    "width": 135,
+    "height": 37,
     "z": 5
    },
    "style": {
@@ -120,10 +120,10 @@
    "priority": 0.55,
    "asset": "bioma_icon_chuva",
    "geometry": {
-    "x": 477.33,
-    "y": 73.0,
-    "width": 38,
-    "height": 38,
+    "x": 450.5,
+    "y": 117.64,
+    "width": 32,
+    "height": 32,
     "z": 4
    },
    "crop": [
@@ -140,10 +140,10 @@
    "priority": 0.55,
    "text": "Reaproveitamento de água das chuvas (3)",
    "geometry": {
-    "x": 523.33,
-    "y": 69.58,
-    "width": 101.33,
-    "height": 52,
+    "x": 489.5,
+    "y": 118.69,
+    "width": 134,
+    "height": 37,
     "z": 5
    },
    "style": {
@@ -162,10 +162,10 @@
    "priority": 0.55,
    "asset": "bioma_icon_coleta",
    "geometry": {
-    "x": 638.67,
-    "y": 73.0,
-    "width": 38,
-    "height": 38,
+    "x": 642.0,
+    "y": 117.64,
+    "width": 32,
+    "height": 32,
     "z": 4
    },
    "crop": [
@@ -182,10 +182,10 @@
    "priority": 0.55,
    "text": "Paisagismo com árvores nativas (4)",
    "geometry": {
-    "x": 684.67,
-    "y": 69.58,
-    "width": 101.33,
-    "height": 52,
+    "x": 681.0,
+    "y": 118.69,
+    "width": 117,
+    "height": 37,
     "z": 5
    },
    "style": {
@@ -204,10 +204,10 @@
    "priority": 0.3,
    "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
    "geometry": {
-    "x": 316,
-    "y": 192.4,
-    "width": 638,
-    "height": 45,
+    "x": 258,
+    "y": 189.4,
+    "width": 696,
+    "height": 48,
     "z": 5
    },
    "style": {

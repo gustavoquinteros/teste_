@@ -64,7 +64,13 @@ def _measure(text, style, size, width, lh):
     L = size * lh
     over = max(0.0, (content - L) / 2)  # área de conteúdo que vaza da linha (acima e abaixo)
     # risco de quebra diferente no navegador: linha muito colada no limite
-    tight = max(ws) > width - 3
+    # risco de o navegador quebrar diferente: linha colada no limite, ou próxima palavra quase cabendo
+    tol = max(2.5, 0.004 * width)
+    words = [l.split(" ") for l in lines]
+    tight = max(ws) > width - tol
+    for i in range(len(lines) - 1):
+        if f.getlength(lines[i] + " " + words[i + 1][0]) < width + tol:
+            tight = True
     h = len(lines) * L + over
     return {"lines": lines, "n": len(lines), "w": max(ws), "h": h, "over": over, "L": L, "tight": tight}
 
@@ -133,7 +139,14 @@ def logo(x, y, w):
 
 
 def legal_block(width, size):
-    return _measure(BY["legal"]["text"], BY["legal"]["style"], size, width, BY["legal"]["style"]["line_height"])
+    """Jurídico: estreita a caixa alguns px até a quebra ficar estável (sem linha no limite)."""
+    w = width
+    while True:
+        m = _measure(BY["legal"]["text"], BY["legal"]["style"], size, w, BY["legal"]["style"]["line_height"])
+        if not m["tight"] or w < width - 40:
+            m["box_w"] = w
+            return m
+        w -= 1
 
 
 ATTRS = [("icon_solar", "lbl_solar"), ("icon_chuva", "lbl_chuva"), ("icon_coleta", "lbl_coleta")]
@@ -184,76 +197,80 @@ def attrs_inline(x0, y, total_w, icon, lsize, gap_x, col_gap):
 
 
 # --------------------------------------------------------------------------- formatos
+def stack(y0, y1, blocks, weights):
+    """Empilha blocos (altura, builder(y)) entre y0 e y1 distribuindo o espaço livre nos vãos."""
+    free = y1 - y0 - sum(h for h, _ in blocks)
+    tw = sum(weights)
+    els, y = [], y0
+    for i, (h, fn) in enumerate(blocks):
+        y += free * weights[i] / tw
+        els += fn(y)
+        y += h
+    return els, free
+
+
+def headline_row(x0, cw, lg_w, gap, smax, smin, lines=2):
+    """Título à esquerda e logo à direita, centrado na altura do título (como na peça-mestra)."""
+    hw = cw - lg_w - gap
+    hs, hm = fit_size(HL["text"], HL["style"], hw, lines, smax, smin)
+    hv = vis_h(hm)
+    lh_ = lg_w / LOGO_AR
+    H = max(hv, lh_)
+
+    def build(y):
+        return [T("headline", x0, y + (H - hv) / 2, hw, hs, hm),
+                logo(x0 + cw - lg_w, y + (H - lh_) / 2, lg_w)]
+    return H, build
+
+
+def columns_block(x0, cw, gap, icon, lsize, lgap):
+    _, b = attrs_columns(x0, 0, cw, gap, icon, lsize, lgap)
+    return b, (lambda y: attrs_columns(x0, y, cw, gap, icon, lsize, lgap)[0])
+
+
+def legal_at(x0, bottom, cw, size):
+    lm = legal_block(cw, size)
+    return T("legal", x0, bottom - vis_h(lm), lm["box_w"], size, lm), bottom - vis_h(lm)
+
+
 def email():
     F = FMTS["email_600x1200"]; W, H, M = F["width"], F["height"], F["margin"]
     cw = W - 2 * M
-    els = []
-    hero_h = 400
-    els.append(I("hero", 0, 0, W, hero_h, hero_crop(W, hero_h)))
-    y = hero_h + 40
+    hero_h = 450
+    els = [I("hero", 0, 0, W, hero_h, hero_crop(W, hero_h))]
+    lg, legal_y = legal_at(M, H - M - 4, cw, 10)
     hs, hm = fit_size(HL["text"], HL["style"], cw, 2, 46, 40)
-    els.append(T("headline", M, y, cw, hs, hm))
-    y += vis_h(hm) + 34
-    a, y = attrs_rows(M, y, cw, 64, 18, 18, 18)
-    els += a
-    # rodapé: logo + jurídico ancorados embaixo
+    icon, lsz, rg = 68, 20, 18
     lg_w = 150
-    lsz = 10
-    lm = legal_block(cw, lsz)
-    legal_y = H - M - vis_h(lm)
-    logo_y = legal_y - 30 - lg_w / LOGO_AR
-    # centraliza o bloco do logo no espaço que sobra entre atributos e jurídico
-    free_top, free_bot = y, legal_y
-    logo_y = free_top + (free_bot - free_top - lg_w / LOGO_AR) / 2
-    els.append(logo(M, logo_y, lg_w))
-    els.append(T("legal", M, legal_y, cw, lsz, lm))
-    return W, H, els
+    blocks = [
+        (vis_h(hm), lambda y: [T("headline", M, y, cw, hs, hm)]),
+        (3 * icon + 2 * rg, lambda y: attrs_rows(M, y, cw, icon, lsz, 18, rg)[0]),
+        (lg_w / LOGO_AR, lambda y: [logo(M, y, lg_w)]),
+    ]
+    e, free = stack(hero_h, legal_y, blocks + [(0, lambda y: [])], [1.0, 0.9, 1.0, 0.8])
+    return W, H, els + e + [lg]
 
 
 def post():
     F = FMTS["post_1080x1350"]; W, H, M = F["width"], F["height"], F["margin"]
     cw = W - 2 * M
-    els = []
-    hero_h = 540
-    els.append(I("hero", 0, 0, W, hero_h, hero_crop(W, hero_h, ch=0.86)))
-    y = hero_h + 52
-    lg_w = 230
-    hw = cw - lg_w - 50
-    hs, hm = fit_size(HL["text"], HL["style"], hw, 2, 76, 56)
-    els.append(T("headline", M, y, hw, hs, hm))
-    hvis = vis_h(hm)
-    els.append(logo(W - M - lg_w, y + (hvis - lg_w / LOGO_AR) / 2, lg_w))
-    y += hvis + 52
-    a, y = attrs_columns(M, y, cw, 36, 96, 26, 18)
-    els += a
-    lsz = 14
-    lm = legal_block(cw, lsz)
-    legal_y = H - M - vis_h(lm)
-    els.append(T("legal", M, legal_y, cw, lsz, lm))
-    return W, H, els
+    hero_h = 620
+    els = [I("hero", 0, 0, W, hero_h, hero_crop(W, hero_h, ch=0.9))]
+    lg, legal_y = legal_at(M, H - M - 4, cw, 14)
+    blocks = [headline_row(M, cw, 230, 50, 76, 56), columns_block(M, cw, 36, 100, 26, 18)]
+    e, _ = stack(hero_h, legal_y, blocks + [(0, lambda y: [])], [1, 0.9, 1])
+    return W, H, els + e + [lg]
 
 
 def card():
     F = FMTS["card_1080x1080"]; W, H, M = F["width"], F["height"], F["margin"]
     cw = W - 2 * M
-    els = []
-    hero_h = 380
-    els.append(I("hero", 0, 0, W, hero_h, hero_crop(W, hero_h)))
-    y = hero_h + 44
-    lg_w = 210
-    hw = cw - lg_w - 50
-    hs, hm = fit_size(HL["text"], HL["style"], hw, 2, 66, 50)
-    els.append(T("headline", M, y, hw, hs, hm))
-    hvis = vis_h(hm)
-    els.append(logo(W - M - lg_w, y + (hvis - lg_w / LOGO_AR) / 2, lg_w))
-    y += hvis + 44
-    a, y = attrs_inline(M, y, cw, 76, 24, 14, 22)
-    els += a
-    lsz = 14
-    lm = legal_block(cw, lsz)
-    legal_y = H - M - vis_h(lm)
-    els.append(T("legal", M, legal_y, cw, lsz, lm))
-    return W, H, els
+    hero_h = 410
+    els = [I("hero", 0, 0, W, hero_h, hero_crop(W, hero_h))]
+    lg, legal_y = legal_at(M, H - M - 4, cw, 14)
+    blocks = [headline_row(M, cw, 210, 50, 66, 50), columns_block(M, cw, 36, 84, 24, 16)]
+    e, _ = stack(hero_h, legal_y, blocks + [(0, lambda y: [])], [1, 0.85, 1])
+    return W, H, els + e + [lg]
 
 
 def stories():
@@ -261,50 +278,54 @@ def stories():
     sx0, sy0 = M + F["safe"][3], M + F["safe"][0]
     sx1, sy1 = W - M - F["safe"][1], H - M - F["safe"][2]
     cw = sx1 - sx0
-    els = []
-    hero_h = 820
-    els.append(I("hero", 0, 0, W, hero_h, hero_crop(W, hero_h)))
-    y = hero_h + 56
-    lg_w = 240
-    hw = cw - lg_w - 40
-    hs, hm = fit_size(HL["text"], HL["style"], hw, 2, 80, 60)
-    els.append(T("headline", sx0, y, hw, hs, hm))
-    hvis = vis_h(hm)
-    els.append(logo(sx1 - lg_w, y + (hvis - lg_w / LOGO_AR) / 2, lg_w))
-    y += hvis + 60
-    lsz = 16
-    lm = legal_block(cw, lsz)
-    legal_y = sy1 - vis_h(lm)
-    a, yb = attrs_columns(sx0, y, cw, 36, 104, 28, 18)
-    els += a
-    els.append(T("legal", sx0, legal_y, cw, lsz, lm))
-    return W, H, els
+    hero_h = 840
+    els = [I("hero", 0, 0, W, hero_h, hero_crop(W, hero_h))]
+    lg, legal_y = legal_at(sx0, sy1 - 4, cw, 16)
+    blocks = [headline_row(sx0, cw, 240, 40, 80, 60), columns_block(sx0, cw, 36, 108, 28, 18)]
+    e, _ = stack(hero_h, legal_y, blocks + [(0, lambda y: [])], [1, 0.85, 1])
+    return W, H, els + e + [lg]
 
 
 def banner():
     F = FMTS["banner_970x250"]; W, H, M = F["width"], F["height"], F["margin"]
-    els = []
-    hero_w = 290
-    els.append(I("hero", 0, 0, hero_w, H, hero_crop(hero_w, H)))
-    x0 = hero_w + 26
-    lg_w = 136
-    lgx = W - M - 4 - lg_w
-    tw = lgx - 28 - x0
-    y = 22
+    hero_w = 236
+    els = [I("hero", 0, 0, hero_w, H, hero_crop(hero_w, H))]
+    x0 = hero_w + 22
+    lg_w = 132
+    lgx = W - M - 2 - lg_w
+    tw = lgx - 22 - x0
+    # jurídico ocupa toda a largura de texto embaixo (inclusive sob o logo)
+    lg, legal_y = legal_at(x0, H - M - 3, W - M - x0, 8)
     hs, hm = fit_size(HL["text"], HL["style"], tw, 1, 34, 24)
-    els.append(T("headline", x0, y, tw, hs, hm))
-    y += vis_h(hm) + 14
-    a, y = attrs_inline(x0, y, tw, 38, 13, 8, 14)
-    els += a
-    lsz = 8
-    lfw = W - M - x0
-    lm = legal_block(lfw, lsz)
-    legal_y = H - M - vis_h(lm)
-    els.append(T("legal", x0, legal_y, lfw, lsz, lm, slack=3))
-    # logo centrado verticalmente no espaço acima do jurídico
+    # atributos: colunas com a largura natural de 2 linhas de cada rótulo
+    icon, gx, lsz = 32, 7, 13
+    widths = []
+    for ic, lb in ATTRS:
+        for w in range(60, 300):
+            m = _measure(BY[lb]["text"], LBL_STYLE, lsz, w, LBL_STYLE["line_height"])
+            if m["n"] <= 2 and not m["tight"]:
+                break
+        widths.append(w + 8)
+    used = sum(icon + gx + w for w in widths)
+    cgap = (tw - used) / 2
+    mrow = [_measure(BY[lb]["text"], LBL_STYLE, lsz, widths[i], LBL_STYLE["line_height"]) for i, (ic, lb) in enumerate(ATTRS)]
+    row_h = max(icon, max(vis_h(m) for m in mrow))
+
+    def attrs(y):
+        out, x = [], x0
+        for i, (ic, lb) in enumerate(ATTRS):
+            out.append(I(ic, x, y + (row_h - icon) / 2, icon, icon))
+            out.append(T(lb, x + icon + gx, y + (row_h - vis_h(mrow[i])) / 2, widths[i], lsz, mrow[i]))
+            x += icon + gx + widths[i] + cgap
+        return out
+    blocks = [(vis_h(hm), lambda y: [T("headline", x0, y, tw, hs, hm)]), (row_h, attrs)]
+    e, _ = stack(M, legal_y, blocks + [(0, lambda y: [])], [0.5, 1, 1])
+    # logo centrado verticalmente na faixa título+atributos
+    top = min(el["geometry"]["y"] for el in e if el["id"] == "headline") - hm["over"]
+    bot = max(el["geometry"]["y"] + el["geometry"]["height"] for el in e if el["id"].startswith("icon"))
     lh_ = lg_w / LOGO_AR
-    els.append(logo(lgx, 22 + (legal_y - 12 - 22 - lh_) / 2, lg_w))
-    return W, H, els
+    e.append(logo(lgx, (top + bot) / 2 - lh_ / 2, lg_w))
+    return W, H, els + e + [lg]
 
 
 BUILD = {"email_600x1200": email, "post_1080x1350": post, "card_1080x1080": card,

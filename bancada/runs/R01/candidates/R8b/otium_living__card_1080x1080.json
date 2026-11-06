@@ -62,13 +62,13 @@
     "x": 0,
     "y": 197,
     "width": 1080,
-    "height": 486,
+    "height": 594,
     "z": 1
    },
    "crop": [
     0,
     0,
-    0.963,
+    0.7879,
     1
    ]
   },
@@ -95,7 +95,7 @@
  ],
  "_plan": {
   "strategy": "S1",
-  "heroFrac": 0.45,
+  "heroFrac": 0.55,
   "align": "left"
  },
  "_format": "card_1080x1080"

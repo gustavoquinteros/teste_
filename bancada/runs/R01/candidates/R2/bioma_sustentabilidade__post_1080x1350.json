@@ -19,14 +19,14 @@
     "x": 0,
     "y": 0,
     "width": 1080,
-    "height": 540,
+    "height": 620,
     "z": 1
    },
    "crop": [
-    0.15401,
-    0.04,
-    0.84599,
-    0.86
+    0.2289,
+    0.02,
+    0.7711,
+    0.9
    ]
   },
   {
@@ -37,7 +37,7 @@
    "asset": "bioma_logo",
    "geometry": {
     "x": 790,
-    "y": 620.4,
+    "y": 731.33,
     "width": 230,
     "height": 116.0,
     "z": 6
@@ -57,7 +57,7 @@
    "text": "Viver bem também é cuidar do amanhã",
    "geometry": {
     "x": 60,
-    "y": 598.6,
+    "y": 709.53,
     "width": 680,
     "height": 173,
     "z": 5
@@ -79,9 +79,9 @@
    "asset": "bioma_icon_solar",
    "geometry": {
     "x": 60.0,
-    "y": 816.8,
-    "width": 96,
-    "height": 96,
+    "y": 950.37,
+    "width": 100,
+    "height": 100,
     "z": 4
    },
    "crop": [
@@ -99,7 +99,7 @@
    "text": "Previsão para aquecimento solar (2)",
    "geometry": {
     "x": 60.0,
-    "y": 931.85,
+    "y": 1069.42,
     "width": 296.0,
     "height": 67,
     "z": 5
@@ -121,9 +121,9 @@
    "asset": "bioma_icon_chuva",
    "geometry": {
     "x": 392.0,
-    "y": 816.8,
-    "width": 96,
-    "height": 96,
+    "y": 950.37,
+    "width": 100,
+    "height": 100,
     "z": 4
    },
    "crop": [
@@ -141,7 +141,7 @@
    "text": "Reaproveitamento de água das chuvas (3)",
    "geometry": {
     "x": 392.0,
-    "y": 931.85,
+    "y": 1069.42,
     "width": 296.0,
     "height": 67,
     "z": 5
@@ -163,9 +163,9 @@
    "asset": "bioma_icon_coleta",
    "geometry": {
     "x": 724.0,
-    "y": 816.8,
-    "width": 96,
-    "height": 96,
+    "y": 950.37,
+    "width": 100,
+    "height": 100,
     "z": 4
    },
    "crop": [
@@ -183,7 +183,7 @@
    "text": "Paisagismo com árvores nativas (4)",
    "geometry": {
     "x": 724.0,
-    "y": 931.85,
+    "y": 1069.42,
     "width": 296.0,
     "height": 67,
     "z": 5
@@ -205,7 +205,7 @@
    "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
    "geometry": {
     "x": 60,
-    "y": 1217.2,
+    "y": 1213.2,
     "width": 960,
     "height": 79,
     "z": 5

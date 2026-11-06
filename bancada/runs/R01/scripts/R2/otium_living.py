@@ -204,7 +204,7 @@ def make(fk):
         hero = hero_el(0, 0, 1080, 620, cx=0.43)
         els = side(F, 72, 240, 370, 650, 54, 27, 620, H - 10, 20)
     elif fk == "stories_1080x1920":
-        hero = hero_el(0, 0, 1080, 920, cx=0.355)
+        hero = hero_el(0, 0, 1080, 920, cx=0.40)
         els = vstack(F, W, H, 1000, 330, 76, 36, "center", M, W - 2 * M, 920, H - M - sb_, 60, 30)
     elif fk == "banner_970x250":
         hero = hero_el(0, 0, 390, 250, cx=0.40)

@@ -54,7 +54,7 @@
    "asset": "otium_logo",
    "geometry": {
     "x": 780,
-    "y": 949.7,
+    "y": 979.7,
     "width": 240,
     "height": 108.4,
     "z": 6
@@ -74,7 +74,7 @@
    "text": "Um spa para chamar de seu",
    "geometry": {
     "x": 60,
-    "y": 890,
+    "y": 920,
     "width": 652,
     "height": 198,
     "z": 5
@@ -96,7 +96,7 @@
    "text": "Lazer completo no rooftop · Visite o decorado",
    "geometry": {
     "x": 60,
-    "y": 1125,
+    "y": 1160,
     "width": 683,
     "height": 46,
     "z": 5

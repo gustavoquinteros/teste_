@@ -35,9 +35,9 @@
    "priority": 0.1,
    "geometry": {
     "x": 0,
-    "y": 393.2201039861352,
+    "y": 571.4367417677643,
     "width": 1080,
-    "height": 686.7798960138648,
+    "height": 508.56325823223574,
     "z": 2
    },
    "style": {
@@ -53,14 +53,14 @@
    "text": "Viver bem também é cuidar do amanhã",
    "geometry": {
     "x": 60,
-    "y": 429.2201039861352,
+    "y": 607.4367417677643,
     "width": 960,
-    "height": 61,
+    "height": 51,
     "z": 5
    },
    "style": {
     "font": "Cormorant Garamond",
-    "size": 54,
+    "size": 44,
     "weight": 600,
     "line_height": 1.05,
     "color": "#F1E9D6",
@@ -75,9 +75,9 @@
    "asset": "bioma_logo",
    "geometry": {
     "x": 60,
-    "y": 509.2201039861352,
-    "width": 180,
-    "height": 90.77989601386481,
+    "y": 670.4367417677643,
+    "width": 130,
+    "height": 65.5632582322357,
     "z": 6
    },
    "crop": [
@@ -95,9 +95,9 @@
    "asset": "bioma_icon_solar",
    "geometry": {
     "x": 60,
-    "y": 619,
-    "width": 90,
-    "height": 90,
+    "y": 748,
+    "width": 54,
+    "height": 54,
     "z": 5
    },
    "crop": [
@@ -114,9 +114,9 @@
    "priority": 0.55,
    "text": "Previsão para aquecimento solar (2)",
    "geometry": {
-    "x": 169,
-    "y": 649.5,
-    "width": 851,
+    "x": 126,
+    "y": 760.5,
+    "width": 894,
     "height": 29,
     "z": 5
    },
@@ -137,9 +137,9 @@
    "asset": "bioma_icon_chuva",
    "geometry": {
     "x": 60,
-    "y": 728,
-    "width": 90,
-    "height": 90,
+    "y": 814,
+    "width": 54,
+    "height": 54,
     "z": 5
    },
    "crop": [
@@ -156,9 +156,9 @@
    "priority": 0.55,
    "text": "Reaproveitamento de água das chuvas (3)",
    "geometry": {
-    "x": 169,
-    "y": 758.5,
-    "width": 851,
+    "x": 126,
+    "y": 826.5,
+    "width": 894,
     "height": 29,
     "z": 5
    },
@@ -179,9 +179,9 @@
    "asset": "bioma_icon_coleta",
    "geometry": {
     "x": 60,
-    "y": 837,
-    "width": 90,
-    "height": 90,
+    "y": 880,
+    "width": 54,
+    "height": 54,
     "z": 5
    },
    "crop": [
@@ -198,9 +198,9 @@
    "priority": 0.55,
    "text": "Paisagismo com árvores nativas (4)",
    "geometry": {
-    "x": 169,
-    "y": 867.5,
-    "width": 851,
+    "x": 126,
+    "y": 892.5,
+    "width": 894,
     "height": 29,
     "z": 5
    },
@@ -240,7 +240,8 @@
   "strategy": "S2",
   "side": "bottom",
   "align": "left",
-  "gap": 0.8
+  "tscale": 0.6,
+  "gap": 0.5
  },
  "_format": "card_1080x1080"
 }

@@ -18,14 +18,14 @@
    "geometry": {
     "x": 0,
     "y": 0,
-    "width": 300,
+    "width": 340,
     "height": 250,
     "z": 1
    },
    "crop": [
-    0.1483,
+    0.1101,
     0.04,
-    0.5733,
+    0.6498,
     0.86
    ]
   },
@@ -36,7 +36,7 @@
    "priority": 0.7,
    "asset": "otium_logo",
    "geometry": {
-    "x": 822,
+    "x": 372,
     "y": 95.6,
     "width": 130,
     "height": 58.72,
@@ -56,7 +56,7 @@
    "priority": 1.0,
    "text": "Jardim das Perdizes, no seu ritmo",
    "geometry": {
-    "x": 332,
+    "x": 546,
     "y": 50,
     "width": 385,
     "height": 82,
@@ -78,9 +78,9 @@
    "priority": 0.6,
    "text": "3 suítes · 142 m² · 2 vagas",
    "geometry": {
-    "x": 332,
+    "x": 546,
     "y": 146,
-    "width": 460,
+    "width": 408,
     "height": 24,
     "z": 5
    },
@@ -100,10 +100,10 @@
    "priority": 0.65,
    "text": "Visite o stand · otiumartefacto.com.br",
    "geometry": {
-    "x": 332,
+    "x": 546,
     "y": 178,
-    "width": 460,
-    "height": 22,
+    "width": 408,
+    "height": 24,
     "z": 5
    },
    "style": {

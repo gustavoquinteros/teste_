@@ -9,43 +9,6 @@
  },
  "elements": [
   {
-   "id": "hero",
-   "type": "IMAGE",
-   "role": "HERO",
-   "priority": 0.8,
-   "asset": "otium_living",
-   "geometry": {
-    "x": 0,
-    "y": 0,
-    "width": 1080,
-    "height": 1920,
-    "z": 1
-   },
-   "crop": [
-    0.2681,
-    0,
-    0.2438,
-    1
-   ]
-  },
-  {
-   "id": "faixa_auto",
-   "type": "SHAPE",
-   "role": "DECOR",
-   "priority": 0.1,
-   "geometry": {
-    "x": 0,
-    "y": 1174.555720653789,
-    "width": 1080,
-    "height": 745.444279346211,
-    "z": 2
-   },
-   "style": {
-    "color": "#2B2A2D",
-    "opacity": 0.86
-   }
-  },
-  {
    "id": "headline",
    "type": "TEXT",
    "role": "HEADLINE",
@@ -53,14 +16,14 @@
    "text": "Living integrado com vista verde",
    "geometry": {
     "x": 64,
-    "y": 1212.555720653789,
+    "y": 314,
     "width": 952,
-    "height": 65,
+    "height": 56,
     "z": 5
    },
    "style": {
     "font": "Archivo",
-    "size": 60,
+    "size": 52,
     "weight": 700,
     "line_height": 1.05,
     "color": "#F4EDE4",
@@ -75,7 +38,7 @@
    "text": "Planta de 142 m² com terraço gourmet",
    "geometry": {
     "x": 64,
-    "y": 1319.555720653789,
+    "y": 412,
     "width": 952,
     "height": 37,
     "z": 5
@@ -90,6 +53,26 @@
    }
   },
   {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.8,
+   "asset": "otium_living",
+   "geometry": {
+    "x": 0,
+    "y": 507,
+    "width": 1080,
+    "height": 832,
+    "z": 1
+   },
+   "crop": [
+    0.1087,
+    0,
+    0.5625,
+    1
+   ]
+  },
+  {
    "id": "logo",
    "type": "IMAGE",
    "role": "LOGO",
@@ -97,9 +80,9 @@
    "asset": "otium_logo",
    "geometry": {
     "x": 64,
-    "y": 1398.555720653789,
-    "width": 260,
-    "height": 117.444279346211,
+    "y": 1413.8234769687965,
+    "width": 226.2,
+    "height": 102.17652303120357,
     "z": 6
    },
    "crop": [
@@ -111,8 +94,9 @@
   }
  ],
  "_plan": {
-  "strategy": "S2",
-  "side": "bottom",
+  "strategy": "S1",
+  "heroFrac": 0.6,
+  "tscale": 0.87,
   "align": "left"
  },
  "_format": "stories_1080x1920"

@@ -8,5 +8,40 @@
   "tokens": 101663,
   "tool_uses": 22,
   "ms": 101327
+ },
+ "R8/otium_produto": {
+  "tokens": 91096,
+  "tool_uses": 22,
+  "ms": 115249
+ },
+ "R8/bioma_produto": {
+  "tokens": 103350,
+  "tool_uses": 30,
+  "ms": 125486
+ },
+ "R8b/bioma_produto": {
+  "tokens": 106598,
+  "tool_uses": 32,
+  "ms": 142658
+ },
+ "R8/bioma_sustentabilidade": {
+  "tokens": 102201,
+  "tool_uses": 16,
+  "ms": 159904
+ },
+ "R3/otium_living": {
+  "tokens": 96964,
+  "tool_uses": 14,
+  "ms": 162901
+ },
+ "R3/otium_produto": {
+  "tokens": 105853,
+  "tool_uses": 23,
+  "ms": 168043
+ },
+ "R8/otium_living": {
+  "tokens": 108208,
+  "tool_uses": 26,
+  "ms": 171188
  }
 }

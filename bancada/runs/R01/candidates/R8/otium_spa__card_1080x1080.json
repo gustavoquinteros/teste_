@@ -18,12 +18,12 @@
     "x": 60,
     "y": 60,
     "width": 960,
-    "height": 61,
+    "height": 69,
     "z": 5
    },
    "style": {
     "font": "Archivo",
-    "size": 57,
+    "size": 64,
     "weight": 700,
     "line_height": 1.05,
     "color": "#F4EDE4",
@@ -38,16 +38,16 @@
    "asset": "otium_spa",
    "geometry": {
     "x": 0,
-    "y": 153,
+    "y": 161,
     "width": 1080,
-    "height": 594,
+    "height": 648,
     "z": 1
    },
    "crop": [
+    0.0312,
     0,
-    0.0222,
-    1,
-    0.9778
+    0.9375,
+    1
    ]
   },
   {
@@ -58,9 +58,9 @@
    "asset": "otium_logo",
    "geometry": {
     "x": 60,
-    "y": 882.6924219910848,
-    "width": 180,
-    "height": 81.30757800891531,
+    "y": 870.9355126300148,
+    "width": 201.60000000000002,
+    "height": 91.06448736998516,
     "z": 6
    },
    "crop": [
@@ -78,14 +78,14 @@
    "text": "Lazer completo no rooftop · Visite o decorado",
    "geometry": {
     "x": 60,
-    "y": 988.0000000000001,
+    "y": 986,
     "width": 960,
-    "height": 32,
+    "height": 34,
     "z": 5
    },
    "style": {
     "font": "Host Grotesk",
-    "size": 26,
+    "size": 27,
     "weight": 400,
     "line_height": 1.15,
     "color": "#D9A27A",
@@ -95,7 +95,8 @@
  ],
  "_plan": {
   "strategy": "S1",
-  "heroFrac": 0.55,
+  "heroFrac": 0.6,
+  "tscale": 1.12,
   "align": "left"
  },
  "_format": "card_1080x1080"

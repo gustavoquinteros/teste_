@@ -40,13 +40,13 @@
     "x": 0,
     "y": 165,
     "width": 600,
-    "height": 408,
+    "height": 720,
     "z": 1
    },
    "crop": [
-    0.0864,
+    0.2656,
     0,
-    0.8272,
+    0.4688,
     1
    ]
   },
@@ -95,9 +95,8 @@
  ],
  "_plan": {
   "strategy": "S1",
-  "heroFrac": 0.34,
-  "align": "center",
-  "gap": 1
+  "heroFrac": 0.6,
+  "align": "center"
  },
  "_format": "email_600x1200"
 }

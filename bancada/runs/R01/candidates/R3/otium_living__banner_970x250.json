@@ -16,16 +16,16 @@
    "priority": 0.8,
    "asset": "otium_living",
    "geometry": {
-    "x": 620,
+    "x": 0,
     "y": 0,
-    "width": 350,
+    "width": 330,
     "height": 250,
     "z": 1
    },
    "crop": [
-    0.08667,
+    0.104,
     0,
-    0.60667,
+    0.572,
     1
    ]
   },
@@ -36,7 +36,7 @@
    "priority": 0.7,
    "asset": "otium_logo",
    "geometry": {
-    "x": 28,
+    "x": 360,
     "y": 97,
     "width": 124,
     "height": 56,
@@ -56,7 +56,7 @@
    "priority": 1.0,
    "text": "Living integrado com vista verde",
    "geometry": {
-    "x": 184,
+    "x": 512,
     "y": 65,
     "width": 340,
     "height": 82,
@@ -78,9 +78,9 @@
    "priority": 0.55,
    "text": "Planta de 142 m² com terraço gourmet",
    "geometry": {
-    "x": 184,
+    "x": 512,
     "y": 159,
-    "width": 420,
+    "width": 430,
     "height": 30,
     "z": 5
    },

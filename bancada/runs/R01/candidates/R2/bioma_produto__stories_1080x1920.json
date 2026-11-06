@@ -1,0 +1,182 @@
+{
+ "schema_version": "bancada-0.1",
+ "layout_id": "bioma_produto",
+ "brand": "bioma",
+ "_format": "stories_1080x1920",
+ "canvas": {
+  "width": 1080,
+  "height": 1920,
+  "background": "#1E3B2C"
+ },
+ "elements": [
+  {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.8,
+   "asset": "bioma_fachada",
+   "geometry": {
+    "x": 0,
+    "y": 0,
+    "width": 1080,
+    "height": 873.05,
+    "z": 1
+   },
+   "crop": [
+    0.35059,
+    0,
+    0.60844,
+    1.0
+   ]
+  },
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.7,
+   "asset": "bioma_logo",
+   "geometry": {
+    "x": 64,
+    "y": 929.05,
+    "width": 220,
+    "height": 110.95,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "headline",
+   "type": "TEXT",
+   "role": "HEADLINE",
+   "priority": 1.0,
+   "text": "Chegou o primeiro residencial da Cidade Center Norte",
+   "geometry": {
+    "x": 64,
+    "y": 1076.0,
+    "width": 952,
+    "height": 147,
+    "z": 5
+   },
+   "style": {
+    "font": "Cormorant Garamond",
+    "size": 66,
+    "weight": 600,
+    "line_height": 1.05,
+    "color": "#F1E9D6",
+    "align": "left"
+   }
+  },
+  {
+   "id": "selo",
+   "type": "TEXT",
+   "role": "PRODUCT_INFO",
+   "priority": 0.6,
+   "text": "2 e 3 suítes · 93 a 150 m²",
+   "geometry": {
+    "x": 64,
+    "y": 1267.0,
+    "width": 952,
+    "height": 46,
+    "z": 5
+   },
+   "style": {
+    "font": "Barlow",
+    "size": 36,
+    "weight": 600,
+    "line_height": 1.15,
+    "color": "#B9CBA4",
+    "align": "left"
+   }
+  },
+  {
+   "id": "cta",
+   "type": "TEXT",
+   "role": "CTA",
+   "priority": 0.65,
+   "text": "Agende sua visita · 11 99943.5903",
+   "geometry": {
+    "x": 64,
+    "y": 1325.0,
+    "width": 952,
+    "height": 40,
+    "z": 5
+   },
+   "style": {
+    "font": "Barlow",
+    "size": 31,
+    "weight": 400,
+    "line_height": 1.15,
+    "color": "#F1E9D6",
+    "align": "left"
+   }
+  },
+  {
+   "id": "legal",
+   "type": "TEXT",
+   "role": "LEGAL",
+   "priority": 0.3,
+   "text": "Material com imagens e informações sujeitas a alterações. (1) Empreendimento em processo de Certificação EDGE. (2) Torres residenciais com previsão para futura instalação de sistema de aquecimento solar. (3) Torres residenciais com sistema de reaproveitamento de água das chuvas, para irrigação dos jardins das áreas comuns. (4) Paisagismo com plantio de árvores nativas, minimizando a necessidade de irrigação. (5) Torres residenciais com espaço e infraestrutura para três pontos de recarga de veículos elétricos. (*) Diferenciais sustentáveis do setor residencial.",
+   "geometry": {
+    "x": 64,
+    "y": 1409.0,
+    "width": 952,
+    "height": 107,
+    "z": 5
+   },
+   "style": {
+    "font": "Inter",
+    "size": 16,
+    "weight": 400,
+    "line_height": 1.3,
+    "color": "#F1E9D6",
+    "align": "left"
+   }
+  }
+ ],
+ "relations": [
+  {
+   "source": "logo",
+   "target": "headline",
+   "type": "BRANDS"
+  },
+  {
+   "source": "selo",
+   "target": "headline",
+   "type": "SUPPORTS"
+  },
+  {
+   "source": "cta",
+   "target": "headline",
+   "type": "CALLS_TO_ACTION"
+  },
+  {
+   "source": "legal",
+   "target": "selo",
+   "type": "EXPLAINS"
+  }
+ ],
+ "groups": [
+  {
+   "id": "g_marca",
+   "members": [
+    "logo",
+    "headline"
+   ],
+   "mode": "ADJACENT"
+  },
+  {
+   "id": "g_info",
+   "members": [
+    "selo",
+    "cta"
+   ],
+   "mode": "ADJACENT"
+  }
+ ],
+ "text_over_image": []
+}

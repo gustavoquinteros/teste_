@@ -17,14 +17,14 @@
    "geometry": {
     "x": 0,
     "y": 0,
-    "width": 272,
+    "width": 388,
     "height": 250,
     "z": 1
    },
    "crop": [
-    0.194,
+    0.0635,
     0,
-    0.612,
+    0.873,
     1
    ]
   },
@@ -55,15 +55,15 @@
    "priority": 1,
    "text": "Um spa para chamar de seu",
    "geometry": {
-    "x": 288,
+    "x": 404,
     "y": 32,
-    "width": 540,
-    "height": 29,
+    "width": 424,
+    "height": 34,
     "z": 5
    },
    "style": {
     "font": "Archivo",
-    "size": 26,
+    "size": 31,
     "weight": 700,
     "line_height": 1.05,
     "color": "#F4EDE4",
@@ -77,9 +77,9 @@
    "priority": 0.6,
    "text": "Lazer completo no rooftop · Visite o decorado",
    "geometry": {
-    "x": 288,
-    "y": 63,
-    "width": 540,
+    "x": 404,
+    "y": 68,
+    "width": 424,
     "height": 18,
     "z": 5
    },
@@ -95,7 +95,8 @@
  ],
  "_plan": {
   "strategy": "S1",
-  "heroFrac": 0.42,
+  "heroFrac": 0.6,
+  "tscale": 1.2,
   "side": "left",
   "align": "left"
  },

@@ -1,0 +1,4 @@
+{"arm":"R3","layout":"otium_produto",
+ "checks_per_format":{"email_600x1200":1,"post_1080x1350":1,"card_1080x1080":1,"stories_1080x1920":3,"banner_970x250":3},
+ "final_eligible":{"email_600x1200":true,"post_1080x1350":true,"card_1080x1080":true,"stories_1080x1920":true,"banner_970x250":true},
+ "notes":"A medida real do navegador sobe a caixa do texto alguns px acima de y e fica mais alta que size*line_height (CTA do stories estourou 36→43px); precisei de folga vertical. Forçar a quebra 'Jardim das Perdizes, / no seu ritmo' exigiu largura de caixa calibrada com PIL. Perdi uma verificação em stories e banner por um erro no meu script de geração (re-checagem do arquivo antigo)."}

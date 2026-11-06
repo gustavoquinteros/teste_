@@ -313,7 +313,9 @@ def near_pairs(F, els, pad=6):
 GRID = {  # variacoes pequenas e legitimas (largura de coluna, corpo do selo/cta) para fugir de quase-alinhamentos
     "card_1080x1080": dict(cs=[26, 27], ss=[29, 30, 31], hw=[0, 20, 40], hs=[48, 50, 52, 54, 56]),
     "banner_970x250": dict(cs=[14, 14.5, 15], ss=[16, 17, 18], hw=[0, 20, 40, 60]),
-    "stories_1080x1920": dict(cs=[34], ss=[40], hw=[0, 40, 80]),
+    # largura do titulo no meio entre as quebras "residencial da Cidade" (639px) e "...Center" (865px):
+    # quebra 3 linhas sem palavra orfa com folga contra a diferenca PIL x Chromium
+    "stories_1080x1920": dict(cs=[34], ss=[40], hw=[212]),
 }
 
 

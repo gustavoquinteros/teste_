@@ -98,5 +98,10 @@
   "tokens": 117359,
   "tool_uses": 25,
   "ms": 255161
+ },
+ "R3b/bioma_produto": {
+  "tokens": 129894,
+  "tool_uses": 32,
+  "ms": 295152
  }
 }

@@ -1,0 +1,4 @@
+{"arm":"R2","layout":"bioma_piscina",
+ "checks_per_format":{"email_600x1200":3,"post_1080x1350":1,"card_1080x1080":2,"stories_1080x1920":3,"banner_970x250":2},
+ "final_eligible":{"email_600x1200":true,"post_1080x1350":true,"card_1080x1080":true,"stories_1080x1920":true,"banner_970x250":true},
+ "notes":"A foto 16:9 com a piscina protegida (80% da largura) nao cabe atras do texto nos formatos verticais, entao o script troca a faixa translucida por uma pilha marca/foto/CTA+legal sobre o verde da marca (card com logo|headline lado a lado, stories com foto no topo, banner com foto a direita). Todos elegiveis desde a 1a verificacao (medicao PIL + metricas hhea bateu com o Chromium); as verificacoes extras foram so para afinar notas suaves (grupo logo-headline no email, relacao de area headline x legal) e o corte lateral da piscina."}

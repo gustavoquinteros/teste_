@@ -1,0 +1,302 @@
+{
+ "bioma_piscina__email_600x1200": {
+  "A": "R1opt",
+  "B": "T1",
+  "C": "R1",
+  "D": "R3",
+  "E": "R8",
+  "F": "B0",
+  "G": "R2",
+  "H": "A1"
+ },
+ "bioma_piscina__post_1080x1350": {
+  "A": "B0",
+  "B": "R2",
+  "C": "R1opt",
+  "D": "T1",
+  "E": "A1",
+  "F": "R8",
+  "G": "R1",
+  "H": "R3"
+ },
+ "bioma_piscina__card_1080x1080": {
+  "A": "R2",
+  "B": "A1",
+  "C": "R1opt",
+  "D": "R8",
+  "E": "R1",
+  "F": "R3",
+  "G": "B0",
+  "H": "T1"
+ },
+ "bioma_piscina__stories_1080x1920": {
+  "A": "R1",
+  "B": "B0",
+  "C": "R2",
+  "D": "A1",
+  "E": "T1",
+  "F": "R3",
+  "G": "R8",
+  "H": "R1opt"
+ },
+ "bioma_piscina__banner_970x250": {
+  "A": "T1",
+  "B": "R3",
+  "C": "R2",
+  "D": "R1",
+  "E": "A1",
+  "F": "B0",
+  "G": "R8",
+  "H": "R1opt"
+ },
+ "bioma_produto__email_600x1200": {
+  "A": "R1",
+  "B": "T1",
+  "C": "R2",
+  "D": "R1opt",
+  "E": "B0",
+  "F": "A1",
+  "G": "R8",
+  "H": "R3"
+ },
+ "bioma_produto__post_1080x1350": {
+  "A": "R2",
+  "B": "A1",
+  "C": "T1",
+  "D": "B0",
+  "E": "R3",
+  "F": "R1opt",
+  "G": "R8",
+  "H": "R1"
+ },
+ "bioma_produto__card_1080x1080": {
+  "A": "R1",
+  "B": "R1opt",
+  "C": "T1",
+  "D": "R2",
+  "E": "B0",
+  "F": "A1",
+  "G": "R3",
+  "H": "R8"
+ },
+ "bioma_produto__stories_1080x1920": {
+  "A": "T1",
+  "B": "R8",
+  "C": "R3",
+  "D": "A1",
+  "E": "R1opt",
+  "F": "R2",
+  "G": "B0",
+  "H": "R1"
+ },
+ "bioma_produto__banner_970x250": {
+  "A": "R1",
+  "B": "B0",
+  "C": "R3",
+  "D": "R8",
+  "E": "R2",
+  "F": "A1",
+  "G": "T1",
+  "H": "R1opt"
+ },
+ "bioma_sustentabilidade__email_600x1200": {
+  "A": "R1opt",
+  "B": "R3",
+  "C": "R1",
+  "D": "R8",
+  "E": "B0",
+  "F": "A1",
+  "G": "T1",
+  "H": "R2"
+ },
+ "bioma_sustentabilidade__post_1080x1350": {
+  "A": "R8",
+  "B": "B0",
+  "C": "T1",
+  "D": "R3",
+  "E": "R2",
+  "F": "A1",
+  "G": "R1",
+  "H": "R1opt"
+ },
+ "bioma_sustentabilidade__card_1080x1080": {
+  "A": "R1opt",
+  "B": "R2",
+  "C": "B0",
+  "D": "A1",
+  "E": "T1",
+  "F": "R3",
+  "G": "R1",
+  "H": "R8"
+ },
+ "bioma_sustentabilidade__stories_1080x1920": {
+  "A": "R3",
+  "B": "R2",
+  "C": "B0",
+  "D": "R1",
+  "E": "R8",
+  "F": "T1",
+  "G": "A1",
+  "H": "R1opt"
+ },
+ "bioma_sustentabilidade__banner_970x250": {
+  "A": "R3",
+  "B": "B0",
+  "C": "T1",
+  "D": "A1",
+  "E": "R1",
+  "F": "R1opt",
+  "G": "R2",
+  "H": "R8"
+ },
+ "otium_living__email_600x1200": {
+  "A": "R1opt",
+  "B": "B0",
+  "C": "R2",
+  "D": "R8",
+  "E": "A1",
+  "F": "R1",
+  "G": "T1",
+  "H": "R3"
+ },
+ "otium_living__post_1080x1350": {
+  "A": "R3",
+  "B": "R1opt",
+  "C": "R2",
+  "D": "T1",
+  "E": "R1",
+  "F": "R8",
+  "G": "A1",
+  "H": "B0"
+ },
+ "otium_living__card_1080x1080": {
+  "A": "A1",
+  "B": "B0",
+  "C": "R1",
+  "D": "R3",
+  "E": "R1opt",
+  "F": "T1",
+  "G": "R8",
+  "H": "R2"
+ },
+ "otium_living__stories_1080x1920": {
+  "A": "A1",
+  "B": "R1opt",
+  "C": "R1",
+  "D": "T1",
+  "E": "R2",
+  "F": "B0",
+  "G": "R8",
+  "H": "R3"
+ },
+ "otium_living__banner_970x250": {
+  "A": "T1",
+  "B": "A1",
+  "C": "R3",
+  "D": "R2",
+  "E": "R1",
+  "F": "B0",
+  "G": "R1opt",
+  "H": "R8"
+ },
+ "otium_produto__email_600x1200": {
+  "A": "R1opt",
+  "B": "R2",
+  "C": "R1",
+  "D": "A1",
+  "E": "R3",
+  "F": "R8",
+  "G": "B0",
+  "H": "T1"
+ },
+ "otium_produto__post_1080x1350": {
+  "A": "R1opt",
+  "B": "R2",
+  "C": "B0",
+  "D": "T1",
+  "E": "R8",
+  "F": "R3",
+  "G": "A1",
+  "H": "R1"
+ },
+ "otium_produto__card_1080x1080": {
+  "A": "R1opt",
+  "B": "B0",
+  "C": "A1",
+  "D": "T1",
+  "E": "R1",
+  "F": "R8",
+  "G": "R3",
+  "H": "R2"
+ },
+ "otium_produto__stories_1080x1920": {
+  "A": "R8",
+  "B": "B0",
+  "C": "A1",
+  "D": "R1",
+  "E": "R3",
+  "F": "T1",
+  "G": "R1opt",
+  "H": "R2"
+ },
+ "otium_produto__banner_970x250": {
+  "A": "A1",
+  "B": "R3",
+  "C": "R8",
+  "D": "R1",
+  "E": "R1opt",
+  "F": "B0",
+  "G": "T1",
+  "H": "R2"
+ },
+ "otium_spa__email_600x1200": {
+  "A": "R1",
+  "B": "R8",
+  "C": "A1",
+  "D": "T1",
+  "E": "R1opt",
+  "F": "R3",
+  "G": "B0",
+  "H": "R2"
+ },
+ "otium_spa__post_1080x1350": {
+  "A": "R8",
+  "B": "B0",
+  "C": "R2",
+  "D": "R3",
+  "E": "A1",
+  "F": "R1opt",
+  "G": "R1",
+  "H": "T1"
+ },
+ "otium_spa__card_1080x1080": {
+  "A": "R2",
+  "B": "R1opt",
+  "C": "B0",
+  "D": "T1",
+  "E": "R1",
+  "F": "R3",
+  "G": "R8",
+  "H": "A1"
+ },
+ "otium_spa__stories_1080x1920": {
+  "A": "B0",
+  "B": "R3",
+  "C": "R1opt",
+  "D": "R1",
+  "E": "R2",
+  "F": "A1",
+  "G": "R8",
+  "H": "T1"
+ },
+ "otium_spa__banner_970x250": {
+  "A": "R8",
+  "B": "R3",
+  "C": "T1",
+  "D": "R2",
+  "E": "R1opt",
+  "F": "A1",
+  "G": "B0",
+  "H": "R1"
+ }
+}

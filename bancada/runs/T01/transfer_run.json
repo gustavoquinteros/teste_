@@ -1,0 +1,152 @@
+{
+ "bioma_produto->bioma_sustentabilidade": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: 'selo'"
+ },
+ "bioma_produto->bioma_piscina": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: 'selo'"
+ },
+ "bioma_produto->otium_produto": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: 'legal'"
+ },
+ "bioma_produto->otium_spa": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: 'legal'"
+ },
+ "bioma_produto->otium_living": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: 'legal'"
+ },
+ "bioma_sustentabilidade->bioma_produto": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: 'lbl_solar'"
+ },
+ "bioma_sustentabilidade->bioma_piscina": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: 'lbl_solar'"
+ },
+ "bioma_sustentabilidade->otium_produto": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: 'lbl_solar'"
+ },
+ "bioma_sustentabilidade->otium_spa": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: 'lbl_solar'"
+ },
+ "bioma_sustentabilidade->otium_living": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: 'lbl_solar'"
+ },
+ "bioma_piscina->bioma_produto": {
+  "rc": 0,
+  "arquivos": 5,
+  "erro": ""
+ },
+ "bioma_piscina->bioma_sustentabilidade": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: 'cta'"
+ },
+ "bioma_piscina->otium_produto": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: 'legal'"
+ },
+ "bioma_piscina->otium_spa": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: 'legal'"
+ },
+ "bioma_piscina->otium_living": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: 'cta'"
+ },
+ "otium_produto->bioma_produto": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: ('Cormorant Garamond', 600)"
+ },
+ "otium_produto->bioma_sustentabilidade": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: ('Cormorant Garamond', 600)"
+ },
+ "otium_produto->bioma_piscina": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: ('Cormorant Garamond', 600)"
+ },
+ "otium_produto->otium_spa": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "AssertionError"
+ },
+ "otium_produto->otium_living": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "AssertionError"
+ },
+ "otium_spa->bioma_produto": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: ('Cormorant Garamond', 600)"
+ },
+ "otium_spa->bioma_sustentabilidade": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: ('Cormorant Garamond', 600)"
+ },
+ "otium_spa->bioma_piscina": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: ('Cormorant Garamond', 600)"
+ },
+ "otium_spa->otium_produto": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: ('Poppins', 400)"
+ },
+ "otium_spa->otium_living": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "StopIteration"
+ },
+ "otium_living->bioma_produto": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: ('Cormorant Garamond', 600)"
+ },
+ "otium_living->bioma_sustentabilidade": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: ('Cormorant Garamond', 600)"
+ },
+ "otium_living->bioma_piscina": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: ('Cormorant Garamond', 600)"
+ },
+ "otium_living->otium_produto": {
+  "rc": 0,
+  "arquivos": 5,
+  "erro": ""
+ },
+ "otium_living->otium_spa": {
+  "rc": 1,
+  "arquivos": 0,
+  "erro": "KeyError: 'selo'"
+ }
+}

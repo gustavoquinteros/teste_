@@ -1,0 +1,360 @@
+[
+ {
+  "arm": "X_bioma_piscina",
+  "layout": "bioma_produto",
+  "format": "banner_970x250",
+  "eligible": false,
+  "fails": 4,
+  "hard": [
+   {
+    "check": "ativo_identico",
+    "id": "hero",
+    "status": "FAIL",
+    "detail": "ativo trocado"
+   },
+   {
+    "check": "conteudo_presente",
+    "id": "selo",
+    "status": "FAIL",
+    "detail": "elemento removido"
+   },
+   {
+    "check": "texto_sobre_texto",
+    "id": "headline/legal",
+    "status": "FAIL",
+    "detail": "textos se sobrepoem"
+   },
+   {
+    "check": "texto_sobre_texto",
+    "id": "cta/legal",
+    "status": "FAIL",
+    "detail": "textos se sobrepoem"
+   }
+  ],
+  "soft": {
+   "preenchimento": 0.9640624999999999,
+   "alinhamento": 0.75,
+   "size_rel": 1,
+   "hierarquia": 1,
+   "ordem_leitura": 1,
+   "escala_texto": 1,
+   "grupos": 1,
+   "contraste_folga": 2.247
+  },
+  "soft_score": 0.9652678571428571,
+  "protected_visible": 1,
+  "provenance": "R2: script de layout proprio (runs/T01/scripts/R2/bioma_piscina.py)"
+ },
+ {
+  "arm": "X_bioma_piscina",
+  "layout": "bioma_produto",
+  "format": "card_1080x1080",
+  "eligible": false,
+  "fails": 2,
+  "hard": [
+   {
+    "check": "ativo_identico",
+    "id": "hero",
+    "status": "FAIL",
+    "detail": "ativo trocado"
+   },
+   {
+    "check": "conteudo_presente",
+    "id": "selo",
+    "status": "FAIL",
+    "detail": "elemento removido"
+   }
+  ],
+  "soft": {
+   "preenchimento": 0.90703125,
+   "alinhamento": 1,
+   "size_rel": 1,
+   "hierarquia": 1,
+   "ordem_leitura": 1,
+   "escala_texto": 1,
+   "grupos": 1,
+   "contraste_folga": 2.247
+  },
+  "soft_score": 0.9840625000000001,
+  "protected_visible": 1,
+  "provenance": "R2: script de layout proprio (runs/T01/scripts/R2/bioma_piscina.py)"
+ },
+ {
+  "arm": "X_bioma_piscina",
+  "layout": "bioma_produto",
+  "format": "email_600x1200",
+  "eligible": false,
+  "fails": 2,
+  "hard": [
+   {
+    "check": "ativo_identico",
+    "id": "hero",
+    "status": "FAIL",
+    "detail": "ativo trocado"
+   },
+   {
+    "check": "conteudo_presente",
+    "id": "selo",
+    "status": "FAIL",
+    "detail": "elemento removido"
+   }
+  ],
+  "soft": {
+   "preenchimento": 0.71328125,
+   "alinhamento": 1,
+   "size_rel": 1,
+   "hierarquia": 1,
+   "ordem_leitura": 1,
+   "escala_texto": 1,
+   "grupos": 1,
+   "contraste_folga": 2.247
+  },
+  "soft_score": 0.9508482142857143,
+  "protected_visible": 1,
+  "provenance": "R2: script de layout proprio (runs/T01/scripts/R2/bioma_piscina.py)"
+ },
+ {
+  "arm": "X_bioma_piscina",
+  "layout": "bioma_produto",
+  "format": "post_1080x1350",
+  "eligible": false,
+  "fails": 2,
+  "hard": [
+   {
+    "check": "ativo_identico",
+    "id": "hero",
+    "status": "FAIL",
+    "detail": "ativo trocado"
+   },
+   {
+    "check": "conteudo_presente",
+    "id": "selo",
+    "status": "FAIL",
+    "detail": "elemento removido"
+   }
+  ],
+  "soft": {
+   "preenchimento": 0.8125,
+   "alinhamento": 1,
+   "size_rel": 1,
+   "hierarquia": 1,
+   "ordem_leitura": 1,
+   "escala_texto": 1,
+   "grupos": 1,
+   "contraste_folga": 2.247
+  },
+  "soft_score": 0.9678571428571429,
+  "protected_visible": 1,
+  "provenance": "R2: script de layout proprio (runs/T01/scripts/R2/bioma_piscina.py)"
+ },
+ {
+  "arm": "X_bioma_piscina",
+  "layout": "bioma_produto",
+  "format": "stories_1080x1920",
+  "eligible": false,
+  "fails": 2,
+  "hard": [
+   {
+    "check": "ativo_identico",
+    "id": "hero",
+    "status": "FAIL",
+    "detail": "ativo trocado"
+   },
+   {
+    "check": "conteudo_presente",
+    "id": "selo",
+    "status": "FAIL",
+    "detail": "elemento removido"
+   }
+  ],
+  "soft": {
+   "preenchimento": 0.6914062499999999,
+   "alinhamento": 1,
+   "size_rel": 1,
+   "hierarquia": 1,
+   "ordem_leitura": 1,
+   "escala_texto": 1,
+   "grupos": 1,
+   "contraste_folga": 2.247
+  },
+  "soft_score": 0.9470982142857142,
+  "protected_visible": 1,
+  "provenance": "R2: script de layout proprio (runs/T01/scripts/R2/bioma_piscina.py)"
+ },
+ {
+  "arm": "X_otium_living",
+  "layout": "otium_produto",
+  "format": "banner_970x250",
+  "eligible": false,
+  "fails": 2,
+  "hard": [
+   {
+    "check": "ativo_identico",
+    "id": "hero",
+    "status": "FAIL",
+    "detail": "ativo trocado"
+   },
+   {
+    "check": "conteudo_presente",
+    "id": "cta",
+    "status": "FAIL",
+    "detail": "elemento removido"
+   }
+  ],
+  "soft": {
+   "preenchimento": 0.6656249999999999,
+   "alinhamento": 1,
+   "size_rel": 1,
+   "hierarquia": 1,
+   "ordem_leitura": 1,
+   "escala_texto": 1,
+   "grupos": 1,
+   "contraste_folga": 1.419
+  },
+  "soft_score": 0.9426785714285714,
+  "protected_visible": 1,
+  "provenance": null
+ },
+ {
+  "arm": "X_otium_living",
+  "layout": "otium_produto",
+  "format": "card_1080x1080",
+  "eligible": false,
+  "fails": 2,
+  "hard": [
+   {
+    "check": "ativo_identico",
+    "id": "hero",
+    "status": "FAIL",
+    "detail": "ativo trocado"
+   },
+   {
+    "check": "conteudo_presente",
+    "id": "cta",
+    "status": "FAIL",
+    "detail": "elemento removido"
+   }
+  ],
+  "soft": {
+   "preenchimento": 0.8281249999999999,
+   "alinhamento": 1,
+   "size_rel": 1,
+   "hierarquia": 1,
+   "ordem_leitura": 1,
+   "escala_texto": 1,
+   "grupos": 1,
+   "contraste_folga": 2.129
+  },
+  "soft_score": 0.9705357142857142,
+  "protected_visible": 1,
+  "provenance": null
+ },
+ {
+  "arm": "X_otium_living",
+  "layout": "otium_produto",
+  "format": "email_600x1200",
+  "eligible": false,
+  "fails": 2,
+  "hard": [
+   {
+    "check": "ativo_identico",
+    "id": "hero",
+    "status": "FAIL",
+    "detail": "ativo trocado"
+   },
+   {
+    "check": "conteudo_presente",
+    "id": "cta",
+    "status": "FAIL",
+    "detail": "elemento removido"
+   }
+  ],
+  "soft": {
+   "preenchimento": 0.71328125,
+   "alinhamento": 1,
+   "size_rel": 1,
+   "hierarquia": 1,
+   "ordem_leitura": 1,
+   "escala_texto": 1,
+   "grupos": 1,
+   "contraste_folga": 1.419
+  },
+  "soft_score": 0.9508482142857143,
+  "protected_visible": 1,
+  "provenance": null
+ },
+ {
+  "arm": "X_otium_living",
+  "layout": "otium_produto",
+  "format": "post_1080x1350",
+  "eligible": false,
+  "fails": 2,
+  "hard": [
+   {
+    "check": "ativo_identico",
+    "id": "hero",
+    "status": "FAIL",
+    "detail": "ativo trocado"
+   },
+   {
+    "check": "conteudo_presente",
+    "id": "cta",
+    "status": "FAIL",
+    "detail": "elemento removido"
+   }
+  ],
+  "soft": {
+   "preenchimento": 0.81875,
+   "alinhamento": 1,
+   "size_rel": 1,
+   "hierarquia": 1,
+   "ordem_leitura": 1,
+   "escala_texto": 0.9879620606469658,
+   "grupos": 1,
+   "contraste_folga": 2.129
+  },
+  "soft_score": 0.9672088658067094,
+  "protected_visible": 1,
+  "provenance": null
+ },
+ {
+  "arm": "X_otium_living",
+  "layout": "otium_produto",
+  "format": "stories_1080x1920",
+  "eligible": false,
+  "fails": 2,
+  "hard": [
+   {
+    "check": "ativo_identico",
+    "id": "hero",
+    "status": "FAIL",
+    "detail": "ativo trocado"
+   },
+   {
+    "check": "conteudo_presente",
+    "id": "cta",
+    "status": "FAIL",
+    "detail": "elemento removido"
+   },
+   {
+    "check": "resolucao",
+    "id": "hero",
+    "status": "WARN",
+    "detail": "ampliacao 1.77x do original"
+   }
+  ],
+  "soft": {
+   "preenchimento": 0.7000000000000001,
+   "alinhamento": 1,
+   "size_rel": 1,
+   "hierarquia": 1,
+   "ordem_leitura": 1,
+   "escala_texto": 1,
+   "grupos": 1,
+   "contraste_folga": 2.129
+  },
+  "soft_score": 0.9485714285714286,
+  "protected_visible": 1,
+  "provenance": null
+ }
+]

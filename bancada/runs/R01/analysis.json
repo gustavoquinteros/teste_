@@ -46,35 +46,35 @@
    "elegiveis": 0,
    "falhas_media": 5.03,
    "nota_suave": 0.825,
-   "juri_n": 0,
-   "juri_nota": null,
-   "juri_enviaria": null,
+   "juri_n": 90,
+   "juri_nota": 0.103,
+   "juri_enviaria": 0.0,
    "aceitavel": 0,
-   "aceitavel_n": 0,
+   "aceitavel_n": 30,
    "elegiveis_bioma": "0/15",
-   "enviaria_bioma": null,
+   "enviaria_bioma": 0.0,
    "elegiveis_otium": "0/15",
-   "enviaria_otium": null,
+   "enviaria_otium": 0.0,
    "por_formato": {
     "email_600x1200": {
      "elegiveis": 0,
-     "enviaria": null
+     "enviaria": 0.0
     },
     "post_1080x1350": {
      "elegiveis": 0,
-     "enviaria": null
+     "enviaria": 0.0
     },
     "card_1080x1080": {
      "elegiveis": 0,
-     "enviaria": null
+     "enviaria": 0.0
     },
     "stories_1080x1920": {
      "elegiveis": 0,
-     "enviaria": null
+     "enviaria": 0.0
     },
     "banner_970x250": {
      "elegiveis": 0,
-     "enviaria": null
+     "enviaria": 0.0
     }
    },
    "custo_tokens_por_peca": 0,
@@ -86,35 +86,35 @@
    "elegiveis": 7,
    "falhas_media": 1.67,
    "nota_suave": 0.839,
-   "juri_n": 0,
-   "juri_nota": null,
-   "juri_enviaria": null,
-   "aceitavel": 0,
-   "aceitavel_n": 0,
+   "juri_n": 90,
+   "juri_nota": 0.335,
+   "juri_enviaria": 0.122,
+   "aceitavel": 1,
+   "aceitavel_n": 30,
    "elegiveis_bioma": "3/15",
-   "enviaria_bioma": null,
+   "enviaria_bioma": 0.111,
    "elegiveis_otium": "4/15",
-   "enviaria_otium": null,
+   "enviaria_otium": 0.133,
    "por_formato": {
     "email_600x1200": {
      "elegiveis": 5,
-     "enviaria": null
+     "enviaria": 0.11
     },
     "post_1080x1350": {
      "elegiveis": 1,
-     "enviaria": null
+     "enviaria": 0.17
     },
     "card_1080x1080": {
      "elegiveis": 0,
-     "enviaria": null
+     "enviaria": 0.17
     },
     "stories_1080x1920": {
      "elegiveis": 1,
-     "enviaria": null
+     "enviaria": 0.0
     },
     "banner_970x250": {
      "elegiveis": 0,
-     "enviaria": null
+     "enviaria": 0.17
     }
    },
    "custo_tokens_por_peca": 0,
@@ -126,35 +126,35 @@
    "elegiveis": 25,
    "falhas_media": 0.6,
    "nota_suave": 0.827,
-   "juri_n": 0,
-   "juri_nota": null,
-   "juri_enviaria": null,
-   "aceitavel": 0,
-   "aceitavel_n": 0,
+   "juri_n": 90,
+   "juri_nota": 0.276,
+   "juri_enviaria": 0.067,
+   "aceitavel": 1,
+   "aceitavel_n": 30,
    "elegiveis_bioma": "10/15",
-   "enviaria_bioma": null,
+   "enviaria_bioma": 0.133,
    "elegiveis_otium": "15/15",
-   "enviaria_otium": null,
+   "enviaria_otium": 0.0,
    "por_formato": {
     "email_600x1200": {
      "elegiveis": 6,
-     "enviaria": null
+     "enviaria": 0.17
     },
     "post_1080x1350": {
      "elegiveis": 6,
-     "enviaria": null
+     "enviaria": 0.06
     },
     "card_1080x1080": {
      "elegiveis": 5,
-     "enviaria": null
+     "enviaria": 0.0
     },
     "stories_1080x1920": {
      "elegiveis": 5,
-     "enviaria": null
+     "enviaria": 0.11
     },
     "banner_970x250": {
      "elegiveis": 3,
-     "enviaria": null
+     "enviaria": 0.0
     }
    },
    "custo_tokens_por_peca": 0,
@@ -166,35 +166,35 @@
    "elegiveis": 20,
    "falhas_media": 0.37,
    "nota_suave": 0.92,
-   "juri_n": 0,
-   "juri_nota": null,
-   "juri_enviaria": null,
-   "aceitavel": 0,
-   "aceitavel_n": 0,
+   "juri_n": 90,
+   "juri_nota": 0.46,
+   "juri_enviaria": 0.211,
+   "aceitavel": 7,
+   "aceitavel_n": 30,
    "elegiveis_bioma": "11/15",
-   "enviaria_bioma": null,
+   "enviaria_bioma": 0.244,
    "elegiveis_otium": "9/15",
-   "enviaria_otium": null,
+   "enviaria_otium": 0.178,
    "por_formato": {
     "email_600x1200": {
      "elegiveis": 5,
-     "enviaria": null
+     "enviaria": 0.06
     },
     "post_1080x1350": {
      "elegiveis": 4,
-     "enviaria": null
+     "enviaria": 0.17
     },
     "card_1080x1080": {
      "elegiveis": 3,
-     "enviaria": null
+     "enviaria": 0.22
     },
     "stories_1080x1920": {
      "elegiveis": 3,
-     "enviaria": null
+     "enviaria": 0.22
     },
     "banner_970x250": {
      "elegiveis": 5,
-     "enviaria": null
+     "enviaria": 0.39
     }
    },
    "custo_tokens_por_peca": 0,
@@ -206,35 +206,35 @@
    "elegiveis": 22,
    "falhas_media": 0.27,
    "nota_suave": 0.932,
-   "juri_n": 0,
-   "juri_nota": null,
-   "juri_enviaria": null,
-   "aceitavel": 0,
-   "aceitavel_n": 0,
+   "juri_n": 90,
+   "juri_nota": 0.457,
+   "juri_enviaria": 0.244,
+   "aceitavel": 9,
+   "aceitavel_n": 30,
    "elegiveis_bioma": "11/15",
-   "enviaria_bioma": null,
+   "enviaria_bioma": 0.311,
    "elegiveis_otium": "11/15",
-   "enviaria_otium": null,
+   "enviaria_otium": 0.178,
    "por_formato": {
     "email_600x1200": {
      "elegiveis": 5,
-     "enviaria": null
+     "enviaria": 0.17
     },
     "post_1080x1350": {
      "elegiveis": 4,
-     "enviaria": null
+     "enviaria": 0.22
     },
     "card_1080x1080": {
      "elegiveis": 4,
-     "enviaria": null
+     "enviaria": 0.22
     },
     "stories_1080x1920": {
      "elegiveis": 4,
-     "enviaria": null
+     "enviaria": 0.22
     },
     "banner_970x250": {
      "elegiveis": 5,
-     "enviaria": null
+     "enviaria": 0.39
     }
    },
    "custo_tokens_por_peca": 0,
@@ -246,35 +246,35 @@
    "elegiveis": 25,
    "falhas_media": 0.17,
    "nota_suave": 0.893,
-   "juri_n": 0,
-   "juri_nota": null,
-   "juri_enviaria": null,
-   "aceitavel": 0,
-   "aceitavel_n": 0,
+   "juri_n": 90,
+   "juri_nota": 0.581,
+   "juri_enviaria": 0.433,
+   "aceitavel": 11,
+   "aceitavel_n": 30,
    "elegiveis_bioma": "13/15",
-   "enviaria_bioma": null,
+   "enviaria_bioma": 0.378,
    "elegiveis_otium": "12/15",
-   "enviaria_otium": null,
+   "enviaria_otium": 0.489,
    "por_formato": {
     "email_600x1200": {
      "elegiveis": 6,
-     "enviaria": null
+     "enviaria": 0.39
     },
     "post_1080x1350": {
      "elegiveis": 4,
-     "enviaria": null
+     "enviaria": 0.61
     },
     "card_1080x1080": {
      "elegiveis": 6,
-     "enviaria": null
+     "enviaria": 0.5
     },
     "stories_1080x1920": {
      "elegiveis": 3,
-     "enviaria": null
+     "enviaria": 0.39
     },
     "banner_970x250": {
      "elegiveis": 6,
-     "enviaria": null
+     "enviaria": 0.28
     }
    },
    "custo_tokens_por_peca": 20530,
@@ -286,35 +286,35 @@
    "elegiveis": 30,
    "falhas_media": 0,
    "nota_suave": 0.943,
-   "juri_n": 0,
-   "juri_nota": null,
-   "juri_enviaria": null,
-   "aceitavel": 0,
-   "aceitavel_n": 0,
+   "juri_n": 90,
+   "juri_nota": 0.873,
+   "juri_enviaria": 0.789,
+   "aceitavel": 24,
+   "aceitavel_n": 30,
    "elegiveis_bioma": "15/15",
-   "enviaria_bioma": null,
+   "enviaria_bioma": 0.711,
    "elegiveis_otium": "15/15",
-   "enviaria_otium": null,
+   "enviaria_otium": 0.867,
    "por_formato": {
     "email_600x1200": {
      "elegiveis": 6,
-     "enviaria": null
+     "enviaria": 0.89
     },
     "post_1080x1350": {
      "elegiveis": 6,
-     "enviaria": null
+     "enviaria": 0.78
     },
     "card_1080x1080": {
      "elegiveis": 6,
-     "enviaria": null
+     "enviaria": 0.56
     },
     "stories_1080x1920": {
      "elegiveis": 6,
-     "enviaria": null
+     "enviaria": 0.83
     },
     "banner_970x250": {
      "elegiveis": 6,
-     "enviaria": null
+     "enviaria": 0.89
     }
    },
    "custo_tokens_por_peca": 23798,
@@ -326,35 +326,35 @@
    "elegiveis": 30,
    "falhas_media": 0,
    "nota_suave": 0.95,
-   "juri_n": 0,
-   "juri_nota": null,
-   "juri_enviaria": null,
-   "aceitavel": 0,
-   "aceitavel_n": 0,
+   "juri_n": 90,
+   "juri_nota": 0.914,
+   "juri_enviaria": 0.956,
+   "aceitavel": 29,
+   "aceitavel_n": 30,
    "elegiveis_bioma": "15/15",
-   "enviaria_bioma": null,
+   "enviaria_bioma": 0.911,
    "elegiveis_otium": "15/15",
-   "enviaria_otium": null,
+   "enviaria_otium": 1.0,
    "por_formato": {
     "email_600x1200": {
      "elegiveis": 6,
-     "enviaria": null
+     "enviaria": 1.0
     },
     "post_1080x1350": {
      "elegiveis": 6,
-     "enviaria": null
+     "enviaria": 1.0
     },
     "card_1080x1080": {
      "elegiveis": 6,
-     "enviaria": null
+     "enviaria": 0.83
     },
     "stories_1080x1920": {
      "elegiveis": 6,
-     "enviaria": null
+     "enviaria": 0.94
     },
     "banner_970x250": {
      "elegiveis": 6,
-     "enviaria": null
+     "enviaria": 1.0
     }
    },
    "custo_tokens_por_peca": 27689,
@@ -451,110 +451,110 @@
   "A0>R3": null,
   "A0>R2": null,
   "A1>A0": null,
-  "A1>B0": null,
-  "A1>T1": null,
-  "A1>R1": null,
-  "A1>R1opt": null,
-  "A1>R8": null,
-  "A1>R3": null,
-  "A1>R2": null,
+  "A1>B0": 0.178,
+  "A1>T1": 0.256,
+  "A1>R1": 0.144,
+  "A1>R1opt": 0.144,
+  "A1>R8": 0.0,
+  "A1>R3": 0.0,
+  "A1>R2": 0.0,
   "B0>A0": null,
-  "B0>A1": null,
-  "B0>T1": null,
-  "B0>R1": null,
-  "B0>R1opt": null,
-  "B0>R8": null,
-  "B0>R3": null,
-  "B0>R2": null,
+  "B0>A1": 0.822,
+  "B0>T1": 0.578,
+  "B0>R1": 0.367,
+  "B0>R1opt": 0.367,
+  "B0>R8": 0.133,
+  "B0>R3": 0.056,
+  "B0>R2": 0.022,
   "T1>A0": null,
-  "T1>A1": null,
-  "T1>B0": null,
-  "T1>R1": null,
-  "T1>R1opt": null,
-  "T1>R8": null,
-  "T1>R3": null,
-  "T1>R2": null,
+  "T1>A1": 0.744,
+  "T1>B0": 0.422,
+  "T1>R1": 0.289,
+  "T1>R1opt": 0.322,
+  "T1>R8": 0.122,
+  "T1>R3": 0.022,
+  "T1>R2": 0.011,
   "R1>A0": null,
-  "R1>A1": null,
-  "R1>B0": null,
-  "R1>T1": null,
-  "R1>R1opt": null,
-  "R1>R8": null,
-  "R1>R3": null,
-  "R1>R2": null,
+  "R1>A1": 0.856,
+  "R1>B0": 0.633,
+  "R1>T1": 0.711,
+  "R1>R1opt": 0.522,
+  "R1>R8": 0.4,
+  "R1>R3": 0.056,
+  "R1>R2": 0.044,
   "R1opt>A0": null,
-  "R1opt>A1": null,
-  "R1opt>B0": null,
-  "R1opt>T1": null,
-  "R1opt>R1": null,
-  "R1opt>R8": null,
-  "R1opt>R3": null,
-  "R1opt>R2": null,
+  "R1opt>A1": 0.856,
+  "R1opt>B0": 0.633,
+  "R1opt>T1": 0.678,
+  "R1opt>R1": 0.478,
+  "R1opt>R8": 0.422,
+  "R1opt>R3": 0.078,
+  "R1opt>R2": 0.056,
   "R8>A0": null,
-  "R8>A1": null,
-  "R8>B0": null,
-  "R8>T1": null,
-  "R8>R1": null,
-  "R8>R1opt": null,
-  "R8>R3": null,
-  "R8>R2": null,
+  "R8>A1": 1.0,
+  "R8>B0": 0.867,
+  "R8>T1": 0.878,
+  "R8>R1": 0.6,
+  "R8>R1opt": 0.578,
+  "R8>R3": 0.089,
+  "R8>R2": 0.056,
   "R3>A0": null,
-  "R3>A1": null,
-  "R3>B0": null,
-  "R3>T1": null,
-  "R3>R1": null,
-  "R3>R1opt": null,
-  "R3>R8": null,
-  "R3>R2": null,
+  "R3>A1": 1.0,
+  "R3>B0": 0.944,
+  "R3>T1": 0.978,
+  "R3>R1": 0.944,
+  "R3>R1opt": 0.922,
+  "R3>R8": 0.911,
+  "R3>R2": 0.411,
   "R2>A0": null,
-  "R2>A1": null,
-  "R2>B0": null,
-  "R2>T1": null,
-  "R2>R1": null,
-  "R2>R1opt": null,
-  "R2>R8": null,
-  "R2>R3": null
+  "R2>A1": 1.0,
+  "R2>B0": 0.978,
+  "R2>T1": 0.989,
+  "R2>R1": 0.956,
+  "R2>R1opt": 0.944,
+  "R2>R8": 0.944,
+  "R2>R3": 0.589
  },
  "confrontos": {
   "R1 x B0": {
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 0
+   "vitorias": 19,
+   "empates": 2,
+   "derrotas": 9
   },
   "R8 x R1": {
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 0
+   "vitorias": 16,
+   "empates": 3,
+   "derrotas": 11
   },
   "R8 x R3": {
-   "vitorias": 0,
+   "vitorias": 3,
    "empates": 0,
-   "derrotas": 0
+   "derrotas": 27
   },
   "R8 x T1": {
-   "vitorias": 0,
+   "vitorias": 27,
    "empates": 0,
-   "derrotas": 0
+   "derrotas": 3
   },
   "R1opt x R1": {
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 0
+   "vitorias": 15,
+   "empates": 1,
+   "derrotas": 14
   },
   "R3 x R2": {
-   "vitorias": 0,
+   "vitorias": 13,
    "empates": 0,
-   "derrotas": 0
+   "derrotas": 17
   },
   "R8 x R2": {
-   "vitorias": 0,
+   "vitorias": 1,
    "empates": 0,
-   "derrotas": 0
+   "derrotas": 29
   },
   "T1 x R1": {
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 0
+   "vitorias": 8,
+   "empates": 1,
+   "derrotas": 21
   }
  },
  "variancia": {
@@ -617,6 +617,10 @@
   "R3b": {}
  },
  "erros_de_render": [],
- "n_julgamentos": 0,
- "jurados": []
+ "n_julgamentos": 720,
+ "jurados": [
+  "cliente",
+  "diretor_arte",
+  "revisor_marca"
+ ]
 }

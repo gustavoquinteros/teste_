@@ -1,0 +1,125 @@
+{
+ "schema_version": "bancada-0.1",
+ "layout_id": "otium_produto",
+ "brand": "otium",
+ "_format": "post_1080x1350",
+ "canvas": {
+  "width": 1080,
+  "height": 1350,
+  "background": "#2B2A2D"
+ },
+ "elements": [
+  {
+   "id": "hero",
+   "type": "IMAGE",
+   "role": "HERO",
+   "priority": 0.8,
+   "asset": "otium_living",
+   "geometry": {
+    "x": 0,
+    "y": 0,
+    "width": 1080,
+    "height": 780,
+    "z": 1
+   },
+   "crop": [
+    0.12,
+    0.0,
+    0.6,
+    1.0
+   ]
+  },
+  {
+   "id": "logo",
+   "type": "IMAGE",
+   "role": "LOGO",
+   "priority": 0.7,
+   "asset": "otium_logo",
+   "geometry": {
+    "x": 72,
+    "y": 998,
+    "width": 250,
+    "height": 113,
+    "z": 6
+   },
+   "crop": [
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "headline",
+   "type": "TEXT",
+   "role": "HEADLINE",
+   "priority": 1.0,
+   "text": "Jardim das Perdizes, no seu ritmo",
+   "geometry": {
+    "x": 384,
+    "y": 960,
+    "width": 612,
+    "height": 132,
+    "z": 5
+   },
+   "style": {
+    "font": "Archivo",
+    "size": 60,
+    "weight": 700,
+    "line_height": 1.05,
+    "color": "#F4EDE4",
+    "align": "left"
+   }
+  },
+  {
+   "id": "selo",
+   "type": "TEXT",
+   "role": "PRODUCT_INFO",
+   "priority": 0.6,
+   "text": "3 suítes · 142 m² · 2 vagas",
+   "geometry": {
+    "x": 384,
+    "y": 1116,
+    "width": 636,
+    "height": 40,
+    "z": 5
+   },
+   "style": {
+    "font": "Host Grotesk",
+    "size": 28,
+    "weight": 600,
+    "line_height": 1.15,
+    "color": "#D9A27A",
+    "align": "left"
+   }
+  }
+ ],
+ "relations": [
+  {
+   "source": "logo",
+   "target": "headline",
+   "type": "BRANDS"
+  },
+  {
+   "source": "selo",
+   "target": "headline",
+   "type": "SUPPORTS"
+  },
+  {
+   "source": "cta",
+   "target": "headline",
+   "type": "CALLS_TO_ACTION"
+  }
+ ],
+ "groups": [
+  {
+   "id": "g_info",
+   "members": [
+    "selo",
+    "cta"
+   ],
+   "mode": "ADJACENT"
+  }
+ ],
+ "text_over_image": []
+}

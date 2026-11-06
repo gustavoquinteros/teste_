@@ -1,0 +1,46 @@
+{
+ "arm": "X_bioma_piscina",
+ "layout": "bioma_produto",
+ "format": "banner_970x250",
+ "eligible": false,
+ "fails": 4,
+ "hard": [
+  {
+   "check": "ativo_identico",
+   "id": "hero",
+   "status": "FAIL",
+   "detail": "ativo trocado"
+  },
+  {
+   "check": "conteudo_presente",
+   "id": "selo",
+   "status": "FAIL",
+   "detail": "elemento removido"
+  },
+  {
+   "check": "texto_sobre_texto",
+   "id": "headline/legal",
+   "status": "FAIL",
+   "detail": "textos se sobrepoem"
+  },
+  {
+   "check": "texto_sobre_texto",
+   "id": "cta/legal",
+   "status": "FAIL",
+   "detail": "textos se sobrepoem"
+  }
+ ],
+ "soft": {
+  "preenchimento": 0.9640624999999999,
+  "alinhamento": 0.75,
+  "size_rel": 1,
+  "hierarquia": 1,
+  "ordem_leitura": 1,
+  "escala_texto": 1,
+  "grupos": 1,
+  "contraste_folga": 2.247
+ },
+ "soft_score": 0.9652678571428571,
+ "protected_visible": 1,
+ "provenance": "R2: script de layout proprio (runs/T01/scripts/R2/bioma_piscina.py)"
+}

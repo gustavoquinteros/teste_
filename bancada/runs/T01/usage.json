@@ -1,0 +1,122 @@
+{
+ "R8/bioma_piscina": {
+  "tokens": 93633,
+  "tool_uses": 20,
+  "ms": 93986
+ },
+ "R8b/bioma_piscina": {
+  "tokens": 101663,
+  "tool_uses": 22,
+  "ms": 101327
+ },
+ "R8/otium_produto": {
+  "tokens": 91096,
+  "tool_uses": 22,
+  "ms": 115249
+ },
+ "R8/bioma_produto": {
+  "tokens": 103350,
+  "tool_uses": 30,
+  "ms": 125486
+ },
+ "R8b/bioma_produto": {
+  "tokens": 106598,
+  "tool_uses": 32,
+  "ms": 142658
+ },
+ "R8/bioma_sustentabilidade": {
+  "tokens": 102201,
+  "tool_uses": 16,
+  "ms": 159904
+ },
+ "R3/otium_living": {
+  "tokens": 96964,
+  "tool_uses": 14,
+  "ms": 162901
+ },
+ "R3/otium_produto": {
+  "tokens": 105853,
+  "tool_uses": 23,
+  "ms": 168043
+ },
+ "R8/otium_living": {
+  "tokens": 108208,
+  "tool_uses": 26,
+  "ms": 171188
+ },
+ "R8/otium_spa": {
+  "tokens": 117407,
+  "tool_uses": 30,
+  "ms": 204274
+ },
+ "R3/bioma_sustentabilidade": {
+  "tokens": 119672,
+  "tool_uses": 23,
+  "ms": 221508
+ },
+ "R8b/otium_living": {
+  "tokens": 107243,
+  "tool_uses": 28,
+  "ms": 147597
+ },
+ "R2/otium_living": {
+  "tokens": 126627,
+  "tool_uses": 26,
+  "ms": 253870
+ },
+ "R2/otium_produto": {
+  "tokens": 130157,
+  "tool_uses": 26,
+  "ms": 254118
+ },
+ "R3/bioma_piscina": {
+  "tokens": 112048,
+  "tool_uses": 27,
+  "ms": 254844
+ },
+ "R3/otium_spa": {
+  "tokens": 117281,
+  "tool_uses": 18,
+  "ms": 269239
+ },
+ "R2/bioma_sustentabilidade": {
+  "tokens": 132312,
+  "tool_uses": 29,
+  "ms": 322647
+ },
+ "R3b/otium_living": {
+  "tokens": 108136,
+  "tool_uses": 18,
+  "ms": 222945
+ },
+ "R2/otium_spa": {
+  "tokens": 136771,
+  "tool_uses": 25,
+  "ms": 362338
+ },
+ "R3b/bioma_piscina": {
+  "tokens": 117359,
+  "tool_uses": 25,
+  "ms": 255161
+ },
+ "R3b/bioma_produto": {
+  "tokens": 129894,
+  "tool_uses": 32,
+  "ms": 295152
+ },
+ "R2/bioma_piscina": {
+  "tokens": 149378,
+  "tool_uses": 31,
+  "ms": 424094
+ },
+ "R2/bioma_produto": {
+  "tokens": 155434,
+  "tool_uses": 37,
+  "ms": 469754
+ },
+ "R3/bioma_produto": {
+  "tokens": 162115,
+  "tool_uses": 45,
+  "ms": 899326
+ }
+}
